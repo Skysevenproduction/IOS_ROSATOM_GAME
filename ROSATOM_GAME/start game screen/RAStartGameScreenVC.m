@@ -22,8 +22,11 @@
 
 
 - (void)viewDidLoad {
+    ScreenSize=self.view.frame;
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,6 +34,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    CGRect rect=self.bottomBGImageView.frame;
+    self.btnStart.center=CGPointMake(self.btnStart.center.x,rect.origin.y);
+    self.commInfoView.center=self.view.center;
+    
+    
+}
+- (IBAction)btnStartGame:(id)sender {
+}
 /*
 #pragma mark - Navigation
 

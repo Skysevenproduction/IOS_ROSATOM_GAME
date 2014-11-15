@@ -8,11 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RAStartGameScreenVC : UIViewController
+@interface RAStartGameScreenVC : UIViewController{
+    CGRect ScreenSize;
+}
 
 
 +(RAStartGameScreenVC*)showInstance:(UIViewController*)parent;
 
+@property (weak, nonatomic) IBOutlet UIImageView *bottomBGImageView;
+@property (weak, nonatomic) IBOutlet UIButton *btnStart;
+@property (weak, nonatomic) IBOutlet UIView *bottomView;
+
+@property (weak, nonatomic) IBOutlet UIView *commInfoView;
+@property (weak, nonatomic) IBOutlet UIImageView *upImgView;
+@property (weak, nonatomic) IBOutlet UIImageView *topImageView;
 
 
 @end
