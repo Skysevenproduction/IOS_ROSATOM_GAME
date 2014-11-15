@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84214FC91A1778D700DB3E05 /* btn_play_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FC31A1778D700DB3E05 /* btn_play_bg.png */; };
+		84214FCA1A1778D700DB3E05 /* ic_count.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FC41A1778D700DB3E05 /* ic_count.png */; };
+		84214FCB1A1778D700DB3E05 /* ic_life.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FC51A1778D700DB3E05 /* ic_life.png */; };
+		84214FCC1A1778D700DB3E05 /* ic_time.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FC61A1778D700DB3E05 /* ic_time.png */; };
+		84214FCD1A1778D700DB3E05 /* step1.img.bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FC71A1778D700DB3E05 /* step1.img.bg.png */; };
+		84214FD01A1779C400DB3E05 /* RARootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84214FCF1A1779C400DB3E05 /* RARootVC.m */; };
+		84214FD71A177B6E00DB3E05 /* RAStartGameScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84214FD51A177B6E00DB3E05 /* RAStartGameScreenVC.m */; };
+		84214FD81A177B6E00DB3E05 /* RAStartGameScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84214FD61A177B6E00DB3E05 /* RAStartGameScreenVC.xib */; };
+		84214FDE1A1795B700DB3E05 /* ae5162.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FDC1A1795B700DB3E05 /* ae5162.png */; };
+		84214FDF1A1795B700DB3E05 /* fefef0.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FDD1A1795B700DB3E05 /* fefef0.png */; };
+		84214FE31A17975200DB3E05 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FE11A17975200DB3E05 /* bg.png */; };
+		84214FE41A17975200DB3E05 /* step1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FE21A17975200DB3E05 /* step1.png */; };
 		8436B93C1A11E4B00054EF83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436B93B1A11E4B00054EF83 /* main.m */; };
 		8436B93F1A11E4B00054EF83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436B93E1A11E4B00054EF83 /* AppDelegate.m */; };
-		8436B9421A11E4B00054EF83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436B9411A11E4B00054EF83 /* ViewController.m */; };
 		8436B9451A11E4B00054EF83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8436B9431A11E4B00054EF83 /* Main.storyboard */; };
 		8436B9471A11E4B00054EF83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8436B9461A11E4B00054EF83 /* Images.xcassets */; };
 		8436B94A1A11E4B00054EF83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8436B9481A11E4B00054EF83 /* LaunchScreen.xib */; };
@@ -27,13 +38,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84214FC31A1778D700DB3E05 /* btn_play_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_play_bg.png; sourceTree = "<group>"; };
+		84214FC41A1778D700DB3E05 /* ic_count.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_count.png; sourceTree = "<group>"; };
+		84214FC51A1778D700DB3E05 /* ic_life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_life.png; sourceTree = "<group>"; };
+		84214FC61A1778D700DB3E05 /* ic_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_time.png; sourceTree = "<group>"; };
+		84214FC71A1778D700DB3E05 /* step1.img.bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.img.bg.png; sourceTree = "<group>"; };
+		84214FCE1A1779C400DB3E05 /* RARootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARootVC.h; sourceTree = "<group>"; };
+		84214FCF1A1779C400DB3E05 /* RARootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RARootVC.m; sourceTree = "<group>"; };
+		84214FD41A177B6E00DB3E05 /* RAStartGameScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAStartGameScreenVC.h; sourceTree = "<group>"; };
+		84214FD51A177B6E00DB3E05 /* RAStartGameScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAStartGameScreenVC.m; sourceTree = "<group>"; };
+		84214FD61A177B6E00DB3E05 /* RAStartGameScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAStartGameScreenVC.xib; sourceTree = "<group>"; };
+		84214FDC1A1795B700DB3E05 /* ae5162.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ae5162.png; sourceTree = "<group>"; };
+		84214FDD1A1795B700DB3E05 /* fefef0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fefef0.png; sourceTree = "<group>"; };
+		84214FE11A17975200DB3E05 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		84214FE21A17975200DB3E05 /* step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.png; sourceTree = "<group>"; };
 		8436B9361A11E4B00054EF83 /* ROSATOM_GAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROSATOM_GAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8436B93A1A11E4B00054EF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8436B93B1A11E4B00054EF83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8436B93D1A11E4B00054EF83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8436B93E1A11E4B00054EF83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8436B9401A11E4B00054EF83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8436B9411A11E4B00054EF83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8436B9441A11E4B00054EF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8436B9461A11E4B00054EF83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8436B9491A11E4B00054EF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +83,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84214FC01A1778D700DB3E05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84214FC11A1778D700DB3E05 /* img */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84214FC11A1778D700DB3E05 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				84214FE01A17975200DB3E05 /* temp */,
+				84214FD91A1794F000DB3E05 /* 1pix */,
+				84214FC31A1778D700DB3E05 /* btn_play_bg.png */,
+				84214FC41A1778D700DB3E05 /* ic_count.png */,
+				84214FC51A1778D700DB3E05 /* ic_life.png */,
+				84214FC61A1778D700DB3E05 /* ic_time.png */,
+				84214FC71A1778D700DB3E05 /* step1.img.bg.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		84214FD31A177B5400DB3E05 /* start game screen */ = {
+			isa = PBXGroup;
+			children = (
+				84214FD41A177B6E00DB3E05 /* RAStartGameScreenVC.h */,
+				84214FD51A177B6E00DB3E05 /* RAStartGameScreenVC.m */,
+				84214FD61A177B6E00DB3E05 /* RAStartGameScreenVC.xib */,
+			);
+			path = "start game screen";
+			sourceTree = "<group>";
+		};
+		84214FD91A1794F000DB3E05 /* 1pix */ = {
+			isa = PBXGroup;
+			children = (
+				84214FDC1A1795B700DB3E05 /* ae5162.png */,
+				84214FDD1A1795B700DB3E05 /* fefef0.png */,
+			);
+			path = 1pix;
+			sourceTree = "<group>";
+		};
+		84214FE01A17975200DB3E05 /* temp */ = {
+			isa = PBXGroup;
+			children = (
+				84214FE11A17975200DB3E05 /* bg.png */,
+				84214FE21A17975200DB3E05 /* step1.png */,
+			);
+			path = temp;
+			sourceTree = "<group>";
+		};
 		8436B92D1A11E4B00054EF83 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +154,12 @@
 		8436B9381A11E4B00054EF83 /* ROSATOM_GAME */ = {
 			isa = PBXGroup;
 			children = (
+				84214FD31A177B5400DB3E05 /* start game screen */,
+				84214FCE1A1779C400DB3E05 /* RARootVC.h */,
+				84214FCF1A1779C400DB3E05 /* RARootVC.m */,
+				84214FC01A1778D700DB3E05 /* Resources */,
 				8436B93D1A11E4B00054EF83 /* AppDelegate.h */,
 				8436B93E1A11E4B00054EF83 /* AppDelegate.m */,
-				8436B9401A11E4B00054EF83 /* ViewController.h */,
-				8436B9411A11E4B00054EF83 /* ViewController.m */,
 				8436B9431A11E4B00054EF83 /* Main.storyboard */,
 				8436B9461A11E4B00054EF83 /* Images.xcassets */,
 				8436B9481A11E4B00054EF83 /* LaunchScreen.xib */,
@@ -199,8 +274,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84214FCC1A1778D700DB3E05 /* ic_time.png in Resources */,
+				84214FDE1A1795B700DB3E05 /* ae5162.png in Resources */,
+				84214FE31A17975200DB3E05 /* bg.png in Resources */,
 				8436B9451A11E4B00054EF83 /* Main.storyboard in Resources */,
 				8436B94A1A11E4B00054EF83 /* LaunchScreen.xib in Resources */,
+				84214FDF1A1795B700DB3E05 /* fefef0.png in Resources */,
+				84214FD81A177B6E00DB3E05 /* RAStartGameScreenVC.xib in Resources */,
+				84214FCA1A1778D700DB3E05 /* ic_count.png in Resources */,
+				84214FCB1A1778D700DB3E05 /* ic_life.png in Resources */,
+				84214FC91A1778D700DB3E05 /* btn_play_bg.png in Resources */,
+				84214FCD1A1778D700DB3E05 /* step1.img.bg.png in Resources */,
+				84214FE41A17975200DB3E05 /* step1.png in Resources */,
 				8436B9471A11E4B00054EF83 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8436B9421A11E4B00054EF83 /* ViewController.m in Sources */,
+				84214FD71A177B6E00DB3E05 /* RAStartGameScreenVC.m in Sources */,
+				84214FD01A1779C400DB3E05 /* RARootVC.m in Sources */,
 				8436B93F1A11E4B00054EF83 /* AppDelegate.m in Sources */,
 				8436B93C1A11E4B00054EF83 /* main.m in Sources */,
 			);
@@ -412,6 +498,7 @@
 				8436B95B1A11E4B00054EF83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8436B95C1A11E4B00054EF83 /* Build configuration list for PBXNativeTarget "ROSATOM_GAMETests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +507,7 @@
 				8436B95E1A11E4B00054EF83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
