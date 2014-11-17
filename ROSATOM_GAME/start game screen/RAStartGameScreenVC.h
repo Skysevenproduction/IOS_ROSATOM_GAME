@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RAPlayGameScreenVC.h"
+#import "RAStatusBarView.h"
 
 @interface RAStartGameScreenVC : UIViewController{
     CGRect ScreenSize;

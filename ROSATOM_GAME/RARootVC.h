@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "RAStartGameScreenVC.h"
+#import "RAPlayGameScreenVC.h"
+#import "RAStatusBarView.h"
+#import "RACompletedLevelScreenVC.h"
+
 
 @interface RARootVC : UIViewController
 

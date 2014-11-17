@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RAStatusBarView">
+            <connections>
+                <outlet property="lblLevelCount" destination="20S-Nt-9cE" id="rTb-dD-fGs"/>
+                <outlet property="lblLifeCount" destination="mmO-WF-jLG" id="BDY-ac-EhQ"/>
+                <outlet property="lblQuestionCount" destination="kQf-3r-pYK" id="qXK-tF-64w"/>
+                <outlet property="statusView" destination="i5M-Pr-FkT" id="dOm-iM-TpZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="06141A-1.png" id="fB7-em-NOG">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="status_ic_count.png" id="Qpv-na-2v4">
+                    <rect key="frame" x="18" y="15" width="25" height="23"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8/8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="20S-Nt-9cE">
+                    <rect key="frame" x="41" y="17" width="42" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" red="0.70588237050000002" green="0.15686275059999999" blue="0.3803921938" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="status_ic_life.png" id="T8t-LQ-eYN">
+                    <rect key="frame" x="133" y="15" width="25" height="23"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8/8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mmO-WF-jLG">
+                    <rect key="frame" x="159" y="16" width="42" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" red="0.70588237050000002" green="0.15686275059999999" blue="0.3803921938" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="status_ic_level.png" id="Z8l-zQ-ePQ">
+                    <rect key="frame" x="244" y="15" width="25" height="23"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kQf-3r-pYK">
+                    <rect key="frame" x="270" y="16" width="42" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" red="0.70588237050000002" green="0.15686275059999999" blue="0.3803921938" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="191" y="123"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="06141A-1.png" width="1" height="1"/>
+        <image name="status_ic_count.png" width="103" height="69"/>
+        <image name="status_ic_level.png" width="100" height="73"/>
+        <image name="status_ic_life.png" width="101" height="90"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RACompletedLevelScreenVC">
+            <connections>
+                <outlet property="imgColor1" destination="PNh-Qh-3DN" id="pGk-SJ-11d"/>
+                <outlet property="imgColor2" destination="fVr-AW-1x4" id="Pos-IW-CZx"/>
+                <outlet property="imgColor3" destination="aTL-PJ-HZG" id="h4b-Lc-ppQ"/>
+                <outlet property="imgColor4" destination="wNG-zy-1Ns" id="qrL-wP-Qfm"/>
+                <outlet property="imgColor5" destination="4en-0Y-sEX" id="3mi-f1-uUf"/>
+                <outlet property="imgColor6" destination="cTl-AZ-uQh" id="Ayr-ay-v3L"/>
+                <outlet property="imgColor7" destination="3EN-us-Ds4" id="vIk-bN-mSl"/>
+                <outlet property="imgColor8" destination="rau-xd-S7e" id="cp4-Bz-09q"/>
+                <outlet property="titleLevel" destination="B6j-bb-jyA" id="wsg-t2-ZZt"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Day-tM-dxd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EF8600-1.png" id="S1h-eM-Mr5">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="qbf-DH-KO3" userLabel="top">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="407"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D7F5F2-1.png" id="hw7-ii-OUt">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="HKa-wB-AS1" userLabel="statusBar">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="progres_bg.png" id="dhU-2a-KGJ">
+                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_1.png" id="PNh-Qh-3DN">
+                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_2.png" id="fVr-AW-1x4">
+                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_3.png" id="aTL-PJ-HZG">
+                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_4.png" id="wNG-zy-1Ns">
+                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_5.png" id="4en-0Y-sEX">
+                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_6.png" id="cTl-AZ-uQh">
+                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_7.png" id="3EN-us-Ds4">
+                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_8.png" id="rau-xd-S7e">
+                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="progress_up.png" id="ezs-uU-fkl">
+                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="qzJ-cB-N5e" userLabel="bottom">
+                    <rect key="frame" x="0.0" y="457" width="375" height="210"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_complete_level.png" id="pjK-m5-zl3">
+                            <rect key="frame" x="0.0" y="70" width="375" height="150"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="761a41.png" id="DuL-mM-xl4">
+                            <rect key="frame" x="0.0" y="170" width="375" height="50"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="4gI-cu-Ggw">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="435"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title_level_complete.png" id="B6j-bb-jyA">
+                            <rect key="frame" x="35" y="337" width="298" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="384.5" y="416.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="761a41.png" width="1" height="1"/>
+        <image name="D7F5F2-1.png" width="1" height="1"/>
+        <image name="EF8600-1.png" width="1" height="1"/>
+        <image name="bg_complete_level.png" width="1280" height="598"/>
+        <image name="color_1.png" width="2000" height="2000"/>
+        <image name="color_2.png" width="2000" height="2000"/>
+        <image name="color_3.png" width="2000" height="2000"/>
+        <image name="color_4.png" width="2000" height="2000"/>
+        <image name="color_5.png" width="2000" height="2000"/>
+        <image name="color_6.png" width="2000" height="2000"/>
+        <image name="color_7.png" width="2000" height="2000"/>
+        <image name="color_8.png" width="2000" height="2000"/>
+        <image name="progres_bg.png" width="2000" height="2000"/>
+        <image name="progress_up.png" width="2000" height="2000"/>
+        <image name="title_level_complete.png" width="672" height="224"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -8,6 +8,7 @@
 
 #import "RARootVC.h"
 
+
 @interface RARootVC ()
 
 @end
@@ -22,11 +23,16 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    RAStatusBarView * stausBAr=[[RAStatusBarView alloc] init];
+    [self.view addSubview:stausBAr];
 }
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    [RAStartGameScreenVC showInstance:self];
+    [RACompletedLevelScreenVC showInstance:self withColor:4];
+    
+    
+       
 }
 
 /*
