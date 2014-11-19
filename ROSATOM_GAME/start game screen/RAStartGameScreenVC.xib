@@ -123,6 +123,10 @@
                     <rect key="frame" x="0.0" y="457" width="375" height="210"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                     <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ae5162.png" id="FMa-cR-v3B">
+                            <rect key="frame" x="0.0" y="70" width="375" height="150"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="761a41.png" id="I20-Ov-xt2">
                             <rect key="frame" x="0.0" y="170" width="375" height="50"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
@@ -140,10 +144,6 @@
                                 <action selector="btnStartGame:" destination="-1" eventType="touchUpInside" id="LMm-9a-o0s"/>
                             </connections>
                         </button>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ae5162.png" id="FMa-cR-v3B">
-                            <rect key="frame" x="0.0" y="70" width="375" height="150"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                        </imageView>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>

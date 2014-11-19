@@ -1,0 +1,17 @@
+//
+//  ROSATOM_GAME-Prefix.pch
+//  ROSATOM_GAME
+//
+//  Created by Admin on 19.11.14.
+//  Copyright (c) 2014 AlexNikov. All rights reserved.
+//
+
+#ifndef ROSATOM_GAME_ROSATOM_GAME_Prefix_pch
+#define ROSATOM_GAME_ROSATOM_GAME_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "RADataManager.h"
+
+#endif

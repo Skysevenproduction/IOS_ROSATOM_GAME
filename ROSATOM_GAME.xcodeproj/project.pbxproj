@@ -52,6 +52,8 @@
 		8436B9471A11E4B00054EF83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8436B9461A11E4B00054EF83 /* Images.xcassets */; };
 		8436B94A1A11E4B00054EF83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8436B9481A11E4B00054EF83 /* LaunchScreen.xib */; };
 		8436B9561A11E4B00054EF83 /* ROSATOM_GAMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436B9551A11E4B00054EF83 /* ROSATOM_GAMETests.m */; };
+		8496E2321A1BCB3400E94544 /* listQuestion.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8496E2311A1BCB3400E94544 /* listQuestion.plist */; };
+		8497B09B1A1D2B0A00F78378 /* RADataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497B09A1A1D2B0A00F78378 /* RADataManager.m */; };
 		84BC7EB11A19166600343B50 /* RAPlayGameScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EB01A19166600343B50 /* RAPlayGameScreenVC.xib */; };
 		84BC7EBB1A1946F900343B50 /* RACompletedLevelScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BC7EBA1A1946F900343B50 /* RACompletedLevelScreenVC.m */; };
 		84BC7EBD1A19471000343B50 /* RACompletedLevelScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EBC1A19471000343B50 /* RACompletedLevelScreenVC.xib */; };
@@ -127,6 +129,10 @@
 		8436B94F1A11E4B00054EF83 /* ROSATOM_GAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSATOM_GAMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8436B9541A11E4B00054EF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8436B9551A11E4B00054EF83 /* ROSATOM_GAMETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROSATOM_GAMETests.m; sourceTree = "<group>"; };
+		8496E2311A1BCB3400E94544 /* listQuestion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = listQuestion.plist; sourceTree = "<group>"; };
+		8497B0991A1D2B0A00F78378 /* RADataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADataManager.h; sourceTree = "<group>"; };
+		8497B09A1A1D2B0A00F78378 /* RADataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADataManager.m; sourceTree = "<group>"; };
+		8497B09C1A1D2B3A00F78378 /* ROSATOM_GAME-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ROSATOM_GAME-Prefix.pch"; sourceTree = "<group>"; };
 		84BC7EB01A19166600343B50 /* RAPlayGameScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAPlayGameScreenVC.xib; sourceTree = "<group>"; };
 		84BC7EB91A1946F900343B50 /* RACompletedLevelScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACompletedLevelScreenVC.h; sourceTree = "<group>"; };
 		84BC7EBA1A1946F900343B50 /* RACompletedLevelScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACompletedLevelScreenVC.m; sourceTree = "<group>"; };
@@ -266,6 +272,8 @@
 		8436B9381A11E4B00054EF83 /* ROSATOM_GAME */ = {
 			isa = PBXGroup;
 			children = (
+				8497B0981A1D2B0A00F78378 /* data manager */,
+				8496E2311A1BCB3400E94544 /* listQuestion.plist */,
 				84BC7EB81A1946DA00343B50 /* completed level screen */,
 				842150091A17EAB100DB3E05 /* status bar */,
 				84214FED1A17D22D00DB3E05 /* play game screen */,
@@ -286,6 +294,7 @@
 		8436B9391A11E4B00054EF83 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8497B09C1A1D2B3A00F78378 /* ROSATOM_GAME-Prefix.pch */,
 				8436B93A1A11E4B00054EF83 /* Info.plist */,
 				8436B93B1A11E4B00054EF83 /* main.m */,
 			);
@@ -307,6 +316,15 @@
 				8436B9541A11E4B00054EF83 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8497B0981A1D2B0A00F78378 /* data manager */ = {
+			isa = PBXGroup;
+			children = (
+				8497B0991A1D2B0A00F78378 /* RADataManager.h */,
+				8497B09A1A1D2B0A00F78378 /* RADataManager.m */,
+			);
+			path = "data manager";
 			sourceTree = "<group>";
 		};
 		84BC7EB81A1946DA00343B50 /* completed level screen */ = {
@@ -417,6 +435,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8496E2321A1BCB3400E94544 /* listQuestion.plist in Resources */,
 				84BC7EBF1A1948BF00343B50 /* bg_complete_level.png in Resources */,
 				84214FCC1A1778D700DB3E05 /* ic_time.png in Resources */,
 				84214FDE1A1795B700DB3E05 /* ae5162.png in Resources */,
@@ -481,6 +500,7 @@
 			files = (
 				84214FD71A177B6E00DB3E05 /* RAStartGameScreenVC.m in Sources */,
 				840E39541A1891D8008C8639 /* RAPlayGameScreenVC.m in Sources */,
+				8497B09B1A1D2B0A00F78378 /* RADataManager.m in Sources */,
 				84214FD01A1779C400DB3E05 /* RARootVC.m in Sources */,
 				8436B93F1A11E4B00054EF83 /* AppDelegate.m in Sources */,
 				8436B93C1A11E4B00054EF83 /* main.m in Sources */,
@@ -607,6 +627,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ROSATOM_GAME/ROSATOM_GAME-Prefix.pch";
 				INFOPLIST_FILE = ROSATOM_GAME/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -617,6 +640,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ROSATOM_GAME/ROSATOM_GAME-Prefix.pch";
 				INFOPLIST_FILE = ROSATOM_GAME/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
