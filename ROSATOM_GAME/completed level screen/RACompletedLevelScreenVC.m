@@ -18,7 +18,8 @@
 +(RACompletedLevelScreenVC*) showInstance:(UIViewController*) parent withColor:(NSInteger) color
 {
     RACompletedLevelScreenVC * instance = [[RACompletedLevelScreenVC alloc] init];
-        instance -> imgColorNumber=color;
+    instance -> imgColorNumber=color;
+    instance -> _parentVC=parent;
     [parent presentViewController:instance animated:YES completion:nil];
 
     return  instance;
@@ -27,6 +28,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    RAStatusBarView * statusBar=[[RAStatusBarView alloc] initWithFrame:self.containerStatusBarView.bounds];
+    
+    [self.containerStatusBarView addSubview:statusBar];
+    
+    statusBar.lblLevelCount=
+    
     // Do any additional setup after loading the view.
 //    ScreenSize=[[UIScreen mainScreen] bounds];
 //    CGPoint test=self.titleLevel.center=CGPointMake(CGRectGetMidX(ScreenSize), CGRectGetMidY(ScreenSize));
@@ -131,6 +138,10 @@
         imageView.alpha = 0;
         imageView.alpha = 1;
     }];
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [_parentVC dismissViewControllerAnimated:YES completion:nil ];
 }
 
 @end

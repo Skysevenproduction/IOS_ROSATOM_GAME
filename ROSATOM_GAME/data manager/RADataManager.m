@@ -61,4 +61,17 @@
     [USER_DEFAULTS setObject:value forKey:Q_TIME];
 }
 
+
+-(NSNumber*)countLife{
+    if(countLife==nil){
+        [USER_DEFAULTS objectForKey:LIFE_COUNT];
+    }
+    return countLife;
+}
+
+-(void)countLife:(NSNumber*) value{
+    countLife=value;
+    [USER_DEFAULTS setObject:value forKey:LIFE_COUNT];
+}
+
 @end

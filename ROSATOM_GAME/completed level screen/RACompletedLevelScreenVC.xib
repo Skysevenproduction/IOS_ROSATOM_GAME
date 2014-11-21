@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RACompletedLevelScreenVC">
             <connections>
+                <outlet property="containerStatusBarView" destination="HKa-wB-AS1" id="5xQ-qr-mB4"/>
                 <outlet property="imgColor1" destination="PNh-Qh-3DN" id="pGk-SJ-11d"/>
                 <outlet property="imgColor2" destination="fVr-AW-1x4" id="Pos-IW-CZx"/>
                 <outlet property="imgColor3" destination="aTL-PJ-HZG" id="h4b-Lc-ppQ"/>
@@ -49,10 +50,6 @@
                             <rect key="frame" x="0.0" y="67" width="375" height="302"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_2.png" id="fVr-AW-1x4">
-                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                        </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_3.png" id="aTL-PJ-HZG">
                             <rect key="frame" x="0.0" y="67" width="375" height="302"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -70,6 +67,10 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_7.png" id="3EN-us-Ds4">
+                            <rect key="frame" x="0.0" y="67" width="375" height="302"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color_2.png" id="fVr-AW-1x4">
                             <rect key="frame" x="0.0" y="67" width="375" height="302"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         </imageView>
