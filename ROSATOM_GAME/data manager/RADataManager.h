@@ -9,12 +9,13 @@
 #import <Foundation/Foundation.h>
 
 #define USER_DEFAULTS [NSUserDefaults standardUserDefaults]
-#define DATA_MGR [ASDataManager shared]
+#define DATA_MGR [RADataManager shared]
 
 
 #define Q_PASS @"passQuestion"
 #define Q_TIME @"timeQuestion"
 #define Q_COUNT_PASS @"countPassQuestion"
+#define LIFE_COUNT   @"countLife"
 
 #define CUR_LVL   @"currentLevel"
 
@@ -25,12 +26,14 @@
     NSNumber * currentLevel;
     NSArray  * passQuestion;
     NSArray  * timeQuestion;
+    NSNumber * countLife;
     
 }
 
 @property (nonatomic,strong) NSNumber * currentLevel;
 @property (nonatomic,strong) NSArray  * passQuestion;
 @property (nonatomic,strong) NSArray  * timeQuestion;
+@property (nonatomic,strong) NSNumber * countLife;
 
 
 +(instancetype)shared;

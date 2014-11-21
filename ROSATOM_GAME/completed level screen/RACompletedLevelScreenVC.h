@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RAStatusBarView.h"
 
 @interface RACompletedLevelScreenVC : UIViewController{
     NSInteger  imgColorNumber;
@@ -24,4 +25,8 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imgColor8;
 
 @property (weak, nonatomic) IBOutlet UIImageView *titleLevel;
+
+
+@property (weak, nonatomic) IBOutlet UIView *containerStatusBarView;
+@property (nonatomic,strong) UIViewController * parentVC;
 @end
