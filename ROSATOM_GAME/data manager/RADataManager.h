@@ -11,11 +11,19 @@
 #define USER_DEFAULTS [NSUserDefaults standardUserDefaults]
 #define DATA_MGR [RADataManager shared]
 
+#define LIST_QUESTION           @"listQuestion"
+#define LIST_ANSWERED_QUESTION  @"listAnsweredQuestion"
 
-#define Q_PASS @"passQuestion"
-#define Q_TIME @"timeQuestion"
+#define Q_CURRENT   @"currentQuestion"
+#define Q_PASS      @"passQuestion"
+#define Q_TIME      @"timeQuestion"
 #define Q_COUNT_PASS @"countPassQuestion"
 #define LIFE_COUNT   @"countLife"
+
+#define Q_D_TEXT      @"QUESTION"
+#define Q_D_ANSWER    @"ANSWER"
+#define Q_D_COMMENT   @"COMMENT"
+#define Q_D_ID        @"ID"
 
 #define CUR_LVL   @"currentLevel"
 
@@ -23,18 +31,22 @@
 
 @interface RADataManager : NSObject{
     
+    NSArray * listQuestion;
+    NSArray * listAnsweredQuestion;
+    
     NSNumber * currentLevel;
-    NSArray  * passQuestion;
-    NSArray  * timeQuestion;
-    NSNumber * countLife;
+    NSMutableDictionary * currentQuestion;
     
 }
+@property (nonatomic,strong) NSArray * listQuestion;
+@property (nonatomic,strong) NSArray * listAnsweredQuestion;
 
-@property (nonatomic,strong) NSNumber * currentLevel;
-@property (nonatomic,strong) NSArray  * passQuestion;
-@property (nonatomic,strong) NSArray  * timeQuestion;
-@property (nonatomic,strong) NSNumber * countLife;
+@property (nonatomic,assign) NSNumber * currentLevel;
+@property (nonatomic,assign) NSInteger passQuestion;
+@property (nonatomic,assign) NSInteger countLife;
+@property (nonatomic,strong) NSMutableDictionary * currentQuestion;
 
 
 +(instancetype)shared;
+-(void)update;
 @end

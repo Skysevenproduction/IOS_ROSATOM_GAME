@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "RAPlayGameScreenVC.h"
 #import "RAStatusBarView.h"
+#import "RADataManager.h"
 
 @interface RAStartGameScreenVC : UIViewController{
     CGRect ScreenSize;
+    UIViewController * parentVC;
 }
 
 

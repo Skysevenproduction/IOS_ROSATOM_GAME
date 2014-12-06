@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
@@ -7,9 +7,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RAStatusBarView">
             <connections>
-                <outlet property="lblLevelCount" destination="20S-Nt-9cE" id="rTb-dD-fGs"/>
+                <outlet property="lblLevelCount" destination="kQf-3r-pYK" id="ZL8-AD-cmO"/>
                 <outlet property="lblLifeCount" destination="mmO-WF-jLG" id="BDY-ac-EhQ"/>
-                <outlet property="lblQuestionCount" destination="kQf-3r-pYK" id="qXK-tF-64w"/>
+                <outlet property="lblQuestionCount" destination="20S-Nt-9cE" id="MHw-wN-1ek"/>
                 <outlet property="statusView" destination="i5M-Pr-FkT" id="dOm-iM-TpZ"/>
             </connections>
         </placeholder>

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RADataManager.h"
 
 @interface RAStatusBarView : UIView
 
@@ -19,5 +20,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblLevelCount;
 
 
-
+-(void)loadUserInfo;
 @end

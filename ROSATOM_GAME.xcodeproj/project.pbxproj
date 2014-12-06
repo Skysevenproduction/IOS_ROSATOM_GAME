@@ -52,7 +52,6 @@
 		8436B9471A11E4B00054EF83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8436B9461A11E4B00054EF83 /* Images.xcassets */; };
 		8436B94A1A11E4B00054EF83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8436B9481A11E4B00054EF83 /* LaunchScreen.xib */; };
 		8436B9561A11E4B00054EF83 /* ROSATOM_GAMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436B9551A11E4B00054EF83 /* ROSATOM_GAMETests.m */; };
-		8496E2321A1BCB3400E94544 /* listQuestion.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8496E2311A1BCB3400E94544 /* listQuestion.plist */; };
 		8497B09B1A1D2B0A00F78378 /* RADataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497B09A1A1D2B0A00F78378 /* RADataManager.m */; };
 		84BC7EB11A19166600343B50 /* RAPlayGameScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EB01A19166600343B50 /* RAPlayGameScreenVC.xib */; };
 		84BC7EBB1A1946F900343B50 /* RACompletedLevelScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BC7EBA1A1946F900343B50 /* RACompletedLevelScreenVC.m */; };
@@ -63,6 +62,20 @@
 		84BC7EC71A19492C00343B50 /* progress_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EC41A19492C00343B50 /* progress_color.png */; };
 		84BC7EC81A19492C00343B50 /* progress_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EC51A19492C00343B50 /* progress_up.png */; };
 		AFA3F2851A1FD83200B1F3CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2841A1FD83200B1F3CF /* Default-568h@2x.png */; };
+		AFA3F28A1A205EE800B1F3CF /* RALifeBeOverScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3F2891A205EE800B1F3CF /* RALifeBeOverScreenVC.m */; };
+		AFA3F28C1A205FE800B1F3CF /* RALifeBeOverScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F28B1A205FE800B1F3CF /* RALifeBeOverScreenVC.xib */; };
+		AFA3F28E1A20602100B1F3CF /* ic_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F28D1A20602100B1F3CF /* ic_heart.png */; };
+		AFA3F2901A2060C400B1F3CF /* 3B4A5A-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F28F1A2060C400B1F3CF /* 3B4A5A-1.png */; };
+		AFA3F2921A2069D500B1F3CF /* title_life_be_over.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2911A2069D500B1F3CF /* title_life_be_over.png */; };
+		AFA3F2941A20955B00B1F3CF /* listQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2931A20955B00B1F3CF /* listQuestions.plist */; };
+		AFA3F2971A20FAE300B1F3CF /* btn_false_select.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2951A20FAE300B1F3CF /* btn_false_select.png */; };
+		AFA3F2981A20FAE300B1F3CF /* btn_true_select.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2961A20FAE300B1F3CF /* btn_true_select.png */; };
+		AFA3F29C1A21262F00B1F3CF /* RAAnswerScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3F29B1A21262F00B1F3CF /* RAAnswerScreenVC.m */; };
+		AFA3F29E1A21269500B1F3CF /* RAAnswerScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F29D1A21269500B1F3CF /* RAAnswerScreenVC.xib */; };
+		AFA3F2A21A21297400B1F3CF /* img_right.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F29F1A21297400B1F3CF /* img_right.png */; };
+		AFA3F2A31A21297400B1F3CF /* img_wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2A01A21297400B1F3CF /* img_wrong.png */; };
+		AFA3F2A41A21297400B1F3CF /* pleas_tap_for_next.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2A11A21297400B1F3CF /* pleas_tap_for_next.png */; };
+		AFA3F2A61A21C85700B1F3CF /* 477B91-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2A51A21C85700B1F3CF /* 477B91-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,7 +143,6 @@
 		8436B94F1A11E4B00054EF83 /* ROSATOM_GAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSATOM_GAMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8436B9541A11E4B00054EF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8436B9551A11E4B00054EF83 /* ROSATOM_GAMETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROSATOM_GAMETests.m; sourceTree = "<group>"; };
-		8496E2311A1BCB3400E94544 /* listQuestion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = listQuestion.plist; sourceTree = "<group>"; };
 		8497B0991A1D2B0A00F78378 /* RADataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADataManager.h; sourceTree = "<group>"; };
 		8497B09A1A1D2B0A00F78378 /* RADataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADataManager.m; sourceTree = "<group>"; };
 		8497B09C1A1D2B3A00F78378 /* ROSATOM_GAME-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ROSATOM_GAME-Prefix.pch"; sourceTree = "<group>"; };
@@ -144,6 +156,22 @@
 		84BC7EC41A19492C00343B50 /* progress_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress_color.png; sourceTree = "<group>"; };
 		84BC7EC51A19492C00343B50 /* progress_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress_up.png; sourceTree = "<group>"; };
 		AFA3F2841A1FD83200B1F3CF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AFA3F2881A205EE800B1F3CF /* RALifeBeOverScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RALifeBeOverScreenVC.h; path = "ROSATOM_GAME/life be over screen/RALifeBeOverScreenVC.h"; sourceTree = SOURCE_ROOT; };
+		AFA3F2891A205EE800B1F3CF /* RALifeBeOverScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RALifeBeOverScreenVC.m; path = "ROSATOM_GAME/life be over screen/RALifeBeOverScreenVC.m"; sourceTree = SOURCE_ROOT; };
+		AFA3F28B1A205FE800B1F3CF /* RALifeBeOverScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RALifeBeOverScreenVC.xib; sourceTree = "<group>"; };
+		AFA3F28D1A20602100B1F3CF /* ic_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_heart.png; sourceTree = "<group>"; };
+		AFA3F28F1A2060C400B1F3CF /* 3B4A5A-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3B4A5A-1.png"; sourceTree = "<group>"; };
+		AFA3F2911A2069D500B1F3CF /* title_life_be_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_life_be_over.png; sourceTree = "<group>"; };
+		AFA3F2931A20955B00B1F3CF /* listQuestions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = listQuestions.plist; sourceTree = "<group>"; };
+		AFA3F2951A20FAE300B1F3CF /* btn_false_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_false_select.png; sourceTree = "<group>"; };
+		AFA3F2961A20FAE300B1F3CF /* btn_true_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_true_select.png; sourceTree = "<group>"; };
+		AFA3F29A1A21262F00B1F3CF /* RAAnswerScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAAnswerScreenVC.h; sourceTree = "<group>"; };
+		AFA3F29B1A21262F00B1F3CF /* RAAnswerScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAAnswerScreenVC.m; sourceTree = "<group>"; };
+		AFA3F29D1A21269500B1F3CF /* RAAnswerScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAAnswerScreenVC.xib; sourceTree = "<group>"; };
+		AFA3F29F1A21297400B1F3CF /* img_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_right.png; sourceTree = "<group>"; };
+		AFA3F2A01A21297400B1F3CF /* img_wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_wrong.png; sourceTree = "<group>"; };
+		AFA3F2A11A21297400B1F3CF /* pleas_tap_for_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pleas_tap_for_next.png; sourceTree = "<group>"; };
+		AFA3F2A51A21C85700B1F3CF /* 477B91-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "477B91-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +203,13 @@
 		84214FC11A1778D700DB3E05 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				AFA3F29F1A21297400B1F3CF /* img_right.png */,
+				AFA3F2A01A21297400B1F3CF /* img_wrong.png */,
+				AFA3F2A11A21297400B1F3CF /* pleas_tap_for_next.png */,
+				AFA3F2951A20FAE300B1F3CF /* btn_false_select.png */,
+				AFA3F2961A20FAE300B1F3CF /* btn_true_select.png */,
+				AFA3F2911A2069D500B1F3CF /* title_life_be_over.png */,
+				AFA3F28D1A20602100B1F3CF /* ic_heart.png */,
 				84BC7EC21A19492C00343B50 /* progress_assets */,
 				84BC7EBE1A1948BF00343B50 /* bg_complete_level.png */,
 				8410F2C01A1A978100B0155A /* title_level_complete.png */,
@@ -211,6 +246,8 @@
 		84214FD91A1794F000DB3E05 /* 1pix */ = {
 			isa = PBXGroup;
 			children = (
+				AFA3F2A51A21C85700B1F3CF /* 477B91-1.png */,
+				AFA3F28F1A2060C400B1F3CF /* 3B4A5A-1.png */,
 				84BC7EC01A1948E600343B50 /* EF8600-1.png */,
 				842150051A17E63B00DB3E05 /* AD5162-1.png */,
 				842150061A17E63B00DB3E05 /* D7F5F2-1.png */,
@@ -274,9 +311,11 @@
 		8436B9381A11E4B00054EF83 /* ROSATOM_GAME */ = {
 			isa = PBXGroup;
 			children = (
+				AFA3F2991A21260500B1F3CF /* answer screen */,
+				AFA3F2931A20955B00B1F3CF /* listQuestions.plist */,
+				AFA3F2871A205EAD00B1F3CF /* life be over screen */,
 				AFA3F2841A1FD83200B1F3CF /* Default-568h@2x.png */,
 				8497B0981A1D2B0A00F78378 /* data manager */,
-				8496E2311A1BCB3400E94544 /* listQuestion.plist */,
 				84BC7EB81A1946DA00343B50 /* completed level screen */,
 				842150091A17EAB100DB3E05 /* status bar */,
 				84214FED1A17D22D00DB3E05 /* play game screen */,
@@ -356,6 +395,26 @@
 				84BC7EC51A19492C00343B50 /* progress_up.png */,
 			);
 			path = progress_assets;
+			sourceTree = "<group>";
+		};
+		AFA3F2871A205EAD00B1F3CF /* life be over screen */ = {
+			isa = PBXGroup;
+			children = (
+				AFA3F28B1A205FE800B1F3CF /* RALifeBeOverScreenVC.xib */,
+				AFA3F2881A205EE800B1F3CF /* RALifeBeOverScreenVC.h */,
+				AFA3F2891A205EE800B1F3CF /* RALifeBeOverScreenVC.m */,
+			);
+			path = "life be over screen";
+			sourceTree = "<group>";
+		};
+		AFA3F2991A21260500B1F3CF /* answer screen */ = {
+			isa = PBXGroup;
+			children = (
+				AFA3F29D1A21269500B1F3CF /* RAAnswerScreenVC.xib */,
+				AFA3F29A1A21262F00B1F3CF /* RAAnswerScreenVC.h */,
+				AFA3F29B1A21262F00B1F3CF /* RAAnswerScreenVC.m */,
+			);
+			path = "answer screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,14 +497,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8496E2321A1BCB3400E94544 /* listQuestion.plist in Resources */,
 				84BC7EBF1A1948BF00343B50 /* bg_complete_level.png in Resources */,
 				84214FCC1A1778D700DB3E05 /* ic_time.png in Resources */,
 				84214FDE1A1795B700DB3E05 /* ae5162.png in Resources */,
+				AFA3F29E1A21269500B1F3CF /* RAAnswerScreenVC.xib in Resources */,
+				AFA3F2A41A21297400B1F3CF /* pleas_tap_for_next.png in Resources */,
 				842150021A17E2B600DB3E05 /* status_ic_life.png in Resources */,
 				842150081A17E63B00DB3E05 /* D7F5F2-1.png in Resources */,
 				84BC7EC71A19492C00343B50 /* progress_color.png in Resources */,
+				AFA3F2901A2060C400B1F3CF /* 3B4A5A-1.png in Resources */,
 				84214FFD1A17E2B600DB3E05 /* btn_false.png in Resources */,
+				AFA3F2A31A21297400B1F3CF /* img_wrong.png in Resources */,
 				8410F2C11A1A978100B0155A /* title_level_complete.png in Resources */,
 				84214FFE1A17E2B600DB3E05 /* btn_true.png in Resources */,
 				842150011A17E2B600DB3E05 /* status_ic_level.png in Resources */,
@@ -454,26 +516,34 @@
 				84BC7EC11A1948E600343B50 /* EF8600-1.png in Resources */,
 				8436B9451A11E4B00054EF83 /* Main.storyboard in Resources */,
 				8436B94A1A11E4B00054EF83 /* LaunchScreen.xib in Resources */,
+				AFA3F2A61A21C85700B1F3CF /* 477B91-1.png in Resources */,
 				842150001A17E2B600DB3E05 /* status_ic_count.png in Resources */,
 				84BC7EC81A19492C00343B50 /* progress_up.png in Resources */,
 				8410F2BB1A1A942E00B0155A /* color_4.png in Resources */,
 				8410F2B91A1A942E00B0155A /* color_2.png in Resources */,
 				84214FFC1A17E2B600DB3E05 /* bgBtnTrueFalse.png in Resources */,
+				AFA3F28E1A20602100B1F3CF /* ic_heart.png in Resources */,
 				84214FFF1A17E2B600DB3E05 /* imgClock.png in Resources */,
+				AFA3F2981A20FAE300B1F3CF /* btn_true_select.png in Resources */,
 				84214FE71A17B99600DB3E05 /* 761a41.png in Resources */,
 				84214FEC1A17CB5E00DB3E05 /* btn_play_bg_sel.png in Resources */,
+				AFA3F28C1A205FE800B1F3CF /* RALifeBeOverScreenVC.xib in Resources */,
 				840E39C61A191233008C8639 /* View.xib in Resources */,
 				84214FDF1A1795B700DB3E05 /* fefef0.png in Resources */,
+				AFA3F2971A20FAE300B1F3CF /* btn_false_select.png in Resources */,
+				AFA3F2941A20955B00B1F3CF /* listQuestions.plist in Resources */,
 				84214FD81A177B6E00DB3E05 /* RAStartGameScreenVC.xib in Resources */,
 				84214FCA1A1778D700DB3E05 /* ic_count.png in Resources */,
 				84214FCB1A1778D700DB3E05 /* ic_life.png in Resources */,
 				AFA3F2851A1FD83200B1F3CF /* Default-568h@2x.png in Resources */,
+				AFA3F2921A2069D500B1F3CF /* title_life_be_over.png in Resources */,
 				84214FC91A1778D700DB3E05 /* btn_play_bg.png in Resources */,
 				84214FEA1A17BA4D00DB3E05 /* steps.png in Resources */,
 				84BC7EB11A19166600343B50 /* RAPlayGameScreenVC.xib in Resources */,
 				8410F2BD1A1A942E00B0155A /* color_6.png in Resources */,
 				8410F2BE1A1A942E00B0155A /* color_7.png in Resources */,
 				8410F2B81A1A942E00B0155A /* color_1.png in Resources */,
+				AFA3F2A21A21297400B1F3CF /* img_right.png in Resources */,
 				84214FCD1A1778D700DB3E05 /* step1.img.bg.png in Resources */,
 				84BC7EBD1A19471000343B50 /* RACompletedLevelScreenVC.xib in Resources */,
 				84214FE41A17975200DB3E05 /* step1.png in Resources */,
@@ -506,8 +576,10 @@
 				840E39541A1891D8008C8639 /* RAPlayGameScreenVC.m in Sources */,
 				8497B09B1A1D2B0A00F78378 /* RADataManager.m in Sources */,
 				84214FD01A1779C400DB3E05 /* RARootVC.m in Sources */,
+				AFA3F28A1A205EE800B1F3CF /* RALifeBeOverScreenVC.m in Sources */,
 				8436B93F1A11E4B00054EF83 /* AppDelegate.m in Sources */,
 				8436B93C1A11E4B00054EF83 /* main.m in Sources */,
+				AFA3F29C1A21262F00B1F3CF /* RAAnswerScreenVC.m in Sources */,
 				84BC7EBB1A1946F900343B50 /* RACompletedLevelScreenVC.m in Sources */,
 				840E39511A186D30008C8639 /* RAStatusBarView.m in Sources */,
 			);

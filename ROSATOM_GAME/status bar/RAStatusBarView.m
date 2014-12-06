@@ -27,11 +27,19 @@
         [self.statusView setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
         
         
+        [self loadUserInfo];
+        
     }
     return self;
 }
 
-
+-(void)loadUserInfo{
+    
+    self.lblLifeCount.text=[NSString stringWithFormat:@"%d/3",DATA_MGR.countLife];
+    self.lblQuestionCount.text=[NSString stringWithFormat:@"%d/8",DATA_MGR.passQuestion];
+    self.lblLevelCount.text=[NSString stringWithFormat:@"%d",[DATA_MGR.currentLevel intValue] ];
+    
+}
 
 
 @end
