@@ -24,8 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    ScreenSize=self.view.frame;
-    
+    ScreenSize=self.view.frame;    
     
 }
 
@@ -43,6 +42,8 @@
             DATA_MGR.listQuestion=listQuestion;
         
     }
+    if (DATA_MGR.currentLevel==nil)
+        DATA_MGR.currentLevel=@1;
     
     DATA_MGR.passQuestion=0;
     DATA_MGR.countLife=3;

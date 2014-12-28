@@ -32,15 +32,17 @@
     [self.containerStatusBarView addSubview:statusBar];
 
     DATA_MGR.passQuestion=0;
+    DATA_MGR.countLife=3;
     
-    if ([DATA_MGR.currentLevel integerValue] < 45){
-        DATA_MGR.currentLevel=[NSNumber numberWithInt:([DATA_MGR.currentLevel intValue]+1) ];
-    }
+
 }
+
 
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-    [_parentVC dismissViewControllerAnimated:YES completion:nil ];
+[RAMapLevelScreenVC showInstance:self];
 }
+
+
 
 @end

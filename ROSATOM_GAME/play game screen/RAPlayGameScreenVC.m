@@ -24,7 +24,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    listAnswerEdit=[NSMutableArray array];
 
     
        timer=[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerStart) userInfo:nil repeats:NO];
@@ -54,17 +53,19 @@
     
 }
 
+
 -(void)viewWillAppear:(BOOL)animated{
-    questionNumber=arc4random()% DATA_MGR.listQuestion.count;
+    
+    [DATA_MGR sendGAScreenName:GA_SCR_QUESTION];
+
     
     [_statusBar loadUserInfo];
-
+    
     [self setupTimer];
     [self timerStart];
     [self getQuestion];
     DATA_MGR.update;
 }
-
 
 
 - (void)setupTimer{
@@ -77,8 +78,6 @@
     
     
     timer=[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerStart) userInfo:nil repeats:YES];
-//    NSRunLoop *runLoop = [NSRunLoop currentRunLoop];
-//    [runLoop addTimer:timer forMode:NSDefaultRunLoopMode];
     
 }
 
@@ -87,69 +86,78 @@
     self.lblTimer.text=[NSString stringWithFormat:@"%i", count];
     
     if (count==20) {
-        [self getQuestion];
-        [self setupTimer];
-        //[timer invalidate];
+        [self wrongAnswer];
     }
     
     count += 1;
     
 }
 -(void)getQuestion{
+    if (DATA_MGR.listQuestion.count==1) {
+        NSArray * listQuestion=[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"listQuestions" ofType:@"plist"]];
+        DATA_MGR.listQuestion=listQuestion;
+    }
+
+        questionNumber=arc4random()% (DATA_MGR.listQuestion.count-1);
     
+    
+
     DATA_MGR.currentQuestion=DATA_MGR.listQuestion[questionNumber];
     
-    NSArray * temp=DATA_MGR.listAnsweredQuestion;
+    NSLog(@" answer=%@",DATA_MGR.currentQuestion[Q_D_ANSWER] );
+
     
-    [listAnswerEdit addObject:DATA_MGR.currentQuestion];
-    NSSortDescriptor *descriptor = [[NSSortDescriptor alloc] initWithKey:@"ID"  ascending:YES];
-    DATA_MGR.listAnsweredQuestion=[DATA_MGR.listAnsweredQuestion sortedArrayUsingDescriptors:[NSArray arrayWithObjects:descriptor,nil]];
-    listAnswerEdit = [DATA_MGR.listAnsweredQuestion copy];
+//    
+//    NSSortDescriptor *descriptor = [[NSSortDescriptor alloc] initWithKey:@"ID"  ascending:YES];
+//    
+//    DATA_MGR.listAnsweredQuestion=[DATA_MGR.listAnsweredQuestion sortedArrayUsingDescriptors:[NSArray arrayWithObjects:descriptor,nil]];
+//    
+//    listAnswerEdit = [DATA_MGR.listAnsweredQuestion copy];
+//    
+//    NSLog(@"%@",DATA_MGR.currentQuestion[Q_D_ANSWER] );
     
     self.lblTextQuestion.text=DATA_MGR.currentQuestion[Q_D_TEXT];
     
 }
-//-(NSArray*)sortAnswer:(NSDictionary *) newQuestion{
-//    NSMutableArray * listAnswerEdit=[NSMutableArray array];
-//    [listAnswerEdit addObject:newQuestion];
-//
-//    NSArray *temp=DATA_MGR.listAnsweredQuestion;
-//    
-//        
-//        for (int i =0;i<DATA_MGR.listAnsweredQuestion.count;i++) {
-//            if ([DATA_MGR.listAnsweredQuestion[i][Q_D_ID] integerValue]>[newQuestion[Q_D_ID] integerValue]) {
-//                [listAnswerEdit addObject:DATA_MGR.listAnsweredQuestion[i]];
-//            }else{
-//                [listAnswerEdit addObject:newQuestion];
-//            }
-//        }
-//
-// 
-//
-//    return listAnswerEdit;
-//}
+
 
 -(void)checkAnswer:(bool)answerUser{
-   
-    if ([DATA_MGR.currentQuestion[Q_D_ANSWER] boolValue] ==answerUser) {
-        DATA_MGR.passQuestion++;
-        if (DATA_MGR.passQuestion==8) {
-            //уровень пройден
-            [RACompletedLevelScreenVC showInstance:self];
-        }else{
-            //правильный ответ
-            [RAAnswerScreenVC showInstance:self withAnswer:true];
-        }
-    }else{
-        DATA_MGR.countLife--;
-        if (DATA_MGR.countLife==0) {
-            //жизни закончелись
-            [RALifeBeOverScreenVC showInstance:self];
-        }else{
-            //неправильный ответ
-            [RAAnswerScreenVC showInstance:self withAnswer:false];
-        }
-    }
+    BOOL rightAnswer;
+    NSString * temp=DATA_MGR.currentQuestion[Q_D_ANSWER];
+    if ([DATA_MGR.currentQuestion[Q_D_ANSWER] isEqualToString:@"ПРАВДА"])
+        rightAnswer=YES;
+    else
+        rightAnswer=NO;
+    
+    if (answerUser==rightAnswer)
+        [self rightAnswer];
+    else
+        [self wrongAnswer];
+    
+}
+
+-(void)rightAnswer{
+    DATA_MGR.passQuestion++;
+    NSMutableDictionary * spentTimeForAnswerCopy=[[NSMutableDictionary alloc] init];
+    if (DATA_MGR.spentTimeForAnswer!=nil)
+         spentTimeForAnswerCopy=[DATA_MGR.spentTimeForAnswer mutableCopy];
+    
+    [spentTimeForAnswerCopy setObject:[NSNumber numberWithInt:count] forKey:[@(questionNumber) stringValue]];
+    DATA_MGR.spentTimeForAnswer=[spentTimeForAnswerCopy copy];
+    
+    NSMutableArray * listQuestionCopy=[DATA_MGR.listQuestion mutableCopy];
+    [listQuestionCopy removeObject:DATA_MGR.currentQuestion];
+    DATA_MGR.listQuestion=[listQuestionCopy copy];
+
+        //правильный ответ
+    [RAAnswerScreenVC showInstance:self withAnswer:true];
+    
+    
+}
+-(void)wrongAnswer{
+        //неправильный ответ
+        [RAAnswerScreenVC showInstance:self withAnswer:false];
+    
 }
 
 -(IBAction)ButtonPressedTrue:(id)sender{
@@ -171,14 +179,14 @@
 }
 
 - (IBAction)btnFalseClick:(id)sender {
-    [self checkAnswer:false];
+    [self checkAnswer:NO];
     //[RAAnswerScreenVC showInstance:self withAnswer:false];
     
 }
 
 - (IBAction)btnTrueClick:(id)sender {
     //[RAAnswerScreenVC showInstance:self withAnswer:true];
-    [self checkAnswer:true];
+    [self checkAnswer:YES];
 }
 
 

@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "RAStatusBarView.h"
 #import "RADataManager.h"
+#import "RACompletedLevelScreenVC.h"
+#import "RALifeBeOverScreenVC.h"
 
 @interface RAAnswerScreenVC : UIViewController{
     BOOL userAnswer;
@@ -31,5 +33,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *color8;
 
 @property (weak, nonatomic) IBOutlet UILabel *lblCommentText;
+@property (weak, nonatomic) IBOutlet UIImageView *titleAnswerImg;
 
 @end

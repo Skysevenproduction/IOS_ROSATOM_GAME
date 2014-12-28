@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "RAStatusBarView.h"
 #import "RADataManager.h"
+#import "RAMapLevelScreenVC.h"
 
 @interface RACompletedLevelScreenVC : UIViewController{
     NSInteger  imgColorNumber;

@@ -1,1912 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<array>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Калий эффективно концентрируется в мускульной ткани, которой у мужчин, соответственно, больше.</string>
-		<key>ID</key>
-		<string>1</string>
-		<key>QUESTION</key>
-		<string>Женщины радиоактивнее мужчин?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Облако над градирней – не более чем скопление мельчайших капель воды.</string>
-		<key>ID</key>
-		<string>2</string>
-		<key>QUESTION</key>
-		<string>АЭС ничего не сжигают, в отличие от ТЭЦ на угле, газе или мазуте. Соответственно, ничего не выбрасывают в атмосферу. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>3</string>
-		<key>QUESTION</key>
-		<string>Из 1 грамма урана можно получить столько же энергии, сколько из 1 тонны нефти. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>В 2011 году в Японии от цунами погибли 20 тысяч человек и только четверо из них – на АЭС «Фукусима».</string>
-		<key>ID</key>
-		<string>4</string>
-		<key>QUESTION</key>
-		<string>Авария на АЭС «Фукусима» в 2011 году привела к множеству человеческих жертв.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Высота градирни для АЭС 170 метров, что выше пяти девятиэтажных домов.</string>
-		<key>ID</key>
-		<string>5</string>
-		<key>QUESTION</key>
-		<string>Градирня для АЭС выше пяти девятиэтажных домов. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>6</string>
-		<key>QUESTION</key>
-		<string>При протекании цепной реакции выделяется огромное количество тепла. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Для сгорания ядерного топлива не нужен ни кислород, ни иной окислитель, так как деление ядер не химическая реакция.</string>
-		<key>ID</key>
-		<string>7</string>
-		<key>QUESTION</key>
-		<string>Для сгорания ядерного топлива, как и для сгорания угля и дров, нужен кислород.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>В отличие от органического топлива уран может быть использован повторно после регенерации.</string>
-		<key>ID</key>
-		<string>8</string>
-		<key>QUESTION</key>
-		<string>Невыгоревший в реакторе уран может быть использован еще раз в качестве топлива. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Себестоимость производства электричества на АЭС в разы ниже, чем на теплоэлектростанциях на угле, мазуте и газе.</string>
-		<key>ID</key>
-		<string>9</string>
-		<key>QUESTION</key>
-		<string>Себестоимость электричества с АЭС больше, чем с ТЭЦ. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>При сжигании угля радиоактивные изотопы калия-40,тория, радона и полония практически полностью попадают в воздух.</string>
-		<key>ID</key>
-		<string>10</string>
-		<key>QUESTION</key>
-		<string>Удельная активность выбросов ТЭС в 5-10 раз выше, чем у АЭС. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Влияние АЭС на население многократно меньше влияния естественного фона.</string>
-		<key>ID</key>
-		<string>11</string>
-		<key>QUESTION</key>
-		<string>АЭС оказывает влияние на население. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Первая в мире АЭС была введена в Обнинске в 1954 году и безаварийно проработала 50 лет.</string>
-		<key>ID</key>
-		<string>12</string>
-		<key>QUESTION</key>
-		<string>Первая атомная электростанция в мире появилась в Англии. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>В США – 104 блока, во Франции – 59, в Японии – 54, в России – 31.</string>
-		<key>ID</key>
-		<string>13</string>
-		<key>QUESTION</key>
-		<string>Больше всего ядерных энергоблоков в США. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Вес одного парогенератора 430 тонн, вес одного Боинга порядка 180 тонн.</string>
-		<key>ID</key>
-		<string>14</string>
-		<key>QUESTION</key>
-		<string>Один парогенератор для АЭС весит как два Боинга-747 .</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Вес одного парогенератора 430 тонн, вес одного танка – от 25 до 30 тонн.</string>
-		<key>ID</key>
-		<string>15</string>
-		<key>QUESTION</key>
-		<string>Один парогенератор для АЭС весит как пятнадцать танков Т-34. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>В одном парогенераторе 11 000 теплообменных труб. Если сложить их в одну линию получится расстояние в 130 км. Протяженность МКАД всего 109 км.</string>
-		<key>ID</key>
-		<string>16</string>
-		<key>QUESTION</key>
-		<string>Длины теплообменных труб парогенератора для АЭС хватит, чтобы полностью обернуть МКАД и еще останется 21 км. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Первая советская бомба была испытана 29 сентября 1949 года.</string>
-		<key>ID</key>
-		<string>17</string>
-		<key>QUESTION</key>
-		<string>Первое испытание отечественного ядерного оружия произведено 65 лет назад. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Первая атомная бомба носила имя Татьяна.</string>
-		<key>ID</key>
-		<string>18</string>
-		<key>QUESTION</key>
-		<string>Первая атомная бомба РДС-4 носила женское имя Людмила.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Длина РДС-4 не превышала 3 м в длину и 1,5 м в самой широкой точке диаметра.</string>
-		<key>ID</key>
-		<string>19</string>
-		<key>QUESTION</key>
-		<string>Первая атомная бомба представляла собой громоздкий трудно транспортабельный боеприпас огромных размеров. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>В России намного больше ЗАТО различной подчиненности, из них 10 находятся в ведомстве Росатома.</string>
-		<key>ID</key>
-		<string>20</string>
-		<key>QUESTION</key>
-		<string>На территории России размещено 10 ЗАТО и все они находятся в ведомстве Росатома.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Данный реактор находится в Окло, Габон, и ему около 2 миллиардов лет.</string>
-		<key>ID</key>
-		<string>21</string>
-		<key>QUESTION</key>
-		<string>На планете действует природный ядерный реактор.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>На высоте движения авиалайнеров природный уровень радиации из-за приближения к Солнцу превышает природный фон в 15-20 раз.</string>
-		<key>ID</key>
-		<string>22</string>
-		<key>QUESTION</key>
-		<string>Самый высокий уровень радиации в самолёте и это абсолютно безопасно.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Природный фон в Москве 11 -17 микрорентген в час, а в самолёте он может достигнуть 200-300 микрорентген в час.</string>
-		<key>ID</key>
-		<string>23</string>
-		<key>QUESTION</key>
-		<string>Природный уровень радиации в самолёте больше, чем на земле в 15 раз.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Если природный фон в Москве 11 -17 микрорентген в час, то на данной высоте он может достигнуть 200-300 микрорентген в час.</string>
-		<key>ID</key>
-		<string>24</string>
-		<key>QUESTION</key>
-		<string>На высоте движения авиалайнеров (10 тысяч метров - 12 тысяч метров) от поверхности Земли уровень радиации превышает природный фон в 15-20 раз и это абсолютно безопасно. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Любовница Эйнштейна познакомила выдающегося физика, завербованного советской военной разведкой, Клауса Фукса лично с Оппенгеймером и его женой Кэтрин.</string>
-		<key>ID</key>
-		<string>25</string>
-		<key>QUESTION</key>
-		<string>Любовница Эйнштейна по простоте душевной познакомила советского разведчика с главными лицами Манхэттенского проекта.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Экологически-чистое атомное озеро Чаган представляет собой воронку от мирного термоядерного взрыва, осуществленного 1962 году.</string>
-		<key>ID</key>
-		<string>26</string>
-		<key>QUESTION</key>
-		<string>Озеро Чаган в Казахстане появилось в результате ядерного взрыва.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>В самолете мы подвергаемся большему воздействию радиации, нежели находясь рядом с АЭС, из-за более близкого нахождения к Солнцу - самому сильному источнику природной радиоактивности.</string>
-		<key>ID</key>
-		<string>27</string>
-		<key>QUESTION</key>
-		<string>Во время полета на самолете мы получаем больше радиации, нежели находясь рядом с АЭС.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>28</string>
-		<key>QUESTION</key>
-		<string>При делении ядер одного грамма урана производится столько же энергии, сколько при сгорании двух тонн каменного угля.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Проходя флюорографию, рентгеноскопию или радиотерапию, мы получаем более 33% общей дозы облучения.</string>
-		<key>ID</key>
-		<string>29</string>
-		<key>QUESTION</key>
-		<string>Медицинские осмотры – составляют более 33% от общего облучения, которому мы подвергаемся. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Более 66% радиации, которую мы получаем ежедневно - это естественная радиация от космических лучей и радиоактивности земли.</string>
-		<key>ID</key>
-		<string>30</string>
-		<key>QUESTION</key>
-		<string>Более 66% радиации, которую мы получаем ежедневно - это естественная радиация (космические лучи и радиоактивность земли).</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Мы все – небольшие реакторы, так как в организме любого взрослого человека содержаться радиоактивные элементы, вырабатываемые самим организмом. </string>
-		<key>ID</key>
-		<string>31</string>
-		<key>QUESTION</key>
-		<string>Человеческий организм не является радиоактивным.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Избытки тепла со станций направляются на обогрев жилых домов и это абсолютно безопасно.</string>
-		<key>ID</key>
-		<string>32</string>
-		<key>QUESTION</key>
-		<string>АЭС помимо электричества может производить тепло для обогрева домов.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Перечисленные газы выбрасывают в атмосферу обычные теплоэлектростанции на мазуте, каменном угле и природном газе.</string>
-		<key>ID</key>
-		<string>33</string>
-		<key>QUESTION</key>
-		<string>Выбросы АЭС содержат токсичные газы оксид углерода, диоксид серы и оксиды азота.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Основное количество отходов, существующих на данный момент, накоплено за годы холодной войны и гонки вооружений.</string>
-		<key>ID</key>
-		<string>34</string>
-		<key>QUESTION</key>
-		<string>Все радиоактивные отходы от атомных станций.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Помимо АЭС, отходы производят научно-исследовательские институты и медицинские центры и лаборатории.</string>
-		<key>ID</key>
-		<string>35</string>
-		<key>QUESTION</key>
-		<string>Радиоактивные отходы производят только атомные станции.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>После производства 1 кВт-ч электричества атомным способом остается только 0,1 миллиграмм отходов, которые тщательно обрабатываются, упаковываются, сохраняются и контролируются.</string>
-		<key>ID</key>
-		<string>36</string>
-		<key>QUESTION</key>
-		<string>Отходы от производства электроэнергии на АЭС, так же как и от станции на мазуте, бесконтрольно выбрасываются в атмосферу.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Российское облученное ядерное топливо перерабатывается и повторно используется.</string>
-		<key>ID</key>
-		<string>37</string>
-		<key>QUESTION</key>
-		<string>После своего использования ядерное топливо не может быть повторно использовано.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>39</string>
-		<key>QUESTION</key>
-		<string>Детское молоко из Норвегии в России может считаться радиоактивными отходами.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Из-за чрезмерно жестких нормативов в нашей стране</string>
-		<key>ID</key>
-		<string>40</string>
-		<key>QUESTION</key>
-		<string>Уран-235 является исчерпаемым  ресурсом. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>41</string>
-		<key>QUESTION</key>
-		<string>Безопасность АЭС зависит от мощности реактора. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Степень безопасности АЭС определяют системы безопасности, предусмотренные в проекте АЭС.</string>
-		<key>ID</key>
-		<string>42</string>
-		<key>QUESTION</key>
-		<string>Уран-233 добывается только на рудниках Южной Африки.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Уран-233 не содержится в руде и получается в результате облучения нейтронами тория.</string>
-		<key>ID</key>
-		<string>43</string>
-		<key>QUESTION</key>
-		<string>Выкуренная пачка сигарет привносит в организм человека радиоактивных веществ в 200 раз больше, чем один рентгеновский снимок. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Только один полоний-210, содержащийся в сигаретном дыме дает курильщику ежедневно предельно допустимую норму радиации. Все радиоактивные вещества в пачке вкупе дают превышение биологического предела для человека в 3,5 раза.</string>
-		<key>ID</key>
-		<string>44</string>
-		<key>QUESTION</key>
-		<string>Идею сделать форму топливной сборки для российских АЭС подсказали пчелы?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>ТВС российского производства в поперечном срезе имеют форму шестигранника для более оптимального расположения в реакторе. </string>
-		<key>ID</key>
-		<string>45</string>
-		<key>QUESTION</key>
-		<string>Создание первой советской атомной бомбы курировал лично руководитель НКВД Лаврентий Берия. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>46</string>
-		<key>QUESTION</key>
-		<string>Первая советская атомная бомба была сделана из урана. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Советские ученые, как и их американские коллеги, пошли по пути начинки бомбы плутонием, который получается из урана.</string>
-		<key>ID</key>
-		<string>47</string>
-		<key>QUESTION</key>
-		<string>Первый высокочистый урановый слиток, полученный советскими учеными, был лично продемонстрирован Сталину в Кремле. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Ученые привезли первый урановый слиток в деревянной коробочке, обшитой бархатом, прямо в Кремль.</string>
-		<key>ID</key>
-		<string>48</string>
-		<key>QUESTION</key>
-		<string>Все ученые, участвующие в создании советской атомной бомбы, были расстреляны после испытания </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Ученые, принявшие участие в создании первой советской атомной бомбы, были высоко поощрены.</string>
-		<key>ID</key>
-		<string>49</string>
-		<key>QUESTION</key>
-		<string>В 1940-ых годах для определения уровня радиации ученые использовали древесных жучков </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Жучки реагировали на озон, образующейся в воздухе под действием радиации, и начинали беспорядочную суету. Это значило, что радиационный фон повышен.</string>
-		<key>ID</key>
-		<string>50</string>
-		<key>QUESTION</key>
-		<string>Под Красноярском есть целый подземный город для сибирских атомщиков.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Под Красноярском действительно есть комбинат, построенный под 200-метровой толщей гранита на случай ядерной войны, однако, Иосиф Сталин отклонил предложение разместить в «горе» и рабочий поселок. </string>
-		<key>ID</key>
-		<string>51</string>
-		<key>QUESTION</key>
-		<string>ОЯТ требует огромных объемов хранения, поэтому многие страны до сих пор не знают, что с ним делать дальше. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>ОЯТ занимает очень небольшой объем и его хранение даже без переработки не представляет «пространственных» проблем. </string>
-		<key>ID</key>
-		<string>52</string>
-		<key>QUESTION</key>
-		<string>ОЯТ всех российских АЭС занимает площадь меньше типового гипермаркета.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>53</string>
-		<key>QUESTION</key>
-		<string>На сайте ЦРУ есть агентурные сообщения от одного из бывших заключенных, работавшего на атомной стройке в СССР, о том, что условия их содержания были исключительно хорошими. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>На сайте ЦРУ действительно есть такое сообщение, которое проиллюстрировано схемой самого лагеря, в составе которого есть столовая, клуб, футбольное поле и учебные классы. </string>
-		<key>ID</key>
-		<string>54</string>
-		<key>QUESTION</key>
-		<string>В США выпускался детский набор «юный атомщик», который позволял собрать маленький атомный реактор?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Такой набор выпустили в 1950-м году, в нем были 4 вида урановой руды и источники альфа, бета и гамма излучения. Остатки этих наборов до сих пор ходят на аукционах, их примерная стоимость – около 70 тыс. рублей.</string>
-		<key>ID</key>
-		<string>55</string>
-		<key>QUESTION</key>
-		<string>Является ли солнце природным термоядерным реактором? </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>В недрах солнца происходит слияние ядер водорода в ядро гелия.</string>
-		<key>ID</key>
-		<string>56</string>
-		<key>QUESTION</key>
-		<string>Получение атомной электроэнергии обходится дороже солнечной? </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Электроэнергия, получаемая от солнца, обходится в 5 раз дороже атомной.</string>
-		<key>ID</key>
-		<string>57</string>
-		<key>QUESTION</key>
-		<string>Диаметр атома в 100 раз больше диаметра его ядра? </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Приблизительно в 10 раз.</string>
-		<key>ID</key>
-		<string>58</string>
-		<key>QUESTION</key>
-		<string>Первое в мире надводное судно с ядерным двигателем было построено в нашей стране – это атомный ледокол «Вайгач»?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Ледокол назывался «Ленин».</string>
-		<key>ID</key>
-		<string>59</string>
-		<key>QUESTION</key>
-		<string>Тяжелая авария на АЭС может случиться только раз в миллион лет</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Вероятность тяжелой аварии на АЭС не превышает 10-6 – 10-7 на реактор в год? То есть не чаще чем раз в миллион лет.</string>
-		<key>ID</key>
-		<string>60</string>
-		<key>QUESTION</key>
-		<string>Природная радиоактивность опасна для здоровья человека</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>В организме взрослого человека содержатся радиоактивные вещества, благодаря которым в теле ежеминутно происходит около 300 тысяч радиоактивных распадов. Это безопасно.</string>
-		<key>ID</key>
-		<string>61</string>
-		<key>QUESTION</key>
-		<string>Иногда получение дополнительной дозы радиации полезно для организма человека?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Например, радоновые ванны на Байкале помогают излечению заболеваний опорно-двигательного или дыхательного аппарата.</string>
-		<key>ID</key>
-		<string>62</string>
-		<key>QUESTION</key>
-		<string>Радиация лечит</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Для получения одной тонны гелия-3 необходимо переработать 100 миллионов тонн реголита – это участок лунной поверхности площадью 20 км2 и глубиной 3 метра.</string>
-		<key>ID</key>
-		<string>63</string>
-		<key>QUESTION</key>
-		<string>На Луне сконцентрировано термоядерное топливо</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Металлический уран мягче стали.</string>
-		<key>ID</key>
-		<string>64</string>
-		<key>QUESTION</key>
-		<string>Металлический уран тверже стали. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>65</string>
-		<key>QUESTION</key>
-		<string>Российская газовая центрифуга для обогащения урана способна работать без остановки 30 лет. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>На самом деле Австралия.</string>
-		<key>ID</key>
-		<string>66</string>
-		<key>QUESTION</key>
-		<string>Самыми значительными запасами урановых руд обладает Нигерия. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Уральский электрохимический комбинат потреблял только 3% </string>
-		<key>ID</key>
-		<string>67</string>
-		<key>QUESTION</key>
-		<string>В конце 1950-х годов Уральский комбинат, обогащавший уран, потреблял 30% всей электроэнергии, производившейся в СССР. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>На 20 лет</string>
-		<key>ID</key>
-		<string>68</string>
-		<key>QUESTION</key>
-		<string>Россия опередила Западную Европу в технологии обогащения урана на 100 лет. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Каждая 30-ая лампа в США горит за счет российского высокообогащенного, оружейного урана, переработанного в низкообогащенный, энергетический. </string>
-		<key>ID</key>
-		<string>69</string>
-		<key>QUESTION</key>
-		<string>Каждая вторая лампочка в США горит за счет российского урана</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>70</string>
-		<key>QUESTION</key>
-		<string>Тепловой энергии от Ленинградской АЭС хватит для теплоснабжения пригородов Петербурга. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Тариф на тепловую энергию от Ленинградской АЭС в 10 раз меньше, чем в среднем по России.</string>
-		<key>ID</key>
-		<string>71</string>
-		<key>QUESTION</key>
-		<string>В городе атомщиков Сосновом Бору самые низкие тарифы на тепло в домах. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>72</string>
-		<key>QUESTION</key>
-		<string>Россия занимает четвертое место по запасам природного урана. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Россия – мировая кладовая полезных ископаемых, в том числе и урана. </string>
-		<key>ID</key>
-		<string>73</string>
-		<key>QUESTION</key>
-		<string>Запасы урана в России в 2,5 раза выше, чем у США.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Например, средняя зарплата на Ленинградской АЭС самая большая в области. </string>
-		<key>ID</key>
-		<string>74</string>
-		<key>QUESTION</key>
-		<string>У атомщиков самая высокая официальная средняя зарплата.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Средний показатель радиационного фона на Ленинградской АЭС 12-15мкЗв/час. При этом на знаменитой гранитной набережной Невы в Санкт-Петербурге 40-60 мкЗв/час.</string>
-		<key>ID</key>
-		<string>75</string>
-		<key>QUESTION</key>
-		<string>Уровень радиации на Ленинградской АЭС в разы меньше, чем в Санкт-Петербурге. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Радиационный фон у знаменитого памятника в 4 раза выше, чем на любой российской АЭС.</string>
-		<key>ID</key>
-		<string>76</string>
-		<key>QUESTION</key>
-		<string>Памятник Петру I (медный всадник) в 4 раза радиоактивнее АЭС.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Система охлаждения Ленинградской АЭС использует морскую воду Финского залива. </string>
-		<key>ID</key>
-		<string>77</string>
-		<key>QUESTION</key>
-		<string>Ленинградская АЭС подогревает Финский залив. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>78</string>
-		<key>QUESTION</key>
-		<string>Слой воды лучше защищает от нейтронного облучения, чем такой же слой свинца.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>79</string>
-		<key>QUESTION</key>
-		<string>Защитой от альфа-излучения может быть лист бумаги.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>80</string>
-		<key>QUESTION</key>
-		<string>Управление ядерным реактором возможно благодаря наличию запаздывающих нейтронов.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Вода в реакторе не закипает благодаря высокому давлению.</string>
-		<key>ID</key>
-		<string>81</string>
-		<key>QUESTION</key>
-		<string>Вода в атомных реакторах может иметь температуру несколько сот градусов.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>82</string>
-		<key>QUESTION</key>
-		<string>Тепло в атомном реакторе выделяется за счет торможения в топливной композиции осколков деления U-235.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Запаздывающий и быстрый нейтрон это разные понятия.</string>
-		<key>ID</key>
-		<string>83</string>
-		<key>QUESTION</key>
-		<string>Запаздывающий нейтрон может быть быстрым.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>84</string>
-		<key>QUESTION</key>
-		<string>Первая в мире атомная станция была построена в СССР.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Первую в мире атомную бомбу испытали США</string>
-		<key>ID</key>
-		<string>85</string>
-		<key>QUESTION</key>
-		<string>Первую атомную бомбу испытали в СССР.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>86</string>
-		<key>QUESTION</key>
-		<string>Самый охраняемый российский ЗАТО -  это город Саров.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>87</string>
-		<key>QUESTION</key>
-		<string>Первые атомные бомбы носили неофициальное название «Татьяна».</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>88</string>
-		<key>QUESTION</key>
-		<string>По критерию надежности работы АЭС Россия занимает второе место в мире.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>89</string>
-		<key>QUESTION</key>
-		<string>Золото лучше свинца защищает от гамма излучения </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>90</string>
-		<key>QUESTION</key>
-		<string>По сути реактор – это большая кастрюля, которая греется не огнём, а ураном</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>91</string>
-		<key>QUESTION</key>
-		<string>Генерал армии Александр Комаровский, построивший МГУ, руководил строительством всех атомных объектов СССР.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Самолёт с атомным реактором так и не был запущен в производство ни в одной стране мира</string>
-		<key>ID</key>
-		<string>92</string>
-		<key>QUESTION</key>
-		<string>Самолёты ТУ-95 с двигателем с атомным реактором стоят на вооружении в России.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>93</string>
-		<key>QUESTION</key>
-		<string>Крупнейший в мире ледокол с атомным реактором называется «50 лет победы».</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Культовый фильм был снят в павильонах с декорациями.</string>
-		<key>ID</key>
-		<string>94</string>
-		<key>QUESTION</key>
-		<string>Фильм «Девять дней одного года» снимался на атомной станции</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>: Вес одинаков.</string>
-		<key>ID</key>
-		<string>95</string>
-		<key>QUESTION</key>
-		<string>Грамм урана тяжелее грамма пуха</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>96</string>
-		<key>QUESTION</key>
-		<string>Росатом ещё называют корпорацией знаний</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>97</string>
-		<key>QUESTION</key>
-		<string>В Габбоне в Окло расположен природный атомный реактор</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Строительство из монолитного бетона было впервые в СССР освоено в Минссредмаше (сегодня Росатом).</string>
-		<key>ID</key>
-		<string>98</string>
-		<key>QUESTION</key>
-		<string>Первыми из монолитного бетона научились строить атомщики. В какой организации?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>В Лас-Вегасе можно посетить музей атомных испытаний.</string>
-		<key>ID</key>
-		<string>99</string>
-		<key>QUESTION</key>
-		<string>В Лас-Вегасе есть атомный музей.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>: В Швейцарии</string>
-		<key>ID</key>
-		<string>100</string>
-		<key>QUESTION</key>
-		<string>Крупнейшее в мире противоатомное убежище, в мирное время использующееся как подземная автомагистраль, построено в Японии.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>За 7 лет на Запорожской АЭС в Украине были введены построены и введены в эксплуатацию 5 энергоблоков.</string>
-		<key>ID</key>
-		<string>101</string>
-		<key>QUESTION</key>
-		<string>Быстрее и больше всего атомные блоки вводились на Украине.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Больше всего АЭС в США</string>
-		<key>ID</key>
-		<string>102</string>
-		<key>QUESTION</key>
-		<string>Больше всего АЭС в России</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>: Курчатов так сказал о Сахарове</string>
-		<key>ID</key>
-		<string>103</string>
-		<key>QUESTION</key>
-		<string>Игорь Курчатов сказал о Сталине: «Этот человек сделал для обороны нашей Родины больше, чем мы все».</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>104</string>
-		<key>QUESTION</key>
-		<string>Первое испытание отечественного ядерного оружия произведено 65 лет назад 29 сентября 1949 года.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Первая бомба носила женское имя Татьяна.</string>
-		<key>ID</key>
-		<string>105</string>
-		<key>QUESTION</key>
-		<string>Первая атомная бомба РДС-4 носила мужское имя Руслан</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Производство ядерных боеприпасов определяется только  Гособоронзаказом</string>
-		<key>ID</key>
-		<string>106</string>
-		<key>QUESTION</key>
-		<string>Производство ядерных боеприпасов в России определяется заказом Президента.</string>
-	</dict>
-	<dict>
-		<key>ID</key>
-		<string>107</string>
-		<key>QUESTION</key>
-		<string>Аббревиатура РБМК расшифровывается как "Реактор Большой Металлический Круглый". </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>РБМК расшифровывается  как "Реактор Большой Мощности Канальный".</string>
-		<key>ID</key>
-		<string>108</string>
-		<key>QUESTION</key>
-		<string>Авария на американской АЭС Три-Майл-Айленд была предсказана телевидением за 12 дней до её происшествия.  </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>16 марта 1979 года в американский прокат вышел фильм «Китайский синдром», повествующий об аварии на атомной электростанции. Всего через 12 дней произошла реальная авария на АЭС Три-Майл-Айленд, считавшаяся крупнейшей в истории ядерной энергетики до Чернобыльской катастрофы. </string>
-		<key>ID</key>
-		<string>109</string>
-		<key>QUESTION</key>
-		<string>Дочь Марии Склодовской-Кюри - Ирэн Жолио-Кюри, как и мать, получила Нобелевскую премию за работу над радиоактивными элементами. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Ирэн получила премию, как и мама, совместно с супругом и тоже за работу над радиоактивными элементами.</string>
-		<key>ID</key>
-		<string>110</string>
-		<key>QUESTION</key>
-		<string>Из-за распада радиоактивных изотопов на больших глубинах океана вода светится голубым светом. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Распространённое представление о том, что на больших глубинах в океане царит полный мрак, является ошибочным. В следствие распада радиоактивных изотопов в океанской воде, в частности, калия-40, даже на больших глубинах вода слабо светится из-за эффекта Вавилова — Черенкова.</string>
-		<key>ID</key>
-		<string>111</string>
-		<key>QUESTION</key>
-		<string>Хранилища с ОЯТ светятся красным светом.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Вода в хранилищах светится голубым светом из-за эффекта Вавилова — Черенкова.</string>
-		<key>ID</key>
-		<string>112</string>
-		<key>QUESTION</key>
-		<string>Урановая руда под действием ультрафиолетового излучения светится зелёным светом. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Зелёное свечение урана в ультрафиолетовых лучах - один из важнейших поисковых признаков урановых руд.</string>
-		<key>ID</key>
-		<string>113</string>
-		<key>QUESTION</key>
-		<string>Природный графит применяется в качестве замедлителя нейтронов в реакторах. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Реакторный графит получают искусственно из смеси нефтяного кокса и каменноугольной смолы.</string>
-		<key>ID</key>
-		<string>114</string>
-		<key>QUESTION</key>
-		<string>1,2 мг полония достаточно чтобы убить человека. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>115</string>
-		<key>QUESTION</key>
-		<string>Первый ядерный реактор был построен в зале для игры в сквош под трибуной стадиона.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Первый в мире искусственный ядерный реактор «Чикагская поленница» был построен в 1942 году в Чикагском университете под руководством Энрико Ферми.</string>
-		<key>ID</key>
-		<string>116</string>
-		<key>QUESTION</key>
-		<string>По одной из версий аббревиатура реактора АМ-1, установленного на первой в мире АЭС в Обнинске расшифровывается как атом морской, потому что изначально эти реакторы хотели устанавливать на подводных лодках и кораблях. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>117</string>
-		<key>QUESTION</key>
-		<string>В организме взрослого здорового человека содержится около 1 г урана. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Содержание в органах и тканях человека и животных не превышает 10-7 г.</string>
-		<key>ID</key>
-		<string>118</string>
-		<key>QUESTION</key>
-		<string>Урановые стержни, которые ещё не отработали в реакторе можно трогать руками?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Только что изготовленные топливные стержни можно спокойно переносить в руках без последствий для здоровья. </string>
-		<key>ID</key>
-		<string>119</string>
-		<key>QUESTION</key>
-		<string>Уран можно держать  в руках без последствий для организма</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Уран - альфа-активный нуклид, но его активность невелика</string>
-		<key>ID</key>
-		<string>120</string>
-		<key>QUESTION</key>
-		<string>Даже у первого в мире ядерного реактора были предусмотрены системы безопасности?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Но они были "ручными".</string>
-		<key>ID</key>
-		<string>121</string>
-		<key>QUESTION</key>
-		<string>Сразу после открытия радий получил такую популярность, что его стали добавлять в шоколад, зубную пасту, кремы, губную помаду, сигареты… </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Полезное влияние радия было налицо, а об опасности радиации тогда почти не догадывались.</string>
-		<key>ID</key>
-		<string>122</string>
-		<key>QUESTION</key>
-		<string>Первая советская атомная подводная лодка изначально проектировалась с двумя термоядерными торпедами.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Первая советская атомная подводная лодка изначально проектировалась всего с одной мощной термоядерной торпедой. После выпуска торпеды лодка становилась беззащитной. Затем проект изменили.</string>
-		<key>ID</key>
-		<string>123</string>
-		<key>QUESTION</key>
-		<string>Если прекратить подачу электричества на  центрифугу, обогащающую уран, то она остановится через три часа. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Если прекратить подачу электричества центрифуга будет вращаться по инерции еще пару месяцев.</string>
-		<key>ID</key>
-		<string>124</string>
-		<key>QUESTION</key>
-		<string>Центрифуга для обогащения урана крутиться со скоростью 1500 оборотов в секунду 30 лет без остановки.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>125</string>
-		<key>QUESTION</key>
-		<string>Срок действия центрифуги для обогащения урана – 30 лет. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Рекорд составляет 32 года.</string>
-		<key>ID</key>
-		<string>126</string>
-		<key>QUESTION</key>
-		<string>Игла, на которой крутится ротор урановой центрифуги, очень тонка. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Рабочие, чтобы  проверить ее остроту до сих пор пользуются проверенным методом: определяют остроту иглы  щекой.</string>
-		<key>ID</key>
-		<string>127</string>
-		<key>QUESTION</key>
-		<string>Российский топливный уран в 3 раза дешевле, чем американский. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Реализуемая в России технология газоцентрифужного обогащения урана требует в 50 раз меньше энергии, чем газодиффузионная американская.</string>
-		<key>ID</key>
-		<string>128</string>
-		<key>QUESTION</key>
-		<string>Каждый восьмой ядерный энергоблок мира работает на топливе, изготовленном в России. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>129</string>
-		<key>QUESTION</key>
-		<string>Более половины атомных электростанций США работают на российском уране.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>130</string>
-		<key>QUESTION</key>
-		<string>Скрап – это нажитое имущество. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Скрап – это отбракованный ядерный материал.</string>
-		<key>ID</key>
-		<string>131</string>
-		<key>QUESTION</key>
-		<string>Первый в мире корабль, достигший Северного полюса, назывался Ленин. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>17 августа 1977 года  атомный ледокол «Арктика» достиг северного полюса.</string>
-		<key>ID</key>
-		<string>132</string>
-		<key>QUESTION</key>
-		<string>Радионуклиды попадают в организм человека только воздушно-капельным путем. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Радионуклиды попадают в организм человека не только с воздухом, но и через кожу и другие покровы тела, с водой, с пищей.</string>
-		<key>ID</key>
-		<string>133</string>
-		<key>QUESTION</key>
-		<string>Радиоволны не являются источником ионизирующего излучения. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>134</string>
-		<key>QUESTION</key>
-		<string>Уральский электрохимический комбинат – мировой лидер по производству обогащенного урана. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>135</string>
-		<key>QUESTION</key>
-		<string>Первый ядерный реактор в Евразии был запущен Энрико Ферми в декабре 1942 года. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Первый ядерный реактор был запущен в 1946 году в Обнинске под руководством  Игоря Курчатова.</string>
-		<key>ID</key>
-		<string>136</string>
-		<key>QUESTION</key>
-		<string>В сооружении первого в мире ядерного реактора принимали участие студенты. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Первый в мире ядерный реактор был запущен под трибунами университетского стадиона в Чикаго (США).</string>
-		<key>ID</key>
-		<string>137</string>
-		<key>QUESTION</key>
-		<string>Реакторы на быстрых нейтронах – бридеры – производят топлива больше, чем потребляют. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>138</string>
-		<key>QUESTION</key>
-		<string>ОЯТ красиво светится в воде. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Этот  эффект голубого свечения носит название Вавилова — Черенкова.</string>
-		<key>ID</key>
-		<string>139</string>
-		<key>QUESTION</key>
-		<string>Металл может быть в два раза легче воды?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Литий почти в два раза легче воды.</string>
-		<key>ID</key>
-		<string>140</string>
-		<key>QUESTION</key>
-		<string>Период полураспада радиоактивных элементов может меняться с помощью внешних воздействий?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Период полураспада величина постоянная</string>
-		<key>ID</key>
-		<string>141</string>
-		<key>QUESTION</key>
-		<string>ОЯТ является ценным продуктом?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>В отработавшем топливе много ценных элементов, которые могут использоваться вновь.</string>
-		<key>ID</key>
-		<string>142</string>
-		<key>QUESTION</key>
-		<string>1 Зиверт равен 1000 рентген</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>1 Зиверт равен 100 рентген.</string>
-		<key>ID</key>
-		<string>143</string>
-		<key>QUESTION</key>
-		<string>Чем меньше скорость движения нейтронов, тем лучше идет цепная реакция деления</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>144</string>
-		<key>QUESTION</key>
-		<string>Лучшим замедлителем нейтронов в ядерных реакторах является вода (H2O)</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Лучшим  замедлителем нейтронов в ядерных реакторах является тяжелая вода (D2O).</string>
-		<key>ID</key>
-		<string>145</string>
-		<key>QUESTION</key>
-		<string>Цепная реакция деления происходит  у всех элементов</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Цепная реакция деления поддерживается только у двух изотопов урана (U233, U235)  и одного изотопа плутония (Pu239).</string>
-		<key>ID</key>
-		<string>146</string>
-		<key>QUESTION</key>
-		<string>При делении ядер возникают только быстрые нейтроны</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>147</string>
-		<key>QUESTION</key>
-		<string>При делении ядра всегда образуются 2 нейтрона</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>148</string>
-		<key>QUESTION</key>
-		<string>В древности на планете Земля происходила природная цепная ядерная реакция</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>149</string>
-		<key>QUESTION</key>
-		<string>Центрифуга разделения изотопов урана вращается почти в 100 раз быстрее, чем барабан стиральной машины при отжиме белья</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>АЭС используют делящиеся материалы низкого обогащения, которые не могут взорваться.</string>
-		<key>ID</key>
-		<string>150</string>
-		<key>QUESTION</key>
-		<string>На АЭС может произойти атомный взрыв</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>151</string>
-		<key>QUESTION</key>
-		<string>Купол АЭС может выдержать падение самолета</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>152</string>
-		<key>QUESTION</key>
-		<string>Для российских АЭС не страшно падение самолёта</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>В твэлах находится диоксид урана в виде керамики.</string>
-		<key>ID</key>
-		<string>153</string>
-		<key>QUESTION</key>
-		<string>Начинкой тепловыделяющих элементов АЭС является керамика?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>154</string>
-		<key>QUESTION</key>
-		<string>Предприятия Росатома выпускают лучшие в России компьютеры</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>155</string>
-		<key>QUESTION</key>
-		<string>В Росатоме делают самые мощные суперкомпьютеры</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Низкоосадочные атомные ледоколы могут заплывать в устья больших рек.</string>
-		<key>ID</key>
-		<string>156</string>
-		<key>QUESTION</key>
-		<string>Атомные ледоколы могут плавать по рекам</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>157</string>
-		<key>QUESTION</key>
-		<string>В активной зоне реактора ВВЭР – 1000 одновременно находится свыше 50 тысяч тепловыделяющих элементов?</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>158</string>
-		<key>QUESTION</key>
-		<string>Радиоактивность и ионизирующая радиация существуют не только в огненных глубинах Солнца и звезд, но и на Земле.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>: дозы облучения, получаемые пилотами и бортпроводниками от солнечной радиации, могут превышать дозы, допустимые для работников АЭС.</string>
-		<key>ID</key>
-		<string>159</string>
-		<key>QUESTION</key>
-		<string>Находясь в горах или в самолете мы подвергаемся сильному воздействию радиации.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>160</string>
-		<key>QUESTION</key>
-		<string>Объем радиоактивных отходов намного меньше объема отходов других отраслей промышленности.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>161</string>
-		<key>QUESTION</key>
-		<string>Если перевести в стекловидное состояние все отходы, образовавшиеся 50 лет работы 58 АЭС Франции, то их объем составит объем куба со стороной менее 15 метров.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Период полураспада наиболее высокорадиоактивных отходов составляет меньше 30 лет.</string>
-		<key>ID</key>
-		<string>162</string>
-		<key>QUESTION</key>
-		<string>Наиболее высокорадиоактивные отходы имеют долгий срок жизни.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>РАО под тщательным контролем хранятся в специально спроектированных хранилищах.</string>
-		<key>ID</key>
-		<string>163</string>
-		<key>QUESTION</key>
-		<string>Радиоактивные отходы нельзя хранить</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>: Во Франции, Японии, Великобритании и России так и поступают.</string>
-		<key>ID</key>
-		<string>164</string>
-		<key>QUESTION</key>
-		<string>97 % ОЯТ можно использовать повторно.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>: Радиоактивные отходы содержат небольшое количество стронция и цезия, которые после регенерации используются в медицине.</string>
-		<key>ID</key>
-		<string>165</string>
-		<key>QUESTION</key>
-		<string>Радиоактивные отходы могут быть использованы в медицинских целях.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Плутоний, содержащийся в ОЯТ можно использовать как топливо для реакторов на быстрых нейтронах.</string>
-		<key>ID</key>
-		<string>166</string>
-		<key>QUESTION</key>
-		<string>Радиоактивные отходы нельзя использовать вторично.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>167</string>
-		<key>QUESTION</key>
-		<string>ТЭС выбрасывают в атмосферу гораздо больше вредных веществ, нежели АЭС</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Одно из отличительных свойств радиации – распад.</string>
-		<key>ID</key>
-		<string>168</string>
-		<key>QUESTION</key>
-		<string>Отработанные радиоактивные элементы АЭС сохраняют высокий уровень радиации навсегда.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Высокоактивные отходы сплавляются со стеклом и безопасно хранятся. </string>
-		<key>ID</key>
-		<string>169</string>
-		<key>QUESTION</key>
-		<string>Высокоактивные отходы АЭС сохраняют свою опасность навсегда.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Размер ядра составляет 10-13 см, то есть в 105 раз меньше размеров самого атома</string>
-		<key>ID</key>
-		<string>170</string>
-		<key>QUESTION</key>
-		<string>Если размер атома представить в виде футбольного поля, то атомное ядро будет соответствовать малюсенькой дробинке с диаметром лишь 1 мм</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Масса электрона в 2000 раз меньше массы протона</string>
-		<key>ID</key>
-		<string>171</string>
-		<key>QUESTION</key>
-		<string>Если массу электрона увеличить до 1 грамма, то масса ядра атома водорода станет 2000 граммов</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>На ледоколе установлено три реактора</string>
-		<key>ID</key>
-		<string>172</string>
-		<key>QUESTION</key>
-		<string>Атомное сердце ледокола «Ленин» – это два мощных атомных реактора</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Корпусу ледокола придана такая форма, что его нос с разгона въезжает на лед и ломает его собственной массой ледокола</string>
-		<key>ID</key>
-		<string>173</string>
-		<key>QUESTION</key>
-		<string>Атомный ледокол на самом деле колет лед </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Явление «поющие электроны» представляет собой голубоватое свечение в реакторе, в котором урановые стержни погружены в воду.</string>
-		<key>ID</key>
-		<string>174</string>
-		<key>QUESTION</key>
-		<string>Полет пули сопровождается свистом. По аналогии с пулей объясняется явление «поющие электроны»</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Атом состоит из электронов, протонов, нейтронов, позитронов, нейтрино, мезонов и гиперонов</string>
-		<key>ID</key>
-		<string>175</string>
-		<key>QUESTION</key>
-		<string>Атом состоит только из трех частиц: электронов, протонов, нейтронов</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Первый атомный реактор начал работать в США на корте для сквоша Чикагского университета прямо под трибунами.</string>
-		<key>ID</key>
-		<string>176</string>
-		<key>QUESTION</key>
-		<string>Первый атомный реактор работал на корте для сквоша</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Неделимую частицу Демокрит назвал «атом», от греч. atomos – неделимый</string>
-		<key>ID</key>
-		<string>177</string>
-		<key>QUESTION</key>
-		<string>Демокрит был первым, кто догадался о существовании атомов</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>От греческого atomos – неделимый</string>
-		<key>ID</key>
-		<string>178</string>
-		<key>QUESTION</key>
-		<string>От греческого АТОМ – радиоактивный</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Человек превратился бы в крошечное существо, объем которого не превысил одной миллионной доли кубического миллиметра, а именно 0,000001 см3</string>
-		<key>ID</key>
-		<string>179</string>
-		<key>QUESTION</key>
-		<string>Если бы в атомах, составляющих тело человека, все электроны приблизились почти вплотную к своим ядрам, человек был бы со спичечный коробок</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>В 1927 был запатентован подобный флюороскоп, который использовался в обувных магазинах.</string>
-		<key>ID</key>
-		<string>180</string>
-		<key>QUESTION</key>
-		<string>В американских обувных салонах существовала услуга рентгеновского снимка ног, по которому было очень удобно подбирать обувь</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Корни деревьев бразильского ореха уходят так глубоко в землю, что они поглощают огромное количество радия, являющегося природным источником излучения</string>
-		<key>ID</key>
-		<string>181</string>
-		<key>QUESTION</key>
-		<string>Бразильский орех –самый радиоактивный продукт в мире</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Стены вокзала, а также его основание были построены с использованием гранита. Гранит – это материал, который обладает способностью удерживать естественную радиацию.</string>
-		<key>ID</key>
-		<string>182</string>
-		<key>QUESTION</key>
-		<string>Центральный железнодорожный вокзал в Нью-Йорке радиоактивен</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Зеленое свечение табличек «ВЫХОД» возникает из-за содержания в знаках трития – это радиоактивный изотоп водорода, но пока знак в целостности, опасности он не несет</string>
-		<key>ID</key>
-		<string>183</string>
-		<key>QUESTION</key>
-		<string>Эвакуационные знаки радиоактивны </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Датчики АСКРО в режиме реального времени передают показания счетчиков на сайт www.russianatom.ru.</string>
-		<key>ID</key>
-		<string>184</string>
-		<key>QUESTION</key>
-		<string>Радиационный фон всех предприятий Росатома можно on-line посмотреть в Интернете</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Гарантии дает законодательство.</string>
-		<key>ID</key>
-		<string>185</string>
-		<key>QUESTION</key>
-		<string>Сегодня невозможно скрыть значимую с точки зрения радиационной безопасности населения аварию на атомном объекте.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>В России же такую информацию можно узнать не только оперативно, но и бесплатно.</string>
-		<key>ID</key>
-		<string>186</string>
-		<key>QUESTION</key>
-		<string>Жители Франции вынуждены платить, чтобы узнать  об уровне радиационного контроля атомных предприятий </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string>Причина случившегося в человеческом факторе. Основным движущим фактором аварии стали действия операторов, грубо нарушивших инструкции.</string>
-		<key>ID</key>
-		<string>187</string>
-		<key>QUESTION</key>
-		<string>Причина аварии на Чернобыльской АЭС в конструкции реактора </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>188</string>
-		<key>QUESTION</key>
-		<string>Сегодня стоимость АЭС более, чем на 50 процентов состоит из затрат на безопасность. </string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>189</string>
-		<key>QUESTION</key>
-		<string>Российские АЭС входят в тройку самых безопасных АЭС в мире</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string>Это - 330 чернобыльских аварий КАЖДЫЙ ДЕНЬ!</string>
-		<key>ID</key>
-		<string>190</string>
-		<key>QUESTION</key>
-		<string>Курение ежегодно убивает 6 миллионов человек в мире.</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ПРАВДА</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>191</string>
-		<key>QUESTION</key>
-		<string>Радиационный фон делится на две составляющих: естественную и искусственную радиации</string>
-	</dict>
-	<dict>
-		<key>ANSWER</key>
-		<string>ВЫМЫСЕЛ</string>
-		<key>COMMENT</key>
-		<string></string>
-		<key>ID</key>
-		<string>192</string>
-		<key>QUESTION</key>
-		<string>Все, что связано с атомом – изначально опасно для человека.</string>
-	</dict>
-</array>
-</plist>

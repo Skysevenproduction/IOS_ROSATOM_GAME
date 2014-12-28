@@ -11,6 +11,7 @@
 #import "RAAnswerScreenVC.h"
 #import "RACompletedLevelScreenVC.h"
 #import "RALifeBeOverScreenVC.h"
+#import "RAMapLevelScreenVC.h"
 
 
 @interface RAPlayGameScreenVC : UIViewController

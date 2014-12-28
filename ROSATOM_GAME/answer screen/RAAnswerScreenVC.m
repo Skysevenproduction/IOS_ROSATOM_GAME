@@ -29,12 +29,32 @@
         [self.bgAnswer setImage:[UIImage imageNamed:@"477B91-1.png"]];
         [self.iconAnswer setImage:[UIImage imageNamed:@"img_right.png"]];
         
-        self.lblCommentText.text=([DATA_MGR.currentQuestion[Q_D_COMMENT] length]==0)?@"ПРАВИЛЬНО!":DATA_MGR.currentQuestion[Q_D_COMMENT];
+        if ([DATA_MGR.currentQuestion[Q_D_COMMENT] length]>4) {
+            self.lblCommentText.hidden=false;
+            self.titleAnswerImg.hidden=true;
+            self.lblCommentText.text=DATA_MGR.currentQuestion[Q_D_COMMENT];
+        }else{
+            self.lblCommentText.hidden=true;
+            self.titleAnswerImg.hidden=false;
+            [self.titleAnswerImg setImage:[UIImage imageNamed:@"title_right_answer.png"]];
+        }
+        
+
         
     }else{
+        DATA_MGR.countLife--;
         [self.bgAnswer setImage:[UIImage imageNamed:@"3B4A5A-1.png"]];
         [self.iconAnswer setImage:[UIImage imageNamed:@"img_wrong.png"]];
-        self.lblCommentText.text=([DATA_MGR.currentQuestion[Q_D_COMMENT] length]==0)?@"НЕ ПРАВИЛЬНО!":DATA_MGR.currentQuestion[Q_D_COMMENT];
+        
+        if ([DATA_MGR.currentQuestion[Q_D_COMMENT] length]>4) {
+            self.lblCommentText.hidden=false;
+            self.titleAnswerImg.hidden=true;
+            self.lblCommentText.text=DATA_MGR.currentQuestion[Q_D_COMMENT];
+        }else{
+            self.lblCommentText.hidden=true;
+            self.titleAnswerImg.hidden=false;
+            [self.titleAnswerImg setImage:[UIImage imageNamed:@"title_wrong_answer.png"]];
+             }
     }
     
   
@@ -112,6 +132,18 @@
             if (!userAnswer) {
                 self.color7.hidden=false;
             }
+        case 8:
+            self.color1.hidden=false;
+            self.color2.hidden=false;
+            self.color3.hidden=false;
+            self.color4.hidden=false;
+            self.color5.hidden=false;
+            self.color6.hidden=false;
+            self.color7.hidden=false;
+
+            if (!userAnswer) {
+                self.color8.hidden=false;
+            }
             break;
         default:
             break;
@@ -122,6 +154,15 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated{
+    
+    if ([DATA_MGR.currentQuestion[Q_D_COMMENT] length]>4) {
+        if (userAnswer)
+            [DATA_MGR sendGAScreenName:GA_SCR_ANSWER_RIGHT];
+        else
+            [DATA_MGR sendGAScreenName:GA_SCR_ANSWER_WRONG];
+    }
+
+    
     if (userAnswer) {
         switch (DATA_MGR.passQuestion) {
             case 1:
@@ -145,6 +186,9 @@
             case 7:
                 [self animation:self.color7];
                 break;
+            case 8:
+                [self animation:self.color8];
+                break;
             default:
                 break;
         }
@@ -161,7 +205,22 @@
     }];
 }
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-    [self dismissViewControllerAnimated:YES completion:nil];
+    if (userAnswer) {
+        if (DATA_MGR.passQuestion==8)
+            [RACompletedLevelScreenVC showInstance:self];
+        else
+            [self dismissViewControllerAnimated:YES completion:nil];
+    }else{
+        if (DATA_MGR.countLife==0) {
+            //жизни закончелись
+            [RALifeBeOverScreenVC showInstance:self];
+        }else{
+            [self dismissViewControllerAnimated:YES completion:nil];
+
+        }
+
+    }
+
 }
 
 

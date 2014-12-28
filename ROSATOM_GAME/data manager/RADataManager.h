@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GAIDictionaryBuilder.h"
+#import "GAIFields.h"
+#import "GAI.h"
 
 #define USER_DEFAULTS [NSUserDefaults standardUserDefaults]
 #define DATA_MGR [RADataManager shared]
@@ -25,7 +28,14 @@
 #define Q_D_COMMENT   @"COMMENT"
 #define Q_D_ID        @"ID"
 
+#define USR_TIME_ANSWR  @"userTimeAnswer"
 #define CUR_LVL   @"currentLevel"
+
+
+#define GA_SCR_ANSWER_RIGHT  @"answer_screen_right"
+#define GA_SCR_ANSWER_WRONG  @"answer_screen_wrong"
+
+#define GA_SCR_QUESTION     @"question_screen"
 
 
 
@@ -36,17 +46,30 @@
     
     NSNumber * currentLevel;
     NSMutableDictionary * currentQuestion;
+    NSDictionary    *   spentTimeForAnswer;
+    
+    BOOL    * showMapLevel;
     
 }
 @property (nonatomic,strong) NSArray * listQuestion;
 @property (nonatomic,strong) NSArray * listAnsweredQuestion;
+@property (nonatomic,strong) NSDictionary    *   spentTimeForAnswer;
+
 
 @property (nonatomic,assign) NSNumber * currentLevel;
 @property (nonatomic,assign) NSInteger passQuestion;
 @property (nonatomic,assign) NSInteger countLife;
 @property (nonatomic,strong) NSMutableDictionary * currentQuestion;
 
+@property (nonatomic, readwrite)   BOOL   showMapLevel;
+
 
 +(instancetype)shared;
 -(void)update;
+
+#pragma mark -
+#pragma mark GoogleAnalytic Methods
+
+-(void)sendGAScreenName:(NSString*)name;
+-(void)sendGAEvent:(NSString*)action fromScreen:(NSString*)screen withLabel:(NSString*)label andValue:(NSNumber *)value;
 @end

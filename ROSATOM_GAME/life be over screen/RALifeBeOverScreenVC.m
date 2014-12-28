@@ -40,9 +40,11 @@
 }
 
 - (IBAction)btnRepeatClick:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [[[self presentingViewController ]presentingViewController ]dismissViewControllerAnimated:YES completion:nil];
 }
 
-
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [[[self presentingViewController ]presentingViewController ]dismissViewControllerAnimated:YES completion:nil];
+}
 
 @end
