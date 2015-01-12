@@ -123,7 +123,7 @@
 
 -(void)checkAnswer:(bool)answerUser{
     BOOL rightAnswer;
-    NSString * temp=DATA_MGR.currentQuestion[Q_D_ANSWER];
+    //NSString * temp=DATA_MGR.currentQuestion[Q_D_ANSWER];
     if ([DATA_MGR.currentQuestion[Q_D_ANSWER] isEqualToString:@"ПРАВДА"])
         rightAnswer=YES;
     else
