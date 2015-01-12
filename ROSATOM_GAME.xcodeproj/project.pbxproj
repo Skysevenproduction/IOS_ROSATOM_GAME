@@ -1,3577 +1,1096 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>097A4EA66D379133443F6035</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>37CF73B4C2DFFD69448A91FD</string>
-				<string>E6E6234E64288F9733D04B86</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D79E0EA77E8FB1EDE49ADBA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C59D2476D4FC92BE21ABBE78</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37CF73B4C2DFFD69448A91FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>676B24891448A468A0101CA9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>74DF278D4585695179248B6C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C59D2476D4FC92BE21ABBE78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>840E394F1A186D30008C8639</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RAStatusBarView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>840E39501A186D30008C8639</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RAStatusBarView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>840E39511A186D30008C8639</key>
-		<dict>
-			<key>fileRef</key>
-			<string>840E39501A186D30008C8639</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>840E39521A1891D8008C8639</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RAPlayGameScreenVC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>840E39531A1891D8008C8639</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RAPlayGameScreenVC.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>840E39541A1891D8008C8639</key>
-		<dict>
-			<key>fileRef</key>
-			<string>840E39531A1891D8008C8639</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>840E39C51A191233008C8639</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>View.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>840E39C61A191233008C8639</key>
-		<dict>
-			<key>fileRef</key>
-			<string>840E39C51A191233008C8639</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8410F2B01A1A942E00B0155A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>color_1.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8410F2B11A1A942E00B0155A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>color_2.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8410F2B21A1A942E00B0155A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>color_3.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8410F2B31A1A942E00B0155A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>color_4.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8410F2B41A1A942E00B0155A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>color_5.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8410F2B51A1A942E00B0155A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>color_6.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8410F2B61A1A942E00B0155A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>color_7.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8410F2B71A1A942E00B0155A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>color_8.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8410F2B81A1A942E00B0155A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8410F2B01A1A942E00B0155A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8410F2B91A1A942E00B0155A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8410F2B11A1A942E00B0155A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8410F2BA1A1A942E00B0155A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8410F2B21A1A942E00B0155A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8410F2BB1A1A942E00B0155A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8410F2B31A1A942E00B0155A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8410F2BC1A1A942E00B0155A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8410F2B41A1A942E00B0155A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8410F2BD1A1A942E00B0155A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8410F2B51A1A942E00B0155A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8410F2BE1A1A942E00B0155A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8410F2B61A1A942E00B0155A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8410F2BF1A1A942E00B0155A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8410F2B71A1A942E00B0155A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8410F2C01A1A978100B0155A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>title_level_complete.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8410F2C11A1A978100B0155A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8410F2C01A1A978100B0155A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FC01A1778D700DB3E05</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84214FC11A1778D700DB3E05</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FC11A1778D700DB3E05</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AF6D83211A49E2F400A01FA8</string>
-				<string>AF6D83171A49C38400A01FA8</string>
-				<string>AF6D83181A49C38400A01FA8</string>
-				<string>AFA3F29F1A21297400B1F3CF</string>
-				<string>AFA3F2A01A21297400B1F3CF</string>
-				<string>AFA3F2A11A21297400B1F3CF</string>
-				<string>AFA3F2951A20FAE300B1F3CF</string>
-				<string>AFA3F2961A20FAE300B1F3CF</string>
-				<string>AFA3F2911A2069D500B1F3CF</string>
-				<string>AFA3F28D1A20602100B1F3CF</string>
-				<string>84BC7EC21A19492C00343B50</string>
-				<string>84BC7EBE1A1948BF00343B50</string>
-				<string>8410F2C01A1A978100B0155A</string>
-				<string>84214FF51A17E2B600DB3E05</string>
-				<string>84214FF61A17E2B600DB3E05</string>
-				<string>84214FF71A17E2B600DB3E05</string>
-				<string>84214FF81A17E2B600DB3E05</string>
-				<string>84214FF91A17E2B600DB3E05</string>
-				<string>84214FFA1A17E2B600DB3E05</string>
-				<string>84214FFB1A17E2B600DB3E05</string>
-				<string>84214FEB1A17CB5E00DB3E05</string>
-				<string>84214FE01A17975200DB3E05</string>
-				<string>84214FD91A1794F000DB3E05</string>
-				<string>84214FC31A1778D700DB3E05</string>
-				<string>84214FC41A1778D700DB3E05</string>
-				<string>84214FC51A1778D700DB3E05</string>
-				<string>84214FC61A1778D700DB3E05</string>
-				<string>84214FC71A1778D700DB3E05</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>img</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FC31A1778D700DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>btn_play_bg.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FC41A1778D700DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>ic_count.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FC51A1778D700DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>ic_life.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FC61A1778D700DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>ic_time.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FC71A1778D700DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>step1.img.bg.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FC91A1778D700DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FC31A1778D700DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FCA1A1778D700DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FC41A1778D700DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FCB1A1778D700DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FC51A1778D700DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FCC1A1778D700DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FC61A1778D700DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FCD1A1778D700DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FC71A1778D700DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FCE1A1779C400DB3E05</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RARootVC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FCF1A1779C400DB3E05</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RARootVC.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FD01A1779C400DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FCF1A1779C400DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FD31A177B5400DB3E05</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>840E39C51A191233008C8639</string>
-				<string>84214FD41A177B6E00DB3E05</string>
-				<string>84214FD51A177B6E00DB3E05</string>
-				<string>84214FD61A177B6E00DB3E05</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>start game screen</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FD41A177B6E00DB3E05</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RAStartGameScreenVC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FD51A177B6E00DB3E05</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RAStartGameScreenVC.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FD61A177B6E00DB3E05</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>RAStartGameScreenVC.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FD71A177B6E00DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FD51A177B6E00DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FD81A177B6E00DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FD61A177B6E00DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FD91A1794F000DB3E05</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AFA3F2A51A21C85700B1F3CF</string>
-				<string>AFA3F28F1A2060C400B1F3CF</string>
-				<string>84BC7EC01A1948E600343B50</string>
-				<string>842150051A17E63B00DB3E05</string>
-				<string>842150061A17E63B00DB3E05</string>
-				<string>84214FE51A17B99600DB3E05</string>
-				<string>84214FE61A17B99600DB3E05</string>
-				<string>84214FDC1A1795B700DB3E05</string>
-				<string>84214FDD1A1795B700DB3E05</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>1pix</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FDC1A1795B700DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>ae5162.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FDD1A1795B700DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>fefef0.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FDE1A1795B700DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FDC1A1795B700DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FDF1A1795B700DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FDD1A1795B700DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FE01A17975200DB3E05</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>842150031A17E35400DB3E05</string>
-				<string>84214FE91A17BA4D00DB3E05</string>
-				<string>84214FE11A17975200DB3E05</string>
-				<string>84214FE21A17975200DB3E05</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>temp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FE11A17975200DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>bg.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FE21A17975200DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>step1.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FE31A17975200DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FE11A17975200DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FE41A17975200DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FE21A17975200DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FE51A17B99600DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>761a41.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FE61A17B99600DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>06141A-1.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FE71A17B99600DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FE51A17B99600DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FE81A17B99700DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FE61A17B99600DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FE91A17BA4D00DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>steps.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FEA1A17BA4D00DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FE91A17BA4D00DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FEB1A17CB5E00DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>btn_play_bg_sel.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FEC1A17CB5E00DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FEB1A17CB5E00DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FED1A17D22D00DB3E05</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84BC7EB01A19166600343B50</string>
-				<string>840E39521A1891D8008C8639</string>
-				<string>840E39531A1891D8008C8639</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>play game screen</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FF51A17E2B600DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>bgBtnTrueFalse.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FF61A17E2B600DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>btn_false.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FF71A17E2B600DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>btn_true.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FF81A17E2B600DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>imgClock.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FF91A17E2B600DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>status_ic_count.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FFA1A17E2B600DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>status_ic_level.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FFB1A17E2B600DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>status_ic_life.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84214FFC1A17E2B600DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FF51A17E2B600DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FFD1A17E2B600DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FF61A17E2B600DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FFE1A17E2B600DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FF71A17E2B600DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84214FFF1A17E2B600DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FF81A17E2B600DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>842150001A17E2B600DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FF91A17E2B600DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>842150011A17E2B600DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FFA1A17E2B600DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>842150021A17E2B600DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84214FFB1A17E2B600DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>842150031A17E35400DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>&#1050;&#1086;&#1087;&#1080;&#1103; steps.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>842150041A17E35400DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>842150031A17E35400DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>842150051A17E63B00DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>AD5162-1.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>842150061A17E63B00DB3E05</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>D7F5F2-1.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>842150071A17E63B00DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>842150051A17E63B00DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>842150081A17E63B00DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>842150061A17E63B00DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>842150091A17EAB100DB3E05</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8421500C1A17EAC800DB3E05</string>
-				<string>840E394F1A186D30008C8639</string>
-				<string>840E39501A186D30008C8639</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>status bar</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8421500C1A17EAC800DB3E05</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>RAStatusBarView.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8421500E1A17EAC800DB3E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8421500C1A17EAC800DB3E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8436B92D1A11E4B00054EF83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8436B9381A11E4B00054EF83</string>
-				<string>8436B9521A11E4B00054EF83</string>
-				<string>8436B9371A11E4B00054EF83</string>
-				<string>097A4EA66D379133443F6035</string>
-				<string>1D79E0EA77E8FB1EDE49ADBA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B92E1A11E4B00054EF83</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0610</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>AlexNikov</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>8436B9351A11E4B00054EF83</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1</string>
-					</dict>
-					<key>8436B94E1A11E4B00054EF83</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1</string>
-						<key>TestTargetID</key>
-						<string>8436B9351A11E4B00054EF83</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>8436B9311A11E4B00054EF83</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>8436B92D1A11E4B00054EF83</string>
-			<key>productRefGroup</key>
-			<string>8436B9371A11E4B00054EF83</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>8436B9351A11E4B00054EF83</string>
-				<string>8436B94E1A11E4B00054EF83</string>
-			</array>
-		</dict>
-		<key>8436B9311A11E4B00054EF83</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8436B9571A11E4B00054EF83</string>
-				<string>8436B9581A11E4B00054EF83</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8436B9321A11E4B00054EF83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84214FD71A177B6E00DB3E05</string>
-				<string>840E39541A1891D8008C8639</string>
-				<string>8497B09B1A1D2B0A00F78378</string>
-				<string>84214FD01A1779C400DB3E05</string>
-				<string>AFA3F28A1A205EE800B1F3CF</string>
-				<string>8436B93F1A11E4B00054EF83</string>
-				<string>8436B93C1A11E4B00054EF83</string>
-				<string>AF6D831F1A49D7BF00A01FA8</string>
-				<string>AFA3F29C1A21262F00B1F3CF</string>
-				<string>84BC7EBB1A1946F900343B50</string>
-				<string>840E39511A186D30008C8639</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8436B9331A11E4B00054EF83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>74DF278D4585695179248B6C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8436B9341A11E4B00054EF83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84BC7EBF1A1948BF00343B50</string>
-				<string>84214FCC1A1778D700DB3E05</string>
-				<string>AF6D835A1A49E2F400A01FA8</string>
-				<string>AF6D83671A49E2F400A01FA8</string>
-				<string>84214FDE1A1795B700DB3E05</string>
-				<string>AFA3F29E1A21269500B1F3CF</string>
-				<string>AFA3F2A41A21297400B1F3CF</string>
-				<string>842150021A17E2B600DB3E05</string>
-				<string>842150081A17E63B00DB3E05</string>
-				<string>AF6D837B1A49E2F400A01FA8</string>
-				<string>AF6D836E1A49E2F400A01FA8</string>
-				<string>84BC7EC71A19492C00343B50</string>
-				<string>AFA3F2901A2060C400B1F3CF</string>
-				<string>AF6D83541A49E2F400A01FA8</string>
-				<string>AF6D83511A49E2F400A01FA8</string>
-				<string>84214FFD1A17E2B600DB3E05</string>
-				<string>AF6D83701A49E2F400A01FA8</string>
-				<string>AF6D83161A49B9E400A01FA8</string>
-				<string>AF6D836D1A49E2F400A01FA8</string>
-				<string>AF6D83731A49E2F400A01FA8</string>
-				<string>AF6D83521A49E2F400A01FA8</string>
-				<string>AF6D83201A49D7BF00A01FA8</string>
-				<string>AF6D83551A49E2F400A01FA8</string>
-				<string>AFA3F2A31A21297400B1F3CF</string>
-				<string>8410F2C11A1A978100B0155A</string>
-				<string>AF6D836C1A49E2F400A01FA8</string>
-				<string>84214FFE1A17E2B600DB3E05</string>
-				<string>AF6D837D1A49E2F400A01FA8</string>
-				<string>AF6D83661A49E2F400A01FA8</string>
-				<string>AF6D83591A49E2F400A01FA8</string>
-				<string>842150011A17E2B600DB3E05</string>
-				<string>AF6D83621A49E2F400A01FA8</string>
-				<string>84214FE31A17975200DB3E05</string>
-				<string>AF6D83561A49E2F400A01FA8</string>
-				<string>842150041A17E35400DB3E05</string>
-				<string>84BC7EC11A1948E600343B50</string>
-				<string>8436B9451A11E4B00054EF83</string>
-				<string>AF6D837C1A49E2F400A01FA8</string>
-				<string>8436B94A1A11E4B00054EF83</string>
-				<string>AFA3F2A61A21C85700B1F3CF</string>
-				<string>842150001A17E2B600DB3E05</string>
-				<string>AF6D83771A49E2F400A01FA8</string>
-				<string>84BC7EC81A19492C00343B50</string>
-				<string>8410F2BB1A1A942E00B0155A</string>
-				<string>8410F2B91A1A942E00B0155A</string>
-				<string>84214FFC1A17E2B600DB3E05</string>
-				<string>AFA3F28E1A20602100B1F3CF</string>
-				<string>84214FFF1A17E2B600DB3E05</string>
-				<string>AF6D835B1A49E2F400A01FA8</string>
-				<string>AF6D83681A49E2F400A01FA8</string>
-				<string>AFA3F2981A20FAE300B1F3CF</string>
-				<string>AF6D83781A49E2F400A01FA8</string>
-				<string>84214FE71A17B99600DB3E05</string>
-				<string>84214FEC1A17CB5E00DB3E05</string>
-				<string>AFA3F28C1A205FE800B1F3CF</string>
-				<string>840E39C61A191233008C8639</string>
-				<string>84214FDF1A1795B700DB3E05</string>
-				<string>AF6D836F1A49E2F400A01FA8</string>
-				<string>AFA3F2971A20FAE300B1F3CF</string>
-				<string>AF6D837E1A49E2F400A01FA8</string>
-				<string>84214FD81A177B6E00DB3E05</string>
-				<string>84214FCA1A1778D700DB3E05</string>
-				<string>84214FCB1A1778D700DB3E05</string>
-				<string>AF6D837F1A49E2F400A01FA8</string>
-				<string>AF6D831A1A49C38400A01FA8</string>
-				<string>AF6D83611A49E2F400A01FA8</string>
-				<string>AFA3F2851A1FD83200B1F3CF</string>
-				<string>AF6D83191A49C38400A01FA8</string>
-				<string>AF6D83631A49E2F400A01FA8</string>
-				<string>AFA3F2921A2069D500B1F3CF</string>
-				<string>AF6D836A1A49E2F400A01FA8</string>
-				<string>AF6D83531A49E2F400A01FA8</string>
-				<string>AF6D83571A49E2F400A01FA8</string>
-				<string>AF6D83691A49E2F400A01FA8</string>
-				<string>84214FC91A1778D700DB3E05</string>
-				<string>AF6D83651A49E2F400A01FA8</string>
-				<string>AF6D83711A49E2F400A01FA8</string>
-				<string>84214FEA1A17BA4D00DB3E05</string>
-				<string>84BC7EB11A19166600343B50</string>
-				<string>AF6D83751A49E2F400A01FA8</string>
-				<string>8410F2BD1A1A942E00B0155A</string>
-				<string>AF6D83641A49E2F400A01FA8</string>
-				<string>AF6D835E1A49E2F400A01FA8</string>
-				<string>AF6D83741A49E2F400A01FA8</string>
-				<string>8410F2BE1A1A942E00B0155A</string>
-				<string>8410F2B81A1A942E00B0155A</string>
-				<string>AF6D83601A49E2F400A01FA8</string>
-				<string>AFA3F2A21A21297400B1F3CF</string>
-				<string>84214FCD1A1778D700DB3E05</string>
-				<string>84BC7EBD1A19471000343B50</string>
-				<string>84214FE41A17975200DB3E05</string>
-				<string>AF6D83761A49E2F400A01FA8</string>
-				<string>AF6D835F1A49E2F400A01FA8</string>
-				<string>AF6D837A1A49E2F400A01FA8</string>
-				<string>8410F2BF1A1A942E00B0155A</string>
-				<string>AF6D83721A49E2F400A01FA8</string>
-				<string>84BC7EC61A19492C00343B50</string>
-				<string>8436B9471A11E4B00054EF83</string>
-				<string>84214FE81A17B99700DB3E05</string>
-				<string>8410F2BA1A1A942E00B0155A</string>
-				<string>842150071A17E63B00DB3E05</string>
-				<string>AF6D83581A49E2F400A01FA8</string>
-				<string>AF6D836B1A49E2F400A01FA8</string>
-				<string>AF6D835D1A49E2F400A01FA8</string>
-				<string>8421500E1A17EAC800DB3E05</string>
-				<string>AF6D83791A49E2F400A01FA8</string>
-				<string>AF6D835C1A49E2F400A01FA8</string>
-				<string>8410F2BC1A1A942E00B0155A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8436B9351A11E4B00054EF83</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8436B9591A11E4B00054EF83</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EC5D80D0360A2A93FEBF2A81</string>
-				<string>8436B9321A11E4B00054EF83</string>
-				<string>8436B9331A11E4B00054EF83</string>
-				<string>8436B9341A11E4B00054EF83</string>
-				<string>676B24891448A468A0101CA9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ROSATOM_GAME</string>
-			<key>productName</key>
-			<string>ROSATOM_GAME</string>
-			<key>productReference</key>
-			<string>8436B9361A11E4B00054EF83</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>8436B9361A11E4B00054EF83</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ROSATOM_GAME.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8436B9371A11E4B00054EF83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8436B9361A11E4B00054EF83</string>
-				<string>8436B94F1A11E4B00054EF83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B9381A11E4B00054EF83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AF6D831B1A49D74C00A01FA8</string>
-				<string>AF6D83151A49B9E400A01FA8</string>
-				<string>AFA3F2991A21260500B1F3CF</string>
-				<string>AFA3F2871A205EAD00B1F3CF</string>
-				<string>AFA3F2841A1FD83200B1F3CF</string>
-				<string>8497B0981A1D2B0A00F78378</string>
-				<string>84BC7EB81A1946DA00343B50</string>
-				<string>842150091A17EAB100DB3E05</string>
-				<string>84214FED1A17D22D00DB3E05</string>
-				<string>84214FD31A177B5400DB3E05</string>
-				<string>84214FCE1A1779C400DB3E05</string>
-				<string>84214FCF1A1779C400DB3E05</string>
-				<string>84214FC01A1778D700DB3E05</string>
-				<string>8436B93D1A11E4B00054EF83</string>
-				<string>8436B93E1A11E4B00054EF83</string>
-				<string>8436B9431A11E4B00054EF83</string>
-				<string>8436B9461A11E4B00054EF83</string>
-				<string>8436B9481A11E4B00054EF83</string>
-				<string>8436B9391A11E4B00054EF83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ROSATOM_GAME</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B9391A11E4B00054EF83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8497B09C1A1D2B3A00F78378</string>
-				<string>8436B93A1A11E4B00054EF83</string>
-				<string>8436B93B1A11E4B00054EF83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B93A1A11E4B00054EF83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B93B1A11E4B00054EF83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B93C1A11E4B00054EF83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8436B93B1A11E4B00054EF83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8436B93D1A11E4B00054EF83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B93E1A11E4B00054EF83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B93F1A11E4B00054EF83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8436B93E1A11E4B00054EF83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8436B9431A11E4B00054EF83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8436B9441A11E4B00054EF83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B9441A11E4B00054EF83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B9451A11E4B00054EF83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8436B9431A11E4B00054EF83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8436B9461A11E4B00054EF83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B9471A11E4B00054EF83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8436B9461A11E4B00054EF83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8436B9481A11E4B00054EF83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8436B9491A11E4B00054EF83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B9491A11E4B00054EF83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B94A1A11E4B00054EF83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8436B9481A11E4B00054EF83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8436B94B1A11E4B00054EF83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8436B9561A11E4B00054EF83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8436B94C1A11E4B00054EF83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8436B94D1A11E4B00054EF83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8436B94E1A11E4B00054EF83</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8436B95C1A11E4B00054EF83</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8436B94B1A11E4B00054EF83</string>
-				<string>8436B94C1A11E4B00054EF83</string>
-				<string>8436B94D1A11E4B00054EF83</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>8436B9511A11E4B00054EF83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ROSATOM_GAMETests</string>
-			<key>productName</key>
-			<string>ROSATOM_GAMETests</string>
-			<key>productReference</key>
-			<string>8436B94F1A11E4B00054EF83</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>8436B94F1A11E4B00054EF83</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ROSATOM_GAMETests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8436B9501A11E4B00054EF83</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>8436B92E1A11E4B00054EF83</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8436B9351A11E4B00054EF83</string>
-			<key>remoteInfo</key>
-			<string>ROSATOM_GAME</string>
-		</dict>
-		<key>8436B9511A11E4B00054EF83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>8436B9351A11E4B00054EF83</string>
-			<key>targetProxy</key>
-			<string>8436B9501A11E4B00054EF83</string>
-		</dict>
-		<key>8436B9521A11E4B00054EF83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8436B9551A11E4B00054EF83</string>
-				<string>8436B9531A11E4B00054EF83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ROSATOM_GAMETests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B9531A11E4B00054EF83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8436B9541A11E4B00054EF83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B9541A11E4B00054EF83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B9551A11E4B00054EF83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ROSATOM_GAMETests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8436B9561A11E4B00054EF83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8436B9551A11E4B00054EF83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8436B9571A11E4B00054EF83</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8436B9581A11E4B00054EF83</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8436B9591A11E4B00054EF83</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8436B95A1A11E4B00054EF83</string>
-				<string>8436B95B1A11E4B00054EF83</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8436B95A1A11E4B00054EF83</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>37CF73B4C2DFFD69448A91FD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS</key>
-				<string>NO</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>ROSATOM_GAME/ROSATOM_GAME-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ROSATOM_GAME/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8436B95B1A11E4B00054EF83</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E6E6234E64288F9733D04B86</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS</key>
-				<string>NO</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>ROSATOM_GAME/ROSATOM_GAME-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ROSATOM_GAME/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8436B95C1A11E4B00054EF83</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8436B95D1A11E4B00054EF83</string>
-				<string>8436B95E1A11E4B00054EF83</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8436B95D1A11E4B00054EF83</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>ROSATOM_GAMETests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ROSATOM_GAME.app/ROSATOM_GAME</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8436B95E1A11E4B00054EF83</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>ROSATOM_GAMETests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ROSATOM_GAME.app/ROSATOM_GAME</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8497B0981A1D2B0A00F78378</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8497B0991A1D2B0A00F78378</string>
-				<string>8497B09A1A1D2B0A00F78378</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>data manager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8497B0991A1D2B0A00F78378</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RADataManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8497B09A1A1D2B0A00F78378</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RADataManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8497B09B1A1D2B0A00F78378</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8497B09A1A1D2B0A00F78378</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8497B09C1A1D2B3A00F78378</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ROSATOM_GAME-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BC7EB01A19166600343B50</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>RAPlayGameScreenVC.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BC7EB11A19166600343B50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84BC7EB01A19166600343B50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84BC7EB81A1946DA00343B50</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84BC7EBC1A19471000343B50</string>
-				<string>84BC7EB91A1946F900343B50</string>
-				<string>84BC7EBA1A1946F900343B50</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>completed level screen</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BC7EB91A1946F900343B50</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RACompletedLevelScreenVC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BC7EBA1A1946F900343B50</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RACompletedLevelScreenVC.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BC7EBB1A1946F900343B50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84BC7EBA1A1946F900343B50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84BC7EBC1A19471000343B50</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>RACompletedLevelScreenVC.xib</string>
-			<key>path</key>
-			<string>ROSATOM_GAME/completed level screen/RACompletedLevelScreenVC.xib</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>84BC7EBD1A19471000343B50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84BC7EBC1A19471000343B50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84BC7EBE1A1948BF00343B50</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>bg_complete_level.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BC7EBF1A1948BF00343B50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84BC7EBE1A1948BF00343B50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84BC7EC01A1948E600343B50</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>EF8600-1.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BC7EC11A1948E600343B50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84BC7EC01A1948E600343B50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84BC7EC21A19492C00343B50</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8410F2B01A1A942E00B0155A</string>
-				<string>8410F2B11A1A942E00B0155A</string>
-				<string>8410F2B21A1A942E00B0155A</string>
-				<string>8410F2B31A1A942E00B0155A</string>
-				<string>8410F2B41A1A942E00B0155A</string>
-				<string>8410F2B51A1A942E00B0155A</string>
-				<string>8410F2B61A1A942E00B0155A</string>
-				<string>8410F2B71A1A942E00B0155A</string>
-				<string>84BC7EC31A19492C00343B50</string>
-				<string>84BC7EC41A19492C00343B50</string>
-				<string>84BC7EC51A19492C00343B50</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>progress_assets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BC7EC31A19492C00343B50</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>progres_bg.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BC7EC41A19492C00343B50</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>progress_color.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BC7EC51A19492C00343B50</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>progress_up.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84BC7EC61A19492C00343B50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84BC7EC31A19492C00343B50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84BC7EC71A19492C00343B50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84BC7EC41A19492C00343B50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84BC7EC81A19492C00343B50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84BC7EC51A19492C00343B50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83151A49B9E400A01FA8</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>listQuestions.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83161A49B9E400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83151A49B9E400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83171A49C38400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>title_right_answer.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83181A49C38400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>title_wrong_answer.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83191A49C38400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83171A49C38400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D831A1A49C38400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83181A49C38400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D831B1A49D74C00A01FA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AF6D831C1A49D7BF00A01FA8</string>
-				<string>AF6D831D1A49D7BF00A01FA8</string>
-				<string>AF6D831E1A49D7BF00A01FA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>map level screen</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D831C1A49D7BF00A01FA8</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RAMapLevelScreenVC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D831D1A49D7BF00A01FA8</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RAMapLevelScreenVC.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D831E1A49D7BF00A01FA8</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>RAMapLevelScreenVC.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D831F1A49D7BF00A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D831D1A49D7BF00A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83201A49D7BF00A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D831E1A49D7BF00A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83211A49E2F400A01FA8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AF6D83221A49E2F400A01FA8</string>
-				<string>AF6D83231A49E2F400A01FA8</string>
-				<string>AF6D83241A49E2F400A01FA8</string>
-				<string>AF6D83251A49E2F400A01FA8</string>
-				<string>AF6D83261A49E2F400A01FA8</string>
-				<string>AF6D83271A49E2F400A01FA8</string>
-				<string>AF6D83281A49E2F400A01FA8</string>
-				<string>AF6D83291A49E2F400A01FA8</string>
-				<string>AF6D832A1A49E2F400A01FA8</string>
-				<string>AF6D832B1A49E2F400A01FA8</string>
-				<string>AF6D832C1A49E2F400A01FA8</string>
-				<string>AF6D832D1A49E2F400A01FA8</string>
-				<string>AF6D832E1A49E2F400A01FA8</string>
-				<string>AF6D832F1A49E2F400A01FA8</string>
-				<string>AF6D83301A49E2F400A01FA8</string>
-				<string>AF6D83311A49E2F400A01FA8</string>
-				<string>AF6D83321A49E2F400A01FA8</string>
-				<string>AF6D83331A49E2F400A01FA8</string>
-				<string>AF6D83341A49E2F400A01FA8</string>
-				<string>AF6D83351A49E2F400A01FA8</string>
-				<string>AF6D83361A49E2F400A01FA8</string>
-				<string>AF6D83371A49E2F400A01FA8</string>
-				<string>AF6D83381A49E2F400A01FA8</string>
-				<string>AF6D83391A49E2F400A01FA8</string>
-				<string>AF6D833A1A49E2F400A01FA8</string>
-				<string>AF6D833B1A49E2F400A01FA8</string>
-				<string>AF6D833C1A49E2F400A01FA8</string>
-				<string>AF6D833D1A49E2F400A01FA8</string>
-				<string>AF6D833E1A49E2F400A01FA8</string>
-				<string>AF6D833F1A49E2F400A01FA8</string>
-				<string>AF6D83401A49E2F400A01FA8</string>
-				<string>AF6D83411A49E2F400A01FA8</string>
-				<string>AF6D83421A49E2F400A01FA8</string>
-				<string>AF6D83431A49E2F400A01FA8</string>
-				<string>AF6D83441A49E2F400A01FA8</string>
-				<string>AF6D83451A49E2F400A01FA8</string>
-				<string>AF6D83461A49E2F400A01FA8</string>
-				<string>AF6D83471A49E2F400A01FA8</string>
-				<string>AF6D83481A49E2F400A01FA8</string>
-				<string>AF6D83491A49E2F400A01FA8</string>
-				<string>AF6D834A1A49E2F400A01FA8</string>
-				<string>AF6D834B1A49E2F400A01FA8</string>
-				<string>AF6D834C1A49E2F400A01FA8</string>
-				<string>AF6D834D1A49E2F400A01FA8</string>
-				<string>AF6D834E1A49E2F400A01FA8</string>
-				<string>AF6D834F1A49E2F400A01FA8</string>
-				<string>AF6D83501A49E2F400A01FA8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>map</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83221A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_001.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83231A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_002.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83241A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_003.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83251A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_004.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83261A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_005.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83271A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_006.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83281A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_007.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83291A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_008.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D832A1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_009.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D832B1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_010.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D832C1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_011.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D832D1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_012.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D832E1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_013.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D832F1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_014.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83301A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_015.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83311A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_016.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83321A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_017.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83331A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_018.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83341A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_019.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83351A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_020.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83361A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_021.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83371A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_022.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83381A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_023.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83391A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_024.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D833A1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_025.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D833B1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_026.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D833C1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_027.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D833D1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_028.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D833E1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_029.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D833F1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_030.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83401A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_031.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83411A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_032.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83421A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_033.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83431A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_034.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83441A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_035.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83451A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_036.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83461A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_037.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83471A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_038.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83481A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_039.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83491A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_040.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D834A1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_041.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D834B1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_042.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D834C1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_043.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D834D1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_044.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D834E1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_045.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D834F1A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_bg.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83501A49E2F400A01FA8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_tree.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF6D83511A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83221A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83521A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83231A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83531A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83241A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83541A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83251A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83551A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83261A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83561A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83271A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83571A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83281A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83581A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83291A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83591A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D832A1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D835A1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D832B1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D835B1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D832C1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D835C1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D832D1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D835D1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D832E1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D835E1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D832F1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D835F1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83301A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83601A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83311A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83611A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83321A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83621A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83331A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83631A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83341A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83641A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83351A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83651A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83361A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83661A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83371A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83671A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83381A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83681A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83391A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83691A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D833A1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D836A1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D833B1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D836B1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D833C1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D836C1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D833D1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D836D1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D833E1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D836E1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D833F1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D836F1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83401A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83701A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83411A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83711A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83421A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83721A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83431A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83731A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83441A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83741A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83451A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83751A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83461A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83761A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83471A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83771A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83481A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83781A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83491A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D83791A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D834A1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D837A1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D834B1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D837B1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D834C1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D837C1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D834D1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D837D1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D834E1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D837E1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D834F1A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF6D837F1A49E2F400A01FA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF6D83501A49E2F400A01FA8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F2841A1FD83200B1F3CF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>Default-568h@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F2851A1FD83200B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F2841A1FD83200B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F2871A205EAD00B1F3CF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AFA3F28B1A205FE800B1F3CF</string>
-				<string>AFA3F2881A205EE800B1F3CF</string>
-				<string>AFA3F2891A205EE800B1F3CF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>life be over screen</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F2881A205EE800B1F3CF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RALifeBeOverScreenVC.h</string>
-			<key>path</key>
-			<string>ROSATOM_GAME/life be over screen/RALifeBeOverScreenVC.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AFA3F2891A205EE800B1F3CF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RALifeBeOverScreenVC.m</string>
-			<key>path</key>
-			<string>ROSATOM_GAME/life be over screen/RALifeBeOverScreenVC.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AFA3F28A1A205EE800B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F2891A205EE800B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F28B1A205FE800B1F3CF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>RALifeBeOverScreenVC.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F28C1A205FE800B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F28B1A205FE800B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F28D1A20602100B1F3CF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>ic_heart.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F28E1A20602100B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F28D1A20602100B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F28F1A2060C400B1F3CF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>3B4A5A-1.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F2901A2060C400B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F28F1A2060C400B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F2911A2069D500B1F3CF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>title_life_be_over.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F2921A2069D500B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F2911A2069D500B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F2951A20FAE300B1F3CF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>btn_false_select.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F2961A20FAE300B1F3CF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>btn_true_select.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F2971A20FAE300B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F2951A20FAE300B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F2981A20FAE300B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F2961A20FAE300B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F2991A21260500B1F3CF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AFA3F29D1A21269500B1F3CF</string>
-				<string>AFA3F29A1A21262F00B1F3CF</string>
-				<string>AFA3F29B1A21262F00B1F3CF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>answer screen</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F29A1A21262F00B1F3CF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RAAnswerScreenVC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F29B1A21262F00B1F3CF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RAAnswerScreenVC.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F29C1A21262F00B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F29B1A21262F00B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F29D1A21269500B1F3CF</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>RAAnswerScreenVC.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F29E1A21269500B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F29D1A21269500B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F29F1A21297400B1F3CF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_right.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F2A01A21297400B1F3CF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>img_wrong.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F2A11A21297400B1F3CF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>pleas_tap_for_next.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F2A21A21297400B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F29F1A21297400B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F2A31A21297400B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F2A01A21297400B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F2A41A21297400B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F2A11A21297400B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFA3F2A51A21C85700B1F3CF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>477B91-1.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFA3F2A61A21C85700B1F3CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFA3F2A51A21C85700B1F3CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C59D2476D4FC92BE21ABBE78</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E6E6234E64288F9733D04B86</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC5D80D0360A2A93FEBF2A81</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>8436B92E1A11E4B00054EF83</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74DF278D4585695179248B6C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59D2476D4FC92BE21ABBE78 /* libPods.a */; };
+		840E39511A186D30008C8639 /* RAStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E39501A186D30008C8639 /* RAStatusBarView.m */; };
+		840E39541A1891D8008C8639 /* RAPlayGameScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E39531A1891D8008C8639 /* RAPlayGameScreenVC.m */; };
+		840E39C61A191233008C8639 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E39C51A191233008C8639 /* View.xib */; };
+		8410F2B81A1A942E00B0155A /* color_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8410F2B01A1A942E00B0155A /* color_1.png */; };
+		8410F2B91A1A942E00B0155A /* color_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8410F2B11A1A942E00B0155A /* color_2.png */; };
+		8410F2BA1A1A942E00B0155A /* color_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8410F2B21A1A942E00B0155A /* color_3.png */; };
+		8410F2BB1A1A942E00B0155A /* color_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8410F2B31A1A942E00B0155A /* color_4.png */; };
+		8410F2BC1A1A942E00B0155A /* color_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8410F2B41A1A942E00B0155A /* color_5.png */; };
+		8410F2BD1A1A942E00B0155A /* color_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8410F2B51A1A942E00B0155A /* color_6.png */; };
+		8410F2BE1A1A942E00B0155A /* color_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8410F2B61A1A942E00B0155A /* color_7.png */; };
+		8410F2BF1A1A942E00B0155A /* color_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8410F2B71A1A942E00B0155A /* color_8.png */; };
+		8410F2C11A1A978100B0155A /* title_level_complete.png in Resources */ = {isa = PBXBuildFile; fileRef = 8410F2C01A1A978100B0155A /* title_level_complete.png */; };
+		84214FC91A1778D700DB3E05 /* btn_play_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FC31A1778D700DB3E05 /* btn_play_bg.png */; };
+		84214FCA1A1778D700DB3E05 /* ic_count.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FC41A1778D700DB3E05 /* ic_count.png */; };
+		84214FCB1A1778D700DB3E05 /* ic_life.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FC51A1778D700DB3E05 /* ic_life.png */; };
+		84214FCC1A1778D700DB3E05 /* ic_time.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FC61A1778D700DB3E05 /* ic_time.png */; };
+		84214FCD1A1778D700DB3E05 /* step1.img.bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FC71A1778D700DB3E05 /* step1.img.bg.png */; };
+		84214FD01A1779C400DB3E05 /* RARootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84214FCF1A1779C400DB3E05 /* RARootVC.m */; };
+		84214FD71A177B6E00DB3E05 /* RAStartGameScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84214FD51A177B6E00DB3E05 /* RAStartGameScreenVC.m */; };
+		84214FD81A177B6E00DB3E05 /* RAStartGameScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84214FD61A177B6E00DB3E05 /* RAStartGameScreenVC.xib */; };
+		84214FDE1A1795B700DB3E05 /* ae5162.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FDC1A1795B700DB3E05 /* ae5162.png */; };
+		84214FDF1A1795B700DB3E05 /* fefef0.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FDD1A1795B700DB3E05 /* fefef0.png */; };
+		84214FE31A17975200DB3E05 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FE11A17975200DB3E05 /* bg.png */; };
+		84214FE41A17975200DB3E05 /* step1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FE21A17975200DB3E05 /* step1.png */; };
+		84214FE71A17B99600DB3E05 /* 761a41.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FE51A17B99600DB3E05 /* 761a41.png */; };
+		84214FE81A17B99700DB3E05 /* 06141A-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FE61A17B99600DB3E05 /* 06141A-1.png */; };
+		84214FEA1A17BA4D00DB3E05 /* steps.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FE91A17BA4D00DB3E05 /* steps.png */; };
+		84214FEC1A17CB5E00DB3E05 /* btn_play_bg_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FEB1A17CB5E00DB3E05 /* btn_play_bg_sel.png */; };
+		84214FFC1A17E2B600DB3E05 /* bgBtnTrueFalse.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FF51A17E2B600DB3E05 /* bgBtnTrueFalse.png */; };
+		84214FFD1A17E2B600DB3E05 /* btn_false.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FF61A17E2B600DB3E05 /* btn_false.png */; };
+		84214FFE1A17E2B600DB3E05 /* btn_true.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FF71A17E2B600DB3E05 /* btn_true.png */; };
+		84214FFF1A17E2B600DB3E05 /* imgClock.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FF81A17E2B600DB3E05 /* imgClock.png */; };
+		842150001A17E2B600DB3E05 /* status_ic_count.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FF91A17E2B600DB3E05 /* status_ic_count.png */; };
+		842150011A17E2B600DB3E05 /* status_ic_level.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FFA1A17E2B600DB3E05 /* status_ic_level.png */; };
+		842150021A17E2B600DB3E05 /* status_ic_life.png in Resources */ = {isa = PBXBuildFile; fileRef = 84214FFB1A17E2B600DB3E05 /* status_ic_life.png */; };
+		842150041A17E35400DB3E05 /* Копия steps.png in Resources */ = {isa = PBXBuildFile; fileRef = 842150031A17E35400DB3E05 /* Копия steps.png */; };
+		842150071A17E63B00DB3E05 /* AD5162-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 842150051A17E63B00DB3E05 /* AD5162-1.png */; };
+		842150081A17E63B00DB3E05 /* D7F5F2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 842150061A17E63B00DB3E05 /* D7F5F2-1.png */; };
+		8421500E1A17EAC800DB3E05 /* RAStatusBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8421500C1A17EAC800DB3E05 /* RAStatusBarView.xib */; };
+		8436B93C1A11E4B00054EF83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436B93B1A11E4B00054EF83 /* main.m */; };
+		8436B93F1A11E4B00054EF83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436B93E1A11E4B00054EF83 /* AppDelegate.m */; };
+		8436B9471A11E4B00054EF83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8436B9461A11E4B00054EF83 /* Images.xcassets */; };
+		8436B9561A11E4B00054EF83 /* ROSATOM_GAMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436B9551A11E4B00054EF83 /* ROSATOM_GAMETests.m */; };
+		8497B09B1A1D2B0A00F78378 /* RADataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497B09A1A1D2B0A00F78378 /* RADataManager.m */; };
+		84BC7EB11A19166600343B50 /* RAPlayGameScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EB01A19166600343B50 /* RAPlayGameScreenVC.xib */; };
+		84BC7EBB1A1946F900343B50 /* RACompletedLevelScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BC7EBA1A1946F900343B50 /* RACompletedLevelScreenVC.m */; };
+		84BC7EBD1A19471000343B50 /* RACompletedLevelScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EBC1A19471000343B50 /* RACompletedLevelScreenVC.xib */; };
+		84BC7EBF1A1948BF00343B50 /* bg_complete_level.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EBE1A1948BF00343B50 /* bg_complete_level.png */; };
+		84BC7EC11A1948E600343B50 /* EF8600-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EC01A1948E600343B50 /* EF8600-1.png */; };
+		84BC7EC61A19492C00343B50 /* progres_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EC31A19492C00343B50 /* progres_bg.png */; };
+		84BC7EC71A19492C00343B50 /* progress_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EC41A19492C00343B50 /* progress_color.png */; };
+		84BC7EC81A19492C00343B50 /* progress_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BC7EC51A19492C00343B50 /* progress_up.png */; };
+		AF590EF11A530B4700041896 /* main_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF590EED1A530B4700041896 /* main_logo.png */; };
+		AF590EF21A530B4700041896 /* main_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AF590EEE1A530B4700041896 /* main_bg.png */; };
+		AF590EF31A530B4700041896 /* main_button.png in Resources */ = {isa = PBXBuildFile; fileRef = AF590EEF1A530B4700041896 /* main_button.png */; };
+		AF590EF41A530B4700041896 /* main_title.png in Resources */ = {isa = PBXBuildFile; fileRef = AF590EF01A530B4700041896 /* main_title.png */; };
+		AF6D83161A49B9E400A01FA8 /* listQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83151A49B9E400A01FA8 /* listQuestions.plist */; };
+		AF6D83191A49C38400A01FA8 /* title_right_answer.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83171A49C38400A01FA8 /* title_right_answer.png */; };
+		AF6D831A1A49C38400A01FA8 /* title_wrong_answer.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83181A49C38400A01FA8 /* title_wrong_answer.png */; };
+		AF6D831F1A49D7BF00A01FA8 /* RAMapLevelScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6D831D1A49D7BF00A01FA8 /* RAMapLevelScreenVC.m */; };
+		AF6D83201A49D7BF00A01FA8 /* RAMapLevelScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF6D831E1A49D7BF00A01FA8 /* RAMapLevelScreenVC.xib */; };
+		AF6D83511A49E2F400A01FA8 /* img_001.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83221A49E2F400A01FA8 /* img_001.png */; };
+		AF6D83521A49E2F400A01FA8 /* img_002.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83231A49E2F400A01FA8 /* img_002.png */; };
+		AF6D83531A49E2F400A01FA8 /* img_003.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83241A49E2F400A01FA8 /* img_003.png */; };
+		AF6D83541A49E2F400A01FA8 /* img_004.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83251A49E2F400A01FA8 /* img_004.png */; };
+		AF6D83551A49E2F400A01FA8 /* img_005.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83261A49E2F400A01FA8 /* img_005.png */; };
+		AF6D83561A49E2F400A01FA8 /* img_006.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83271A49E2F400A01FA8 /* img_006.png */; };
+		AF6D83571A49E2F400A01FA8 /* img_007.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83281A49E2F400A01FA8 /* img_007.png */; };
+		AF6D83581A49E2F400A01FA8 /* img_008.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83291A49E2F400A01FA8 /* img_008.png */; };
+		AF6D83591A49E2F400A01FA8 /* img_009.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D832A1A49E2F400A01FA8 /* img_009.png */; };
+		AF6D835A1A49E2F400A01FA8 /* img_010.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D832B1A49E2F400A01FA8 /* img_010.png */; };
+		AF6D835B1A49E2F400A01FA8 /* img_011.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D832C1A49E2F400A01FA8 /* img_011.png */; };
+		AF6D835C1A49E2F400A01FA8 /* img_012.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D832D1A49E2F400A01FA8 /* img_012.png */; };
+		AF6D835D1A49E2F400A01FA8 /* img_013.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D832E1A49E2F400A01FA8 /* img_013.png */; };
+		AF6D835E1A49E2F400A01FA8 /* img_014.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D832F1A49E2F400A01FA8 /* img_014.png */; };
+		AF6D835F1A49E2F400A01FA8 /* img_015.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83301A49E2F400A01FA8 /* img_015.png */; };
+		AF6D83601A49E2F400A01FA8 /* img_016.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83311A49E2F400A01FA8 /* img_016.png */; };
+		AF6D83611A49E2F400A01FA8 /* img_017.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83321A49E2F400A01FA8 /* img_017.png */; };
+		AF6D83621A49E2F400A01FA8 /* img_018.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83331A49E2F400A01FA8 /* img_018.png */; };
+		AF6D83631A49E2F400A01FA8 /* img_019.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83341A49E2F400A01FA8 /* img_019.png */; };
+		AF6D83641A49E2F400A01FA8 /* img_020.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83351A49E2F400A01FA8 /* img_020.png */; };
+		AF6D83651A49E2F400A01FA8 /* img_021.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83361A49E2F400A01FA8 /* img_021.png */; };
+		AF6D83661A49E2F400A01FA8 /* img_022.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83371A49E2F400A01FA8 /* img_022.png */; };
+		AF6D83671A49E2F400A01FA8 /* img_023.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83381A49E2F400A01FA8 /* img_023.png */; };
+		AF6D83681A49E2F400A01FA8 /* img_024.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83391A49E2F400A01FA8 /* img_024.png */; };
+		AF6D83691A49E2F400A01FA8 /* img_025.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D833A1A49E2F400A01FA8 /* img_025.png */; };
+		AF6D836A1A49E2F400A01FA8 /* img_026.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D833B1A49E2F400A01FA8 /* img_026.png */; };
+		AF6D836B1A49E2F400A01FA8 /* img_027.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D833C1A49E2F400A01FA8 /* img_027.png */; };
+		AF6D836C1A49E2F400A01FA8 /* img_028.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D833D1A49E2F400A01FA8 /* img_028.png */; };
+		AF6D836D1A49E2F400A01FA8 /* img_029.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D833E1A49E2F400A01FA8 /* img_029.png */; };
+		AF6D836E1A49E2F400A01FA8 /* img_030.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D833F1A49E2F400A01FA8 /* img_030.png */; };
+		AF6D836F1A49E2F400A01FA8 /* img_031.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83401A49E2F400A01FA8 /* img_031.png */; };
+		AF6D83701A49E2F400A01FA8 /* img_032.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83411A49E2F400A01FA8 /* img_032.png */; };
+		AF6D83711A49E2F400A01FA8 /* img_033.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83421A49E2F400A01FA8 /* img_033.png */; };
+		AF6D83721A49E2F400A01FA8 /* img_034.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83431A49E2F400A01FA8 /* img_034.png */; };
+		AF6D83731A49E2F400A01FA8 /* img_035.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83441A49E2F400A01FA8 /* img_035.png */; };
+		AF6D83741A49E2F400A01FA8 /* img_036.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83451A49E2F400A01FA8 /* img_036.png */; };
+		AF6D83751A49E2F400A01FA8 /* img_037.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83461A49E2F400A01FA8 /* img_037.png */; };
+		AF6D83761A49E2F400A01FA8 /* img_038.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83471A49E2F400A01FA8 /* img_038.png */; };
+		AF6D83771A49E2F400A01FA8 /* img_039.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83481A49E2F400A01FA8 /* img_039.png */; };
+		AF6D83781A49E2F400A01FA8 /* img_040.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83491A49E2F400A01FA8 /* img_040.png */; };
+		AF6D83791A49E2F400A01FA8 /* img_041.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D834A1A49E2F400A01FA8 /* img_041.png */; };
+		AF6D837A1A49E2F400A01FA8 /* img_042.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D834B1A49E2F400A01FA8 /* img_042.png */; };
+		AF6D837B1A49E2F400A01FA8 /* img_043.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D834C1A49E2F400A01FA8 /* img_043.png */; };
+		AF6D837C1A49E2F400A01FA8 /* img_044.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D834D1A49E2F400A01FA8 /* img_044.png */; };
+		AF6D837D1A49E2F400A01FA8 /* img_045.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D834E1A49E2F400A01FA8 /* img_045.png */; };
+		AF6D837E1A49E2F400A01FA8 /* img_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D834F1A49E2F400A01FA8 /* img_bg.png */; };
+		AF6D837F1A49E2F400A01FA8 /* img_tree.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6D83501A49E2F400A01FA8 /* img_tree.png */; };
+		AF985DB91A52E9EF00EB309D /* RACoverScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AF985DB71A52E9EF00EB309D /* RACoverScreenVC.m */; };
+		AFA3F2851A1FD83200B1F3CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2841A1FD83200B1F3CF /* Default-568h@2x.png */; };
+		AFA3F28A1A205EE800B1F3CF /* RALifeBeOverScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3F2891A205EE800B1F3CF /* RALifeBeOverScreenVC.m */; };
+		AFA3F28C1A205FE800B1F3CF /* RALifeBeOverScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F28B1A205FE800B1F3CF /* RALifeBeOverScreenVC.xib */; };
+		AFA3F28E1A20602100B1F3CF /* ic_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F28D1A20602100B1F3CF /* ic_heart.png */; };
+		AFA3F2901A2060C400B1F3CF /* 3B4A5A-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F28F1A2060C400B1F3CF /* 3B4A5A-1.png */; };
+		AFA3F2921A2069D500B1F3CF /* title_life_be_over.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2911A2069D500B1F3CF /* title_life_be_over.png */; };
+		AFA3F2971A20FAE300B1F3CF /* btn_false_select.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2951A20FAE300B1F3CF /* btn_false_select.png */; };
+		AFA3F2981A20FAE300B1F3CF /* btn_true_select.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2961A20FAE300B1F3CF /* btn_true_select.png */; };
+		AFA3F29C1A21262F00B1F3CF /* RAAnswerScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA3F29B1A21262F00B1F3CF /* RAAnswerScreenVC.m */; };
+		AFA3F29E1A21269500B1F3CF /* RAAnswerScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F29D1A21269500B1F3CF /* RAAnswerScreenVC.xib */; };
+		AFA3F2A21A21297400B1F3CF /* img_right.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F29F1A21297400B1F3CF /* img_right.png */; };
+		AFA3F2A31A21297400B1F3CF /* img_wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2A01A21297400B1F3CF /* img_wrong.png */; };
+		AFA3F2A41A21297400B1F3CF /* pleas_tap_for_next.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2A11A21297400B1F3CF /* pleas_tap_for_next.png */; };
+		AFA3F2A61A21C85700B1F3CF /* 477B91-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3F2A51A21C85700B1F3CF /* 477B91-1.png */; };
+		AFD6CF541A53491C00D39E2F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD6CF531A53491C00D39E2F /* Storyboard.storyboard */; };
+		AFD6CF881A534F7400D39E2F /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD6CF871A534F7400D39E2F /* Launch Screen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8436B9501A11E4B00054EF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8436B92E1A11E4B00054EF83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8436B9351A11E4B00054EF83;
+			remoteInfo = ROSATOM_GAME;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37CF73B4C2DFFD69448A91FD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		840E394F1A186D30008C8639 /* RAStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAStatusBarView.h; sourceTree = "<group>"; };
+		840E39501A186D30008C8639 /* RAStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAStatusBarView.m; sourceTree = "<group>"; };
+		840E39521A1891D8008C8639 /* RAPlayGameScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPlayGameScreenVC.h; sourceTree = "<group>"; };
+		840E39531A1891D8008C8639 /* RAPlayGameScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAPlayGameScreenVC.m; sourceTree = "<group>"; };
+		840E39C51A191233008C8639 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		8410F2B01A1A942E00B0155A /* color_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_1.png; sourceTree = "<group>"; };
+		8410F2B11A1A942E00B0155A /* color_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_2.png; sourceTree = "<group>"; };
+		8410F2B21A1A942E00B0155A /* color_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_3.png; sourceTree = "<group>"; };
+		8410F2B31A1A942E00B0155A /* color_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_4.png; sourceTree = "<group>"; };
+		8410F2B41A1A942E00B0155A /* color_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_5.png; sourceTree = "<group>"; };
+		8410F2B51A1A942E00B0155A /* color_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_6.png; sourceTree = "<group>"; };
+		8410F2B61A1A942E00B0155A /* color_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_7.png; sourceTree = "<group>"; };
+		8410F2B71A1A942E00B0155A /* color_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_8.png; sourceTree = "<group>"; };
+		8410F2C01A1A978100B0155A /* title_level_complete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_level_complete.png; sourceTree = "<group>"; };
+		84214FC31A1778D700DB3E05 /* btn_play_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_play_bg.png; sourceTree = "<group>"; };
+		84214FC41A1778D700DB3E05 /* ic_count.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_count.png; sourceTree = "<group>"; };
+		84214FC51A1778D700DB3E05 /* ic_life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_life.png; sourceTree = "<group>"; };
+		84214FC61A1778D700DB3E05 /* ic_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_time.png; sourceTree = "<group>"; };
+		84214FC71A1778D700DB3E05 /* step1.img.bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.img.bg.png; sourceTree = "<group>"; };
+		84214FCE1A1779C400DB3E05 /* RARootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARootVC.h; sourceTree = "<group>"; };
+		84214FCF1A1779C400DB3E05 /* RARootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RARootVC.m; sourceTree = "<group>"; };
+		84214FD41A177B6E00DB3E05 /* RAStartGameScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAStartGameScreenVC.h; sourceTree = "<group>"; };
+		84214FD51A177B6E00DB3E05 /* RAStartGameScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAStartGameScreenVC.m; sourceTree = "<group>"; };
+		84214FD61A177B6E00DB3E05 /* RAStartGameScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAStartGameScreenVC.xib; sourceTree = "<group>"; };
+		84214FDC1A1795B700DB3E05 /* ae5162.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ae5162.png; sourceTree = "<group>"; };
+		84214FDD1A1795B700DB3E05 /* fefef0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fefef0.png; sourceTree = "<group>"; };
+		84214FE11A17975200DB3E05 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		84214FE21A17975200DB3E05 /* step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.png; sourceTree = "<group>"; };
+		84214FE51A17B99600DB3E05 /* 761a41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 761a41.png; sourceTree = "<group>"; };
+		84214FE61A17B99600DB3E05 /* 06141A-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06141A-1.png"; sourceTree = "<group>"; };
+		84214FE91A17BA4D00DB3E05 /* steps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steps.png; sourceTree = "<group>"; };
+		84214FEB1A17CB5E00DB3E05 /* btn_play_bg_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_play_bg_sel.png; sourceTree = "<group>"; };
+		84214FF51A17E2B600DB3E05 /* bgBtnTrueFalse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgBtnTrueFalse.png; sourceTree = "<group>"; };
+		84214FF61A17E2B600DB3E05 /* btn_false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_false.png; sourceTree = "<group>"; };
+		84214FF71A17E2B600DB3E05 /* btn_true.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_true.png; sourceTree = "<group>"; };
+		84214FF81A17E2B600DB3E05 /* imgClock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgClock.png; sourceTree = "<group>"; };
+		84214FF91A17E2B600DB3E05 /* status_ic_count.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_ic_count.png; sourceTree = "<group>"; };
+		84214FFA1A17E2B600DB3E05 /* status_ic_level.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_ic_level.png; sourceTree = "<group>"; };
+		84214FFB1A17E2B600DB3E05 /* status_ic_life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_ic_life.png; sourceTree = "<group>"; };
+		842150031A17E35400DB3E05 /* Копия steps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Копия steps.png"; sourceTree = "<group>"; };
+		842150051A17E63B00DB3E05 /* AD5162-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AD5162-1.png"; sourceTree = "<group>"; };
+		842150061A17E63B00DB3E05 /* D7F5F2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D7F5F2-1.png"; sourceTree = "<group>"; };
+		8421500C1A17EAC800DB3E05 /* RAStatusBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAStatusBarView.xib; sourceTree = "<group>"; };
+		8436B9361A11E4B00054EF83 /* ROSATOM_GAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROSATOM_GAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8436B93A1A11E4B00054EF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8436B93B1A11E4B00054EF83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8436B93D1A11E4B00054EF83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8436B93E1A11E4B00054EF83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8436B9461A11E4B00054EF83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8436B94F1A11E4B00054EF83 /* ROSATOM_GAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSATOM_GAMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8436B9541A11E4B00054EF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8436B9551A11E4B00054EF83 /* ROSATOM_GAMETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROSATOM_GAMETests.m; sourceTree = "<group>"; };
+		8497B0991A1D2B0A00F78378 /* RADataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADataManager.h; sourceTree = "<group>"; };
+		8497B09A1A1D2B0A00F78378 /* RADataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADataManager.m; sourceTree = "<group>"; };
+		8497B09C1A1D2B3A00F78378 /* ROSATOM_GAME-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ROSATOM_GAME-Prefix.pch"; sourceTree = "<group>"; };
+		84BC7EB01A19166600343B50 /* RAPlayGameScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAPlayGameScreenVC.xib; sourceTree = "<group>"; };
+		84BC7EB91A1946F900343B50 /* RACompletedLevelScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACompletedLevelScreenVC.h; sourceTree = "<group>"; };
+		84BC7EBA1A1946F900343B50 /* RACompletedLevelScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACompletedLevelScreenVC.m; sourceTree = "<group>"; };
+		84BC7EBC1A19471000343B50 /* RACompletedLevelScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RACompletedLevelScreenVC.xib; path = "ROSATOM_GAME/completed level screen/RACompletedLevelScreenVC.xib"; sourceTree = SOURCE_ROOT; };
+		84BC7EBE1A1948BF00343B50 /* bg_complete_level.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_complete_level.png; sourceTree = "<group>"; };
+		84BC7EC01A1948E600343B50 /* EF8600-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EF8600-1.png"; sourceTree = "<group>"; };
+		84BC7EC31A19492C00343B50 /* progres_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progres_bg.png; sourceTree = "<group>"; };
+		84BC7EC41A19492C00343B50 /* progress_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress_color.png; sourceTree = "<group>"; };
+		84BC7EC51A19492C00343B50 /* progress_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progress_up.png; sourceTree = "<group>"; };
+		AF590EED1A530B4700041896 /* main_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_logo.png; sourceTree = "<group>"; };
+		AF590EEE1A530B4700041896 /* main_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_bg.png; sourceTree = "<group>"; };
+		AF590EEF1A530B4700041896 /* main_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_button.png; sourceTree = "<group>"; };
+		AF590EF01A530B4700041896 /* main_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_title.png; sourceTree = "<group>"; };
+		AF6D83151A49B9E400A01FA8 /* listQuestions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = listQuestions.plist; sourceTree = "<group>"; };
+		AF6D83171A49C38400A01FA8 /* title_right_answer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_right_answer.png; sourceTree = "<group>"; };
+		AF6D83181A49C38400A01FA8 /* title_wrong_answer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_wrong_answer.png; sourceTree = "<group>"; };
+		AF6D831C1A49D7BF00A01FA8 /* RAMapLevelScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMapLevelScreenVC.h; sourceTree = "<group>"; };
+		AF6D831D1A49D7BF00A01FA8 /* RAMapLevelScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMapLevelScreenVC.m; sourceTree = "<group>"; };
+		AF6D831E1A49D7BF00A01FA8 /* RAMapLevelScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAMapLevelScreenVC.xib; sourceTree = "<group>"; };
+		AF6D83221A49E2F400A01FA8 /* img_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_001.png; sourceTree = "<group>"; };
+		AF6D83231A49E2F400A01FA8 /* img_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_002.png; sourceTree = "<group>"; };
+		AF6D83241A49E2F400A01FA8 /* img_003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_003.png; sourceTree = "<group>"; };
+		AF6D83251A49E2F400A01FA8 /* img_004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_004.png; sourceTree = "<group>"; };
+		AF6D83261A49E2F400A01FA8 /* img_005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_005.png; sourceTree = "<group>"; };
+		AF6D83271A49E2F400A01FA8 /* img_006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_006.png; sourceTree = "<group>"; };
+		AF6D83281A49E2F400A01FA8 /* img_007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_007.png; sourceTree = "<group>"; };
+		AF6D83291A49E2F400A01FA8 /* img_008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_008.png; sourceTree = "<group>"; };
+		AF6D832A1A49E2F400A01FA8 /* img_009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_009.png; sourceTree = "<group>"; };
+		AF6D832B1A49E2F400A01FA8 /* img_010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_010.png; sourceTree = "<group>"; };
+		AF6D832C1A49E2F400A01FA8 /* img_011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_011.png; sourceTree = "<group>"; };
+		AF6D832D1A49E2F400A01FA8 /* img_012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_012.png; sourceTree = "<group>"; };
+		AF6D832E1A49E2F400A01FA8 /* img_013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_013.png; sourceTree = "<group>"; };
+		AF6D832F1A49E2F400A01FA8 /* img_014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_014.png; sourceTree = "<group>"; };
+		AF6D83301A49E2F400A01FA8 /* img_015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_015.png; sourceTree = "<group>"; };
+		AF6D83311A49E2F400A01FA8 /* img_016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_016.png; sourceTree = "<group>"; };
+		AF6D83321A49E2F400A01FA8 /* img_017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_017.png; sourceTree = "<group>"; };
+		AF6D83331A49E2F400A01FA8 /* img_018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_018.png; sourceTree = "<group>"; };
+		AF6D83341A49E2F400A01FA8 /* img_019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_019.png; sourceTree = "<group>"; };
+		AF6D83351A49E2F400A01FA8 /* img_020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_020.png; sourceTree = "<group>"; };
+		AF6D83361A49E2F400A01FA8 /* img_021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_021.png; sourceTree = "<group>"; };
+		AF6D83371A49E2F400A01FA8 /* img_022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_022.png; sourceTree = "<group>"; };
+		AF6D83381A49E2F400A01FA8 /* img_023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_023.png; sourceTree = "<group>"; };
+		AF6D83391A49E2F400A01FA8 /* img_024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_024.png; sourceTree = "<group>"; };
+		AF6D833A1A49E2F400A01FA8 /* img_025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_025.png; sourceTree = "<group>"; };
+		AF6D833B1A49E2F400A01FA8 /* img_026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_026.png; sourceTree = "<group>"; };
+		AF6D833C1A49E2F400A01FA8 /* img_027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_027.png; sourceTree = "<group>"; };
+		AF6D833D1A49E2F400A01FA8 /* img_028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_028.png; sourceTree = "<group>"; };
+		AF6D833E1A49E2F400A01FA8 /* img_029.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_029.png; sourceTree = "<group>"; };
+		AF6D833F1A49E2F400A01FA8 /* img_030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_030.png; sourceTree = "<group>"; };
+		AF6D83401A49E2F400A01FA8 /* img_031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_031.png; sourceTree = "<group>"; };
+		AF6D83411A49E2F400A01FA8 /* img_032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_032.png; sourceTree = "<group>"; };
+		AF6D83421A49E2F400A01FA8 /* img_033.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_033.png; sourceTree = "<group>"; };
+		AF6D83431A49E2F400A01FA8 /* img_034.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_034.png; sourceTree = "<group>"; };
+		AF6D83441A49E2F400A01FA8 /* img_035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_035.png; sourceTree = "<group>"; };
+		AF6D83451A49E2F400A01FA8 /* img_036.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_036.png; sourceTree = "<group>"; };
+		AF6D83461A49E2F400A01FA8 /* img_037.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_037.png; sourceTree = "<group>"; };
+		AF6D83471A49E2F400A01FA8 /* img_038.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_038.png; sourceTree = "<group>"; };
+		AF6D83481A49E2F400A01FA8 /* img_039.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_039.png; sourceTree = "<group>"; };
+		AF6D83491A49E2F400A01FA8 /* img_040.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_040.png; sourceTree = "<group>"; };
+		AF6D834A1A49E2F400A01FA8 /* img_041.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_041.png; sourceTree = "<group>"; };
+		AF6D834B1A49E2F400A01FA8 /* img_042.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_042.png; sourceTree = "<group>"; };
+		AF6D834C1A49E2F400A01FA8 /* img_043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_043.png; sourceTree = "<group>"; };
+		AF6D834D1A49E2F400A01FA8 /* img_044.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_044.png; sourceTree = "<group>"; };
+		AF6D834E1A49E2F400A01FA8 /* img_045.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_045.png; sourceTree = "<group>"; };
+		AF6D834F1A49E2F400A01FA8 /* img_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_bg.png; sourceTree = "<group>"; };
+		AF6D83501A49E2F400A01FA8 /* img_tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_tree.png; sourceTree = "<group>"; };
+		AF985DB61A52E9EF00EB309D /* RACoverScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACoverScreenVC.h; sourceTree = "<group>"; };
+		AF985DB71A52E9EF00EB309D /* RACoverScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACoverScreenVC.m; sourceTree = "<group>"; };
+		AFA3F2841A1FD83200B1F3CF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AFA3F2881A205EE800B1F3CF /* RALifeBeOverScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RALifeBeOverScreenVC.h; path = "ROSATOM_GAME/life be over screen/RALifeBeOverScreenVC.h"; sourceTree = SOURCE_ROOT; };
+		AFA3F2891A205EE800B1F3CF /* RALifeBeOverScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RALifeBeOverScreenVC.m; path = "ROSATOM_GAME/life be over screen/RALifeBeOverScreenVC.m"; sourceTree = SOURCE_ROOT; };
+		AFA3F28B1A205FE800B1F3CF /* RALifeBeOverScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RALifeBeOverScreenVC.xib; sourceTree = "<group>"; };
+		AFA3F28D1A20602100B1F3CF /* ic_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_heart.png; sourceTree = "<group>"; };
+		AFA3F28F1A2060C400B1F3CF /* 3B4A5A-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3B4A5A-1.png"; sourceTree = "<group>"; };
+		AFA3F2911A2069D500B1F3CF /* title_life_be_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_life_be_over.png; sourceTree = "<group>"; };
+		AFA3F2951A20FAE300B1F3CF /* btn_false_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_false_select.png; sourceTree = "<group>"; };
+		AFA3F2961A20FAE300B1F3CF /* btn_true_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_true_select.png; sourceTree = "<group>"; };
+		AFA3F29A1A21262F00B1F3CF /* RAAnswerScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAAnswerScreenVC.h; sourceTree = "<group>"; };
+		AFA3F29B1A21262F00B1F3CF /* RAAnswerScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAAnswerScreenVC.m; sourceTree = "<group>"; };
+		AFA3F29D1A21269500B1F3CF /* RAAnswerScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RAAnswerScreenVC.xib; sourceTree = "<group>"; };
+		AFA3F29F1A21297400B1F3CF /* img_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_right.png; sourceTree = "<group>"; };
+		AFA3F2A01A21297400B1F3CF /* img_wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_wrong.png; sourceTree = "<group>"; };
+		AFA3F2A11A21297400B1F3CF /* pleas_tap_for_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pleas_tap_for_next.png; sourceTree = "<group>"; };
+		AFA3F2A51A21C85700B1F3CF /* 477B91-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "477B91-1.png"; sourceTree = "<group>"; };
+		AFD6CF531A53491C00D39E2F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ROSATOM_GAME/Storyboard.storyboard; sourceTree = "<group>"; };
+		AFD6CF871A534F7400D39E2F /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "ROSATOM_GAME/Launch Screen.xib"; sourceTree = "<group>"; };
+		C59D2476D4FC92BE21ABBE78 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E6234E64288F9733D04B86 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8436B9331A11E4B00054EF83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DF278D4585695179248B6C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8436B94C1A11E4B00054EF83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097A4EA66D379133443F6035 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37CF73B4C2DFFD69448A91FD /* Pods.debug.xcconfig */,
+				E6E6234E64288F9733D04B86 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1D79E0EA77E8FB1EDE49ADBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C59D2476D4FC92BE21ABBE78 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84214FC01A1778D700DB3E05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84214FC11A1778D700DB3E05 /* img */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84214FC11A1778D700DB3E05 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				AF590EED1A530B4700041896 /* main_logo.png */,
+				AF590EEE1A530B4700041896 /* main_bg.png */,
+				AF590EEF1A530B4700041896 /* main_button.png */,
+				AF590EF01A530B4700041896 /* main_title.png */,
+				AF6D83211A49E2F400A01FA8 /* map */,
+				AF6D83171A49C38400A01FA8 /* title_right_answer.png */,
+				AF6D83181A49C38400A01FA8 /* title_wrong_answer.png */,
+				AFA3F29F1A21297400B1F3CF /* img_right.png */,
+				AFA3F2A01A21297400B1F3CF /* img_wrong.png */,
+				AFA3F2A11A21297400B1F3CF /* pleas_tap_for_next.png */,
+				AFA3F2951A20FAE300B1F3CF /* btn_false_select.png */,
+				AFA3F2961A20FAE300B1F3CF /* btn_true_select.png */,
+				AFA3F2911A2069D500B1F3CF /* title_life_be_over.png */,
+				AFA3F28D1A20602100B1F3CF /* ic_heart.png */,
+				84BC7EC21A19492C00343B50 /* progress_assets */,
+				84BC7EBE1A1948BF00343B50 /* bg_complete_level.png */,
+				8410F2C01A1A978100B0155A /* title_level_complete.png */,
+				84214FF51A17E2B600DB3E05 /* bgBtnTrueFalse.png */,
+				84214FF61A17E2B600DB3E05 /* btn_false.png */,
+				84214FF71A17E2B600DB3E05 /* btn_true.png */,
+				84214FF81A17E2B600DB3E05 /* imgClock.png */,
+				84214FF91A17E2B600DB3E05 /* status_ic_count.png */,
+				84214FFA1A17E2B600DB3E05 /* status_ic_level.png */,
+				84214FFB1A17E2B600DB3E05 /* status_ic_life.png */,
+				84214FEB1A17CB5E00DB3E05 /* btn_play_bg_sel.png */,
+				84214FE01A17975200DB3E05 /* temp */,
+				84214FD91A1794F000DB3E05 /* 1pix */,
+				84214FC31A1778D700DB3E05 /* btn_play_bg.png */,
+				84214FC41A1778D700DB3E05 /* ic_count.png */,
+				84214FC51A1778D700DB3E05 /* ic_life.png */,
+				84214FC61A1778D700DB3E05 /* ic_time.png */,
+				84214FC71A1778D700DB3E05 /* step1.img.bg.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		84214FD31A177B5400DB3E05 /* start game screen */ = {
+			isa = PBXGroup;
+			children = (
+				840E39C51A191233008C8639 /* View.xib */,
+				84214FD41A177B6E00DB3E05 /* RAStartGameScreenVC.h */,
+				84214FD51A177B6E00DB3E05 /* RAStartGameScreenVC.m */,
+				84214FD61A177B6E00DB3E05 /* RAStartGameScreenVC.xib */,
+			);
+			path = "start game screen";
+			sourceTree = "<group>";
+		};
+		84214FD91A1794F000DB3E05 /* 1pix */ = {
+			isa = PBXGroup;
+			children = (
+				AFA3F2A51A21C85700B1F3CF /* 477B91-1.png */,
+				AFA3F28F1A2060C400B1F3CF /* 3B4A5A-1.png */,
+				84BC7EC01A1948E600343B50 /* EF8600-1.png */,
+				842150051A17E63B00DB3E05 /* AD5162-1.png */,
+				842150061A17E63B00DB3E05 /* D7F5F2-1.png */,
+				84214FE51A17B99600DB3E05 /* 761a41.png */,
+				84214FE61A17B99600DB3E05 /* 06141A-1.png */,
+				84214FDC1A1795B700DB3E05 /* ae5162.png */,
+				84214FDD1A1795B700DB3E05 /* fefef0.png */,
+			);
+			path = 1pix;
+			sourceTree = "<group>";
+		};
+		84214FE01A17975200DB3E05 /* temp */ = {
+			isa = PBXGroup;
+			children = (
+				842150031A17E35400DB3E05 /* Копия steps.png */,
+				84214FE91A17BA4D00DB3E05 /* steps.png */,
+				84214FE11A17975200DB3E05 /* bg.png */,
+				84214FE21A17975200DB3E05 /* step1.png */,
+			);
+			path = temp;
+			sourceTree = "<group>";
+		};
+		84214FED1A17D22D00DB3E05 /* play game screen */ = {
+			isa = PBXGroup;
+			children = (
+				84BC7EB01A19166600343B50 /* RAPlayGameScreenVC.xib */,
+				840E39521A1891D8008C8639 /* RAPlayGameScreenVC.h */,
+				840E39531A1891D8008C8639 /* RAPlayGameScreenVC.m */,
+			);
+			path = "play game screen";
+			sourceTree = "<group>";
+		};
+		842150091A17EAB100DB3E05 /* status bar */ = {
+			isa = PBXGroup;
+			children = (
+				8421500C1A17EAC800DB3E05 /* RAStatusBarView.xib */,
+				840E394F1A186D30008C8639 /* RAStatusBarView.h */,
+				840E39501A186D30008C8639 /* RAStatusBarView.m */,
+			);
+			path = "status bar";
+			sourceTree = "<group>";
+		};
+		8436B92D1A11E4B00054EF83 = {
+			isa = PBXGroup;
+			children = (
+				AFD6CF871A534F7400D39E2F /* Launch Screen.xib */,
+				AFD6CF531A53491C00D39E2F /* Storyboard.storyboard */,
+				8436B9381A11E4B00054EF83 /* ROSATOM_GAME */,
+				8436B9521A11E4B00054EF83 /* ROSATOM_GAMETests */,
+				8436B9371A11E4B00054EF83 /* Products */,
+				097A4EA66D379133443F6035 /* Pods */,
+				1D79E0EA77E8FB1EDE49ADBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8436B9371A11E4B00054EF83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8436B9361A11E4B00054EF83 /* ROSATOM_GAME.app */,
+				8436B94F1A11E4B00054EF83 /* ROSATOM_GAMETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8436B9381A11E4B00054EF83 /* ROSATOM_GAME */ = {
+			isa = PBXGroup;
+			children = (
+				AF985DB51A52E9A700EB309D /* cover screen */,
+				AF6D831B1A49D74C00A01FA8 /* map level screen */,
+				AF6D83151A49B9E400A01FA8 /* listQuestions.plist */,
+				AFA3F2991A21260500B1F3CF /* answer screen */,
+				AFA3F2871A205EAD00B1F3CF /* life be over screen */,
+				AFA3F2841A1FD83200B1F3CF /* Default-568h@2x.png */,
+				8497B0981A1D2B0A00F78378 /* data manager */,
+				84BC7EB81A1946DA00343B50 /* completed level screen */,
+				842150091A17EAB100DB3E05 /* status bar */,
+				84214FED1A17D22D00DB3E05 /* play game screen */,
+				84214FD31A177B5400DB3E05 /* start game screen */,
+				84214FCE1A1779C400DB3E05 /* RARootVC.h */,
+				84214FCF1A1779C400DB3E05 /* RARootVC.m */,
+				84214FC01A1778D700DB3E05 /* Resources */,
+				8436B93D1A11E4B00054EF83 /* AppDelegate.h */,
+				8436B93E1A11E4B00054EF83 /* AppDelegate.m */,
+				8436B9461A11E4B00054EF83 /* Images.xcassets */,
+				8436B9391A11E4B00054EF83 /* Supporting Files */,
+			);
+			path = ROSATOM_GAME;
+			sourceTree = "<group>";
+		};
+		8436B9391A11E4B00054EF83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8497B09C1A1D2B3A00F78378 /* ROSATOM_GAME-Prefix.pch */,
+				8436B93A1A11E4B00054EF83 /* Info.plist */,
+				8436B93B1A11E4B00054EF83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8436B9521A11E4B00054EF83 /* ROSATOM_GAMETests */ = {
+			isa = PBXGroup;
+			children = (
+				8436B9551A11E4B00054EF83 /* ROSATOM_GAMETests.m */,
+				8436B9531A11E4B00054EF83 /* Supporting Files */,
+			);
+			path = ROSATOM_GAMETests;
+			sourceTree = "<group>";
+		};
+		8436B9531A11E4B00054EF83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8436B9541A11E4B00054EF83 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8497B0981A1D2B0A00F78378 /* data manager */ = {
+			isa = PBXGroup;
+			children = (
+				8497B0991A1D2B0A00F78378 /* RADataManager.h */,
+				8497B09A1A1D2B0A00F78378 /* RADataManager.m */,
+			);
+			path = "data manager";
+			sourceTree = "<group>";
+		};
+		84BC7EB81A1946DA00343B50 /* completed level screen */ = {
+			isa = PBXGroup;
+			children = (
+				84BC7EBC1A19471000343B50 /* RACompletedLevelScreenVC.xib */,
+				84BC7EB91A1946F900343B50 /* RACompletedLevelScreenVC.h */,
+				84BC7EBA1A1946F900343B50 /* RACompletedLevelScreenVC.m */,
+			);
+			path = "completed level screen";
+			sourceTree = "<group>";
+		};
+		84BC7EC21A19492C00343B50 /* progress_assets */ = {
+			isa = PBXGroup;
+			children = (
+				8410F2B01A1A942E00B0155A /* color_1.png */,
+				8410F2B11A1A942E00B0155A /* color_2.png */,
+				8410F2B21A1A942E00B0155A /* color_3.png */,
+				8410F2B31A1A942E00B0155A /* color_4.png */,
+				8410F2B41A1A942E00B0155A /* color_5.png */,
+				8410F2B51A1A942E00B0155A /* color_6.png */,
+				8410F2B61A1A942E00B0155A /* color_7.png */,
+				8410F2B71A1A942E00B0155A /* color_8.png */,
+				84BC7EC31A19492C00343B50 /* progres_bg.png */,
+				84BC7EC41A19492C00343B50 /* progress_color.png */,
+				84BC7EC51A19492C00343B50 /* progress_up.png */,
+			);
+			path = progress_assets;
+			sourceTree = "<group>";
+		};
+		AF6D831B1A49D74C00A01FA8 /* map level screen */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D831C1A49D7BF00A01FA8 /* RAMapLevelScreenVC.h */,
+				AF6D831D1A49D7BF00A01FA8 /* RAMapLevelScreenVC.m */,
+				AF6D831E1A49D7BF00A01FA8 /* RAMapLevelScreenVC.xib */,
+			);
+			path = "map level screen";
+			sourceTree = "<group>";
+		};
+		AF6D83211A49E2F400A01FA8 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				AF6D83221A49E2F400A01FA8 /* img_001.png */,
+				AF6D83231A49E2F400A01FA8 /* img_002.png */,
+				AF6D83241A49E2F400A01FA8 /* img_003.png */,
+				AF6D83251A49E2F400A01FA8 /* img_004.png */,
+				AF6D83261A49E2F400A01FA8 /* img_005.png */,
+				AF6D83271A49E2F400A01FA8 /* img_006.png */,
+				AF6D83281A49E2F400A01FA8 /* img_007.png */,
+				AF6D83291A49E2F400A01FA8 /* img_008.png */,
+				AF6D832A1A49E2F400A01FA8 /* img_009.png */,
+				AF6D832B1A49E2F400A01FA8 /* img_010.png */,
+				AF6D832C1A49E2F400A01FA8 /* img_011.png */,
+				AF6D832D1A49E2F400A01FA8 /* img_012.png */,
+				AF6D832E1A49E2F400A01FA8 /* img_013.png */,
+				AF6D832F1A49E2F400A01FA8 /* img_014.png */,
+				AF6D83301A49E2F400A01FA8 /* img_015.png */,
+				AF6D83311A49E2F400A01FA8 /* img_016.png */,
+				AF6D83321A49E2F400A01FA8 /* img_017.png */,
+				AF6D83331A49E2F400A01FA8 /* img_018.png */,
+				AF6D83341A49E2F400A01FA8 /* img_019.png */,
+				AF6D83351A49E2F400A01FA8 /* img_020.png */,
+				AF6D83361A49E2F400A01FA8 /* img_021.png */,
+				AF6D83371A49E2F400A01FA8 /* img_022.png */,
+				AF6D83381A49E2F400A01FA8 /* img_023.png */,
+				AF6D83391A49E2F400A01FA8 /* img_024.png */,
+				AF6D833A1A49E2F400A01FA8 /* img_025.png */,
+				AF6D833B1A49E2F400A01FA8 /* img_026.png */,
+				AF6D833C1A49E2F400A01FA8 /* img_027.png */,
+				AF6D833D1A49E2F400A01FA8 /* img_028.png */,
+				AF6D833E1A49E2F400A01FA8 /* img_029.png */,
+				AF6D833F1A49E2F400A01FA8 /* img_030.png */,
+				AF6D83401A49E2F400A01FA8 /* img_031.png */,
+				AF6D83411A49E2F400A01FA8 /* img_032.png */,
+				AF6D83421A49E2F400A01FA8 /* img_033.png */,
+				AF6D83431A49E2F400A01FA8 /* img_034.png */,
+				AF6D83441A49E2F400A01FA8 /* img_035.png */,
+				AF6D83451A49E2F400A01FA8 /* img_036.png */,
+				AF6D83461A49E2F400A01FA8 /* img_037.png */,
+				AF6D83471A49E2F400A01FA8 /* img_038.png */,
+				AF6D83481A49E2F400A01FA8 /* img_039.png */,
+				AF6D83491A49E2F400A01FA8 /* img_040.png */,
+				AF6D834A1A49E2F400A01FA8 /* img_041.png */,
+				AF6D834B1A49E2F400A01FA8 /* img_042.png */,
+				AF6D834C1A49E2F400A01FA8 /* img_043.png */,
+				AF6D834D1A49E2F400A01FA8 /* img_044.png */,
+				AF6D834E1A49E2F400A01FA8 /* img_045.png */,
+				AF6D834F1A49E2F400A01FA8 /* img_bg.png */,
+				AF6D83501A49E2F400A01FA8 /* img_tree.png */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		AF985DB51A52E9A700EB309D /* cover screen */ = {
+			isa = PBXGroup;
+			children = (
+				AF985DB61A52E9EF00EB309D /* RACoverScreenVC.h */,
+				AF985DB71A52E9EF00EB309D /* RACoverScreenVC.m */,
+			);
+			path = "cover screen";
+			sourceTree = "<group>";
+		};
+		AFA3F2871A205EAD00B1F3CF /* life be over screen */ = {
+			isa = PBXGroup;
+			children = (
+				AFA3F28B1A205FE800B1F3CF /* RALifeBeOverScreenVC.xib */,
+				AFA3F2881A205EE800B1F3CF /* RALifeBeOverScreenVC.h */,
+				AFA3F2891A205EE800B1F3CF /* RALifeBeOverScreenVC.m */,
+			);
+			path = "life be over screen";
+			sourceTree = "<group>";
+		};
+		AFA3F2991A21260500B1F3CF /* answer screen */ = {
+			isa = PBXGroup;
+			children = (
+				AFA3F29D1A21269500B1F3CF /* RAAnswerScreenVC.xib */,
+				AFA3F29A1A21262F00B1F3CF /* RAAnswerScreenVC.h */,
+				AFA3F29B1A21262F00B1F3CF /* RAAnswerScreenVC.m */,
+			);
+			path = "answer screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8436B9351A11E4B00054EF83 /* ROSATOM_GAME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8436B9591A11E4B00054EF83 /* Build configuration list for PBXNativeTarget "ROSATOM_GAME" */;
+			buildPhases = (
+				EC5D80D0360A2A93FEBF2A81 /* Check Pods Manifest.lock */,
+				8436B9321A11E4B00054EF83 /* Sources */,
+				8436B9331A11E4B00054EF83 /* Frameworks */,
+				8436B9341A11E4B00054EF83 /* Resources */,
+				676B24891448A468A0101CA9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ROSATOM_GAME;
+			productName = ROSATOM_GAME;
+			productReference = 8436B9361A11E4B00054EF83 /* ROSATOM_GAME.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8436B94E1A11E4B00054EF83 /* ROSATOM_GAMETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8436B95C1A11E4B00054EF83 /* Build configuration list for PBXNativeTarget "ROSATOM_GAMETests" */;
+			buildPhases = (
+				8436B94B1A11E4B00054EF83 /* Sources */,
+				8436B94C1A11E4B00054EF83 /* Frameworks */,
+				8436B94D1A11E4B00054EF83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8436B9511A11E4B00054EF83 /* PBXTargetDependency */,
+			);
+			name = ROSATOM_GAMETests;
+			productName = ROSATOM_GAMETests;
+			productReference = 8436B94F1A11E4B00054EF83 /* ROSATOM_GAMETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8436B92E1A11E4B00054EF83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AlexNikov;
+				TargetAttributes = {
+					8436B9351A11E4B00054EF83 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = CT3F4YR9RG;
+					};
+					8436B94E1A11E4B00054EF83 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8436B9351A11E4B00054EF83;
+					};
+				};
+			};
+			buildConfigurationList = 8436B9311A11E4B00054EF83 /* Build configuration list for PBXProject "ROSATOM_GAME" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8436B92D1A11E4B00054EF83;
+			productRefGroup = 8436B9371A11E4B00054EF83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8436B9351A11E4B00054EF83 /* ROSATOM_GAME */,
+				8436B94E1A11E4B00054EF83 /* ROSATOM_GAMETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8436B9341A11E4B00054EF83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BC7EBF1A1948BF00343B50 /* bg_complete_level.png in Resources */,
+				84214FCC1A1778D700DB3E05 /* ic_time.png in Resources */,
+				AF6D835A1A49E2F400A01FA8 /* img_010.png in Resources */,
+				AF6D83671A49E2F400A01FA8 /* img_023.png in Resources */,
+				84214FDE1A1795B700DB3E05 /* ae5162.png in Resources */,
+				AFD6CF541A53491C00D39E2F /* Storyboard.storyboard in Resources */,
+				AFA3F29E1A21269500B1F3CF /* RAAnswerScreenVC.xib in Resources */,
+				AFA3F2A41A21297400B1F3CF /* pleas_tap_for_next.png in Resources */,
+				842150021A17E2B600DB3E05 /* status_ic_life.png in Resources */,
+				842150081A17E63B00DB3E05 /* D7F5F2-1.png in Resources */,
+				AF6D837B1A49E2F400A01FA8 /* img_043.png in Resources */,
+				AF6D836E1A49E2F400A01FA8 /* img_030.png in Resources */,
+				84BC7EC71A19492C00343B50 /* progress_color.png in Resources */,
+				AFA3F2901A2060C400B1F3CF /* 3B4A5A-1.png in Resources */,
+				AF6D83541A49E2F400A01FA8 /* img_004.png in Resources */,
+				AF6D83511A49E2F400A01FA8 /* img_001.png in Resources */,
+				AF590EF11A530B4700041896 /* main_logo.png in Resources */,
+				84214FFD1A17E2B600DB3E05 /* btn_false.png in Resources */,
+				AF6D83701A49E2F400A01FA8 /* img_032.png in Resources */,
+				AF590EF31A530B4700041896 /* main_button.png in Resources */,
+				AF6D83161A49B9E400A01FA8 /* listQuestions.plist in Resources */,
+				AF6D836D1A49E2F400A01FA8 /* img_029.png in Resources */,
+				AF6D83731A49E2F400A01FA8 /* img_035.png in Resources */,
+				AF6D83521A49E2F400A01FA8 /* img_002.png in Resources */,
+				AF6D83201A49D7BF00A01FA8 /* RAMapLevelScreenVC.xib in Resources */,
+				AF6D83551A49E2F400A01FA8 /* img_005.png in Resources */,
+				AFA3F2A31A21297400B1F3CF /* img_wrong.png in Resources */,
+				8410F2C11A1A978100B0155A /* title_level_complete.png in Resources */,
+				AF6D836C1A49E2F400A01FA8 /* img_028.png in Resources */,
+				84214FFE1A17E2B600DB3E05 /* btn_true.png in Resources */,
+				AF6D837D1A49E2F400A01FA8 /* img_045.png in Resources */,
+				AF6D83661A49E2F400A01FA8 /* img_022.png in Resources */,
+				AF6D83591A49E2F400A01FA8 /* img_009.png in Resources */,
+				AF590EF41A530B4700041896 /* main_title.png in Resources */,
+				842150011A17E2B600DB3E05 /* status_ic_level.png in Resources */,
+				AF6D83621A49E2F400A01FA8 /* img_018.png in Resources */,
+				84214FE31A17975200DB3E05 /* bg.png in Resources */,
+				AF6D83561A49E2F400A01FA8 /* img_006.png in Resources */,
+				842150041A17E35400DB3E05 /* Копия steps.png in Resources */,
+				84BC7EC11A1948E600343B50 /* EF8600-1.png in Resources */,
+				AF6D837C1A49E2F400A01FA8 /* img_044.png in Resources */,
+				AFA3F2A61A21C85700B1F3CF /* 477B91-1.png in Resources */,
+				842150001A17E2B600DB3E05 /* status_ic_count.png in Resources */,
+				AF6D83771A49E2F400A01FA8 /* img_039.png in Resources */,
+				84BC7EC81A19492C00343B50 /* progress_up.png in Resources */,
+				8410F2BB1A1A942E00B0155A /* color_4.png in Resources */,
+				8410F2B91A1A942E00B0155A /* color_2.png in Resources */,
+				84214FFC1A17E2B600DB3E05 /* bgBtnTrueFalse.png in Resources */,
+				AFA3F28E1A20602100B1F3CF /* ic_heart.png in Resources */,
+				84214FFF1A17E2B600DB3E05 /* imgClock.png in Resources */,
+				AF6D835B1A49E2F400A01FA8 /* img_011.png in Resources */,
+				AF6D83681A49E2F400A01FA8 /* img_024.png in Resources */,
+				AFA3F2981A20FAE300B1F3CF /* btn_true_select.png in Resources */,
+				AF6D83781A49E2F400A01FA8 /* img_040.png in Resources */,
+				84214FE71A17B99600DB3E05 /* 761a41.png in Resources */,
+				84214FEC1A17CB5E00DB3E05 /* btn_play_bg_sel.png in Resources */,
+				AFA3F28C1A205FE800B1F3CF /* RALifeBeOverScreenVC.xib in Resources */,
+				840E39C61A191233008C8639 /* View.xib in Resources */,
+				84214FDF1A1795B700DB3E05 /* fefef0.png in Resources */,
+				AF6D836F1A49E2F400A01FA8 /* img_031.png in Resources */,
+				AFA3F2971A20FAE300B1F3CF /* btn_false_select.png in Resources */,
+				AFD6CF881A534F7400D39E2F /* Launch Screen.xib in Resources */,
+				AF6D837E1A49E2F400A01FA8 /* img_bg.png in Resources */,
+				84214FD81A177B6E00DB3E05 /* RAStartGameScreenVC.xib in Resources */,
+				84214FCA1A1778D700DB3E05 /* ic_count.png in Resources */,
+				84214FCB1A1778D700DB3E05 /* ic_life.png in Resources */,
+				AF6D837F1A49E2F400A01FA8 /* img_tree.png in Resources */,
+				AF6D831A1A49C38400A01FA8 /* title_wrong_answer.png in Resources */,
+				AF6D83611A49E2F400A01FA8 /* img_017.png in Resources */,
+				AFA3F2851A1FD83200B1F3CF /* Default-568h@2x.png in Resources */,
+				AF6D83191A49C38400A01FA8 /* title_right_answer.png in Resources */,
+				AF6D83631A49E2F400A01FA8 /* img_019.png in Resources */,
+				AFA3F2921A2069D500B1F3CF /* title_life_be_over.png in Resources */,
+				AF6D836A1A49E2F400A01FA8 /* img_026.png in Resources */,
+				AF6D83531A49E2F400A01FA8 /* img_003.png in Resources */,
+				AF6D83571A49E2F400A01FA8 /* img_007.png in Resources */,
+				AF6D83691A49E2F400A01FA8 /* img_025.png in Resources */,
+				84214FC91A1778D700DB3E05 /* btn_play_bg.png in Resources */,
+				AF6D83651A49E2F400A01FA8 /* img_021.png in Resources */,
+				AF6D83711A49E2F400A01FA8 /* img_033.png in Resources */,
+				84214FEA1A17BA4D00DB3E05 /* steps.png in Resources */,
+				84BC7EB11A19166600343B50 /* RAPlayGameScreenVC.xib in Resources */,
+				AF6D83751A49E2F400A01FA8 /* img_037.png in Resources */,
+				8410F2BD1A1A942E00B0155A /* color_6.png in Resources */,
+				AF6D83641A49E2F400A01FA8 /* img_020.png in Resources */,
+				AF6D835E1A49E2F400A01FA8 /* img_014.png in Resources */,
+				AF6D83741A49E2F400A01FA8 /* img_036.png in Resources */,
+				8410F2BE1A1A942E00B0155A /* color_7.png in Resources */,
+				8410F2B81A1A942E00B0155A /* color_1.png in Resources */,
+				AF6D83601A49E2F400A01FA8 /* img_016.png in Resources */,
+				AFA3F2A21A21297400B1F3CF /* img_right.png in Resources */,
+				84214FCD1A1778D700DB3E05 /* step1.img.bg.png in Resources */,
+				84BC7EBD1A19471000343B50 /* RACompletedLevelScreenVC.xib in Resources */,
+				84214FE41A17975200DB3E05 /* step1.png in Resources */,
+				AF6D83761A49E2F400A01FA8 /* img_038.png in Resources */,
+				AF6D835F1A49E2F400A01FA8 /* img_015.png in Resources */,
+				AF6D837A1A49E2F400A01FA8 /* img_042.png in Resources */,
+				8410F2BF1A1A942E00B0155A /* color_8.png in Resources */,
+				AF6D83721A49E2F400A01FA8 /* img_034.png in Resources */,
+				84BC7EC61A19492C00343B50 /* progres_bg.png in Resources */,
+				8436B9471A11E4B00054EF83 /* Images.xcassets in Resources */,
+				84214FE81A17B99700DB3E05 /* 06141A-1.png in Resources */,
+				8410F2BA1A1A942E00B0155A /* color_3.png in Resources */,
+				842150071A17E63B00DB3E05 /* AD5162-1.png in Resources */,
+				AF6D83581A49E2F400A01FA8 /* img_008.png in Resources */,
+				AF6D836B1A49E2F400A01FA8 /* img_027.png in Resources */,
+				AF6D835D1A49E2F400A01FA8 /* img_013.png in Resources */,
+				8421500E1A17EAC800DB3E05 /* RAStatusBarView.xib in Resources */,
+				AF6D83791A49E2F400A01FA8 /* img_041.png in Resources */,
+				AF6D835C1A49E2F400A01FA8 /* img_012.png in Resources */,
+				8410F2BC1A1A942E00B0155A /* color_5.png in Resources */,
+				AF590EF21A530B4700041896 /* main_bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8436B94D1A11E4B00054EF83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		676B24891448A468A0101CA9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5D80D0360A2A93FEBF2A81 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8436B9321A11E4B00054EF83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84214FD71A177B6E00DB3E05 /* RAStartGameScreenVC.m in Sources */,
+				840E39541A1891D8008C8639 /* RAPlayGameScreenVC.m in Sources */,
+				8497B09B1A1D2B0A00F78378 /* RADataManager.m in Sources */,
+				84214FD01A1779C400DB3E05 /* RARootVC.m in Sources */,
+				AFA3F28A1A205EE800B1F3CF /* RALifeBeOverScreenVC.m in Sources */,
+				8436B93F1A11E4B00054EF83 /* AppDelegate.m in Sources */,
+				8436B93C1A11E4B00054EF83 /* main.m in Sources */,
+				AF6D831F1A49D7BF00A01FA8 /* RAMapLevelScreenVC.m in Sources */,
+				AFA3F29C1A21262F00B1F3CF /* RAAnswerScreenVC.m in Sources */,
+				84BC7EBB1A1946F900343B50 /* RACompletedLevelScreenVC.m in Sources */,
+				840E39511A186D30008C8639 /* RAStatusBarView.m in Sources */,
+				AF985DB91A52E9EF00EB309D /* RACoverScreenVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8436B94B1A11E4B00054EF83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8436B9561A11E4B00054EF83 /* ROSATOM_GAMETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8436B9511A11E4B00054EF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8436B9351A11E4B00054EF83 /* ROSATOM_GAME */;
+			targetProxy = 8436B9501A11E4B00054EF83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8436B9571A11E4B00054EF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8436B9581A11E4B00054EF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8436B95A1A11E4B00054EF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CF73B4C2DFFD69448A91FD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ROSATOM_GAME/ROSATOM_GAME-Prefix.pch";
+				INFOPLIST_FILE = ROSATOM_GAME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8436B95B1A11E4B00054EF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E6234E64288F9733D04B86 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ROSATOM_GAME/ROSATOM_GAME-Prefix.pch";
+				INFOPLIST_FILE = ROSATOM_GAME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8436B95D1A11E4B00054EF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ROSATOM_GAMETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROSATOM_GAME.app/ROSATOM_GAME";
+			};
+			name = Debug;
+		};
+		8436B95E1A11E4B00054EF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ROSATOM_GAMETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROSATOM_GAME.app/ROSATOM_GAME";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8436B9311A11E4B00054EF83 /* Build configuration list for PBXProject "ROSATOM_GAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8436B9571A11E4B00054EF83 /* Debug */,
+				8436B9581A11E4B00054EF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8436B9591A11E4B00054EF83 /* Build configuration list for PBXNativeTarget "ROSATOM_GAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8436B95A1A11E4B00054EF83 /* Debug */,
+				8436B95B1A11E4B00054EF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8436B95C1A11E4B00054EF83 /* Build configuration list for PBXNativeTarget "ROSATOM_GAMETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8436B95D1A11E4B00054EF83 /* Debug */,
+				8436B95E1A11E4B00054EF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8436B92E1A11E4B00054EF83 /* Project object */;
+}

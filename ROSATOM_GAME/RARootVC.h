@@ -12,6 +12,7 @@
 #import "RAStatusBarView.h"
 #import "RACompletedLevelScreenVC.h"
 #import "RALifeBeOverScreenVC.h"
+#import "RACoverScreenVC.h"
 
 
 @interface RARootVC : UIViewController

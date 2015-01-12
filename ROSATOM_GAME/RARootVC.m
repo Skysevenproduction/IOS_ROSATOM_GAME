@@ -26,7 +26,7 @@
 -(void)viewDidAppear:(BOOL)animated
 {
 //    [RALifeBeOverScreenVC showInstance:self];
-  [RAStartGameScreenVC showInstance:self ];
+ // [RACoverScreenVC showInstance:self ];
     
     
        

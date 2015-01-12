@@ -16,6 +16,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    // Override point for customization after application launch.
+//    
+//    
+//    self.viewController = [[RACoverScreenVC alloc] initWithNibName:@"RACoverScreenVC" bundle:nil];
+//    
+//    self.window.backgroundColor = [UIColor blackColor];
+//
+//    
+//    
+//    
+//    self.window.rootViewController = self.viewController;
+//    [self.window makeKeyAndVisible];
+    
+    
     // Override point for customization after application launch.
     
     // Optional: automatically send uncaught exceptions to Google Analytics.

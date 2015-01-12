@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "GAI.h"
+#import "RACoverScreenVC.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) RACoverScreenVC *viewController;
 
 
 @end
